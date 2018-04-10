@@ -41,9 +41,9 @@
 <div class="card">
   <div class="container">
     <h5><b>AES</b></h5>
-    <br/>some info<<br/>
-    <br/>some info<<br/>
-    <br/>some info<br/>
+    some info<br/>
+    some info<br/>
+    some info<br/>
   </div>
 </div>
 <div class="card">
