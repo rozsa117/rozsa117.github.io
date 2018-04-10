@@ -25,60 +25,60 @@
   <div class="container">
     <h5><b>Name</b></h5>
     Some info about test result and rounds</br>
-    Link to source(git repo)</br>
-    Link to test vectors(git repo)</br>
-    Link to details(this page)</br>
+    Link to source(git repo)<br/>
+    Link to test vectors(git repo)<br/>
+    Link to details(this page)<br/>
   </div>
 </div>
 ## Block ciphers
 <div class="card">
   <div class="container">
     <h5><b>AES</b></h5>
-    <p>some info</p>
-    <p>some info</p>
-    <p>some info</p>
+    <br/>some info<<br/>
+    <br/>some info<<br/>
+    <br/>some info<br/>
   </div>
 </div>
 <div class="card">
   <div class="container">
     <h5><b>ARIA</b></h5>
     some info<br/>
-    some info<br />
-    some info</br>
+    some info<br/>
+    some info<br/>
   </div>
 </div>
 <div class="card">
   <div class="container">
     <h5><b>Blowfish</b></h5>
-    some info</br>
-    some info</br>
-    some info</br>
+    some info<br/>
+    some info<br/>
+    some info<br/>
   </div>
 </div>
 <div class="card">
   <div class="container">
     <h5><b>DES</b></h5>
-    some info</br>
-    some info</br>
-    some info</br>
+    some info<br/>
+    some info<br/>
+    some info<br/>
   </div>
 </div>
 <div class="card">
   <div class="container">
     <h5><b>Serpent</b></h5>
-    some info</br>
-    some info</br>
-    some info</br>
+    some info<br/>
+    some info<br/>
+    some info<br/>
   </div>
 </div>
 <div class="card">
   <div class="container">
     <h5><b>TEA</b></h5>
-    some info</br>
-    some info</br>
-    some info</br>
+    some info<br/>
+    some info<br/>
+    some info<br/>
   </div>
- </doiv>
+ </div>
 ## CAESAR
 [TODO same cards]
 ## eStream
