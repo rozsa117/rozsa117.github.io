@@ -30,19 +30,16 @@
     Link to details(this page)</br>
   </div>
 </div>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
 ## Block ciphers
 <div class="card">
   <div class="container">
     <h5><b>AES</b></h5>
-    some info</br>
-    some info</br>
-    some info</br>
+    some info
+      
+    some info
+    
+    some info
+    
   </div>
 </div>
 <div class="card">
