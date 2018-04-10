@@ -42,8 +42,8 @@
 <div class="card">
   <div class="container">
     <h5><b>ARIA</b></h5>
-    some info</br>
-    some info</br>
+    some info<br/>
+    some info<br />
     some info</br>
   </div>
 </div>
@@ -78,19 +78,7 @@
     some info</br>
     some info</br>
   </div>
-</div>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
+ </doiv>
 ## CAESAR
 [TODO same cards]
 ## eStream
