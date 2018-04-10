@@ -34,12 +34,9 @@
 <div class="card">
   <div class="container">
     <h5><b>AES</b></h5>
-    some info
-      
-    some info
-    
-    some info
-    
+    <p>some info</p>
+    <p>some info</p>
+    <p>some info</p>
   </div>
 </div>
 <div class="card">
