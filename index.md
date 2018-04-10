@@ -6,7 +6,7 @@
     float: left;
     transition: 0.3s;
     border-radius: 15px;
-    width: 30%;
+    width: 25%;
     height: auto;
     padding: 10px;
     margin: auto;
