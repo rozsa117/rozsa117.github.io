@@ -6,7 +6,7 @@
     float: left;
     transition: 0.3s;
     border-radius: 15px;
-    width: auto;
+    width: 30%;
     height: auto;
     padding: 10px;
     margin: auto;
@@ -30,6 +30,13 @@
     Link to details(this page)<br/>
   </div>
 </div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 ## Block ciphers
 <div class="card">
   <div class="container">
