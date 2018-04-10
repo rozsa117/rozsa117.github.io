@@ -78,7 +78,7 @@
     some info<br/>
     some info<br/>
   </div>
- </div>
+</div>
 ## CAESAR
 [TODO same cards]
 ## eStream
