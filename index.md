@@ -116,6 +116,23 @@
 ### Block ciphers
 
 #### AES
-[TODO detailed info about generators]
+* State: working
+* Number of rounds: 10
+* Block size in bytes: 16
+
+- for discussion if links to source, tv should be here too
+
+unfortunately this is all information form wiki I would put here
+
+
+- here should be some info about the test results
+
+| Length of data | Dieharder | NIST-STS | testU01 |
+|--------------- | --------- | -------- | ------- |
+| 8GB |  number of rounds when tests passes | number of rounds when tests passes | number of rounds when tests passes
+| 1GB |   |   |   |
+| 100MB |   |   |   |
+| 10MB |   |   |   |
+| 1MB |   |   |   |   |
 
 and all the others in this way
