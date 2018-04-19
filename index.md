@@ -129,7 +129,7 @@ unfortunately this is all information form wiki I would put here
 
 | Length of data | Dieharder | NIST-STS | testU01 | booltest
 |--------------- | --------- | -------- | ------- | --------
-| 8GB |  number of rounds when tests passes | number of rounds when tests passes | number of rounds when tests passes |
+| 8GB |   |   |   |
 | 100MB |   |   |   |
 | 10MB |   |   |   |
 
