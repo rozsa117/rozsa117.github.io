@@ -30,7 +30,7 @@ CryptoStreams
       10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES">Test vectors</a><br/>
-      <a href="null">Detailed info</a><br/>
+      <a href="null">*Detailed info*</a><br/>
     </div>
 </div>
 
