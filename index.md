@@ -1039,7 +1039,8 @@ CryptoStreams
 
 ### Detailed info
 #### Block ciphers
- <a name="AES"/>
+
+<a name="AES"/>
 ##### AES
 - Block size: 16
 
@@ -1066,7 +1067,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 2       | -        |
 |          100MB | 2         | 2        | 2       | 2        |
 |           10MB | 3         | 1        | 2       | 2        |
- <a name="MARS"/>
+
+<a name="MARS"/>
 ##### MARS
 - Block size: 16
 
@@ -1079,7 +1081,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | 0        |
 |           10MB | -         | -        | -       | 0        |
- <a name="RC6"/>
+
+<a name="RC6"/>
 ##### RC6
 - Block size: 16
 
@@ -1092,7 +1095,8 @@ CryptoStreams
 |            8GB | 4         | 4        | 4       | -        |
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 4       | 4        |
- <a name="SERPENT"/>
+
+<a name="SERPENT"/>
 ##### SERPENT
 - Block size: 16
 
@@ -1105,7 +1109,8 @@ CryptoStreams
 |            8GB | 3         | 3        | 3       | -        |
 |          100MB | 3         | 3        | 3       | 3        |
 |           10MB | 3         | 3        | 3       | 3        |
- <a name="TWOFISH"/>
+
+<a name="TWOFISH"/>
 ##### TWOFISH
 - Block size: 16
 
@@ -1118,7 +1123,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 2       | -        |
 |          100MB | 2         | 2        | 2       | 2        |
 |           10MB | 2         | 2        | 2       | 2        |
- <a name="SIMON"/>
+
+<a name="SIMON"/>
 ##### SIMON
 - Block size: 4-16
 
@@ -1131,7 +1137,8 @@ CryptoStreams
 |            8GB | 16        | 16       | 17      | -        |
 |          100MB | 15        | 16       | 16      | 18       |
 |           10MB | 13        | 15       | 16      | 17       |
- <a name="SPECK"/>
+
+<a name="SPECK"/>
 ##### SPECK
 - Block size: 4-16
 
@@ -1144,7 +1151,8 @@ CryptoStreams
 |            8GB | 8         | 7        | 9       | -        |
 |          100MB | 8         | 7        | 8       | 9        |
 |           10MB | 8         | 7        | 8       | 9        |
- <a name="GOST"/>
+
+<a name="GOST"/>
 ##### GOST
 - Block size: 8
 
@@ -1157,7 +1165,8 @@ CryptoStreams
 |            8GB | 8         | 8        | 9       | -        |
 |          100MB | 7         | 8        | 8       | 10       |
 |           10MB | 7         | 7        | 8       | 10       |
- <a name="SINGLE-DES"/>
+
+<a name="SINGLE-DES"/>
 ##### SINGLE-DES
 - Block size: 8
 
@@ -1170,7 +1179,8 @@ CryptoStreams
 |            8GB | 5         | 4        | 5       | -        |
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 5       | 4        |
- <a name="TRIPLE-DES"/>
+
+<a name="TRIPLE-DES"/>
 ##### TRIPLE-DES
 - Block size: 8
 
@@ -1183,7 +1193,8 @@ CryptoStreams
 |            8GB | 3         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 2       | 3        |
 |           10MB | 2         | 2        | 2       | 3        |
- <a name="TEA"/>
+
+<a name="TEA"/>
 ##### TEA
 - Block size: 8
 
@@ -1197,7 +1208,8 @@ CryptoStreams
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 4       | 4        |
 #### Stream ciphers
- <a name="HC-128"/>
+
+<a name="HC-128"/>
 ##### HC-128
 - Rounds: no (note 1)
 
@@ -1206,7 +1218,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Rabbit"/>
+
+<a name="Rabbit"/>
 ##### Rabbit
 - Rounds: 0-4 (4) (note 2)
 
@@ -1215,7 +1228,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Salsa20"/>
+
+<a name="Salsa20"/>
 ##### Salsa20
 - Rounds: 0-20 (20) (note 3)
 
@@ -1224,7 +1238,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="SOSEMANUK"/>
+
+<a name="SOSEMANUK"/>
 ##### SOSEMANUK
 - Rounds: 0-25 (25) (note 4)
 
@@ -1233,7 +1248,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Grain"/>
+
+<a name="Grain"/>
 ##### Grain
 - Rounds: **1**-13 (13) (note 1)
 
@@ -1242,7 +1258,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 3       | 0        |
 |           10MB | 2         | 2        | 2       | 0        |
- <a name="MICKEY"/>
+
+<a name="MICKEY"/>
 ##### MICKEY
 - Rounds: 0-8
 
@@ -1251,7 +1268,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Trivium"/>
+
+<a name="Trivium"/>
 ##### Trivium
 - Rounds: 0-9 (9)
 
@@ -1260,7 +1278,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="F-FCSR"/>
+
+<a name="F-FCSR"/>
 ##### F-FCSR
 - Rounds: **1**-5 (5)
 
@@ -1269,7 +1288,8 @@ CryptoStreams
 |            8GB | 1         | 1        | 1       | -        |
 |          100MB | 1         | 1        | 1       | -        |
 |           10MB | 2         | 1        | 1       | -        |
- <a name="RC4"/>
+
+<a name="RC4"/>
 ##### RC4
 - Rounds: not round-reduced
 
@@ -1278,7 +1298,8 @@ CryptoStreams
 |            8GB | 1         | -        | 1       | -        |
 |          100MB | 1         | -        | 1       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Chacha"/>
+
+<a name="Chacha"/>
 ##### Chacha
 - Rounds: 0-20 (20)
 
@@ -1287,7 +1308,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 3       | -        |
 |           10MB | 2         | 2        | 3       | -        |
- <a name="ABC"/>
+
+<a name="ABC"/>
 ##### ABC
 - Rounds: -
 
@@ -1296,7 +1318,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Achterbahn"/>
+
+<a name="Achterbahn"/>
 ##### Achterbahn
 - Rounds: n/a
 
@@ -1305,7 +1328,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="CryptMT"/>
+
+<a name="CryptMT"/>
 ##### CryptMT
 - Rounds: -
 
@@ -1314,7 +1338,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="DECIM"/>
+
+<a name="DECIM"/>
 ##### DECIM
 - Rounds: 1-8 (8)
 
@@ -1323,7 +1348,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="DICING"/>
+
+<a name="DICING"/>
 ##### DICING
 - Rounds: n/a
 
@@ -1332,7 +1358,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Dragon"/>
+
+<a name="Dragon"/>
 ##### Dragon
 - Rounds: 0-16 `DRAGON_MIXING_STAGES`
 
@@ -1341,7 +1368,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Edon80"/>
+
+<a name="Edon80"/>
 ##### Edon80
 - Rounds: -
 
@@ -1350,7 +1378,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="F-FCSR"/>
+
+<a name="F-FCSR"/>
 ##### F-FCSR
 - Rounds: n/a
 
@@ -1359,7 +1388,8 @@ CryptoStreams
 |            8GB | 1         | 1        | 1       | -        |
 |          100MB | 1         | 1        | 1       | -        |
 |           10MB | 2         | 1        | 1       | -        |
- <a name="Frogbit"/>
+
+<a name="Frogbit"/>
 ##### Frogbit
 - Rounds: -
 
@@ -1368,7 +1398,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Fubuki"/>
+
+<a name="Fubuki"/>
 ##### Fubuki
 - Rounds: 1-32 (4)
 
@@ -1377,7 +1408,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Grain"/>
+
+<a name="Grain"/>
 ##### Grain
 - Rounds: 1-13 (13)
 
@@ -1386,7 +1418,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 3       | 0        |
 |           10MB | 2         | 2        | 2       | 0        |
- <a name="HC-128"/>
+
+<a name="HC-128"/>
 ##### HC-128
 - Rounds: -
 
@@ -1395,7 +1428,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Hermes"/>
+
+<a name="Hermes"/>
 ##### Hermes
 - Rounds: 1-13 (10)
 
@@ -1404,7 +1438,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="LEX"/>
+
+<a name="LEX"/>
 ##### LEX
 - Rounds: 1-10 (10)
 
@@ -1413,7 +1448,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="MAG"/>
+
+<a name="MAG"/>
 ##### MAG
 - Rounds: n/a
 
@@ -1422,7 +1458,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="MICKEY"/>
+
+<a name="MICKEY"/>
 ##### MICKEY
 - Rounds: n/a
 
@@ -1431,7 +1468,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Mir-1"/>
+
+<a name="Mir-1"/>
 ##### Mir-1
 - Rounds: n/a
 
@@ -1440,7 +1478,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Moustique"/>
+
+<a name="Moustique"/>
 ##### Moustique
 - Rounds: -
 
@@ -1449,7 +1488,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="NLS"/>
+
+<a name="NLS"/>
 ##### NLS
 - Rounds: -
 
@@ -1458,7 +1498,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Phelix"/>
+
+<a name="Phelix"/>
 ##### Phelix
 - Rounds: -
 
@@ -1467,7 +1508,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Polar Bear"/>
+
+<a name="Polar Bear"/>
 ##### Polar Bear
 - Rounds: -
 
@@ -1476,7 +1518,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Pomaranch"/>
+
+<a name="Pomaranch"/>
 ##### Pomaranch
 - Rounds: n/a
 
@@ -1485,7 +1528,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Py"/>
+
+<a name="Py"/>
 ##### Py
 - Rounds: n/a
 
@@ -1494,7 +1538,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Rabbit"/>
+
+<a name="Rabbit"/>
 ##### Rabbit
 - Rounds: 1-4 (4) iterations of keystream preparation
 
@@ -1503,7 +1548,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Salsa20"/>
+
+<a name="Salsa20"/>
 ##### Salsa20
 - Rounds: 1-20 (20/12)
 
@@ -1512,7 +1558,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="SFINKS"/>
+
+<a name="SFINKS"/>
 ##### SFINKS
 - Rounds: n/a
 
@@ -1521,7 +1568,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="SOSEMANUK"/>
+
+<a name="SOSEMANUK"/>
 ##### SOSEMANUK
 - Rounds: 1-25 (25)
 
@@ -1530,7 +1578,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="SSS"/>
+
+<a name="SSS"/>
 ##### SSS
 - Rounds: -
 
@@ -1539,7 +1588,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="TRBDK3 YAEA"/>
+
+<a name="TRBDK3 YAEA"/>
 ##### TRBDK3 YAEA
 - Rounds: -
 
@@ -1548,7 +1598,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Trivium"/>
+
+<a name="Trivium"/>
 ##### Trivium
 - Rounds: -
 
@@ -1557,7 +1608,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="TSC-4"/>
+
+<a name="TSC-4"/>
 ##### TSC-4
 - Rounds: 1-32 (32)
 
@@ -1566,7 +1618,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="VEST"/>
+
+<a name="VEST"/>
 ##### VEST
 - Rounds: -
 
@@ -1575,7 +1628,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="WG"/>
+
+<a name="WG"/>
 ##### WG
 - Rounds: n/a
 
@@ -1584,7 +1638,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Yamb"/>
+
+<a name="Yamb"/>
 ##### Yamb
 - Rounds: n/a
 
@@ -1593,7 +1648,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Zk-Crypt"/>
+
+<a name="Zk-Crypt"/>
 ##### Zk-Crypt
 - Rounds: -
 
@@ -1603,7 +1659,8 @@ CryptoStreams
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
 #### Hash functions
- <a name="BLAKE"/>
+
+<a name="BLAKE"/>
 ##### BLAKE
 - Block size: 28, 32, 48, 64
 
@@ -1614,7 +1671,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Grostl"/>
+
+<a name="Grostl"/>
 ##### Grostl
 - Block size: 1-64
 
@@ -1625,7 +1683,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 2       | -        |
 |          100MB | 2         | 2        | 2       | 2        |
 |           10MB | 2         | 2        | 2       | 2        |
- <a name="JH"/>
+
+<a name="JH"/>
 ##### JH
 - Block size: 28, 32, 48, 64
 
@@ -1636,7 +1695,8 @@ CryptoStreams
 |            8GB | 6         | 6        | 6       | -        |
 |          100MB | 6         | 6        | 6       | 6        |
 |           10MB | -         | -        | -       | 6        |
- <a name="Keccak"/>
+
+<a name="Keccak"/>
 ##### Keccak
 - Block size: 28, 32, 48, 64
 
@@ -1647,7 +1707,8 @@ CryptoStreams
 |            8GB | 3         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 2       | 3        |
 |           10MB | 2         | 2        | 2       | 3        |
- <a name="Skein"/>
+
+<a name="Skein"/>
 ##### Skein
 - Block size: 1-64
 
@@ -1658,7 +1719,8 @@ CryptoStreams
 |            8GB | 3         | 3        | 4       | -        |
 |          100MB | 3         | 3        | 3       | 1        |
 |           10MB | 3         | 3        | 3       | 1        |
- <a name="Abacus"/>
+
+<a name="Abacus"/>
 ##### Abacus
 - Block size: 1-x (?)
 
@@ -1669,7 +1731,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="ARIRANG"/>
+
+<a name="ARIRANG"/>
 ##### ARIRANG
 - Block size: 28, 32, 48, 64
 
@@ -1680,7 +1743,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="AURORA"/>
+
+<a name="AURORA"/>
 ##### AURORA
 - Block size: 28, 32, 48, 64
 
@@ -1691,7 +1755,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Cheetah"/>
+
+<a name="Cheetah"/>
 ##### Cheetah
 - Block size: 28, 32, 48, 64
 
@@ -1702,7 +1767,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="CubeHash"/>
+
+<a name="CubeHash"/>
 ##### CubeHash
 - Block size: 8-512, divisible by 8
 
@@ -1713,7 +1779,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="DCH"/>
+
+<a name="DCH"/>
 ##### DCH
 - Block size: 28, 32, 48, 64
 
@@ -1724,7 +1791,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="DynamicSHA"/>
+
+<a name="DynamicSHA"/>
 ##### DynamicSHA
 - Block size: 28, 32, 48, 64
 
@@ -1735,7 +1803,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="DynamicSHA2"/>
+
+<a name="DynamicSHA2"/>
 ##### DynamicSHA2
 - Block size: 28, 32, 48, 64
 
@@ -1746,7 +1815,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="ECHO"/>
+
+<a name="ECHO"/>
 ##### ECHO
 - Block size: 1-x
 
@@ -1757,7 +1827,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Hamsi"/>
+
+<a name="Hamsi"/>
 ##### Hamsi
 - Block size: 28, 32, 48, 64
 
@@ -1768,7 +1839,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Lesamnta"/>
+
+<a name="Lesamnta"/>
 ##### Lesamnta
 - Block size: 28, 32, 48, 64
 
@@ -1779,7 +1851,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Luffa"/>
+
+<a name="Luffa"/>
 ##### Luffa
 - Block size: 28, 32, 48, 64
 
@@ -1790,7 +1863,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="MD6"/>
+
+<a name="MD6"/>
 ##### MD6
 - Block size: 1-64
 
@@ -1801,7 +1875,8 @@ CryptoStreams
 |            8GB | 8         | 8        | 9       | -        |
 |          100MB | 8         | 8        | 8       | 9        |
 |           10MB | 8         | 8        | 8       | 9        |
- <a name="SIMD"/>
+
+<a name="SIMD"/>
 ##### SIMD
 - Block size: 1-64
 
@@ -1812,7 +1887,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Tangle"/>
+
+<a name="Tangle"/>
 ##### Tangle
 - Block size: 28, 32, 48, 64, 96, 128
 
@@ -1823,7 +1899,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Twister"/>
+
+<a name="Twister"/>
 ##### Twister
 - Block size: 4-64 (divisible by 4)
 
@@ -1834,7 +1911,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Blender"/>
+
+<a name="Blender"/>
 ##### Blender
 - Block size: any divsible by 2
 
@@ -1845,7 +1923,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="BMW"/>
+
+<a name="BMW"/>
 ##### BMW
 - Block size: 28, 32, 48, 64
 
@@ -1856,7 +1935,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Boole"/>
+
+<a name="Boole"/>
 ##### Boole
 - Block size: 1-64
 
@@ -1867,7 +1947,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="CHI"/>
+
+<a name="CHI"/>
 ##### CHI
 - Block size: 28, 32, 48, 64
 
@@ -1878,7 +1959,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="CRUNCH"/>
+
+<a name="CRUNCH"/>
 ##### CRUNCH
 - Block size: 28, 32, 48, 64
 
@@ -1889,7 +1971,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="EDON"/>
+
+<a name="EDON"/>
 ##### EDON
 - Block size: 28, 32, 48, 64
 
@@ -1900,7 +1983,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="ESSENCE"/>
+
+<a name="ESSENCE"/>
 ##### ESSENCE
 - Block size: 16-64
 
@@ -1911,7 +1995,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Fugue"/>
+
+<a name="Fugue"/>
 ##### Fugue
 - Block size: 1-x (?)
 
@@ -1922,7 +2007,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Khichidi"/>
+
+<a name="Khichidi"/>
 ##### Khichidi
 - Block size: 28, 32, 48, 64
 
@@ -1933,7 +2019,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="LANE"/>
+
+<a name="LANE"/>
 ##### LANE
 - Block size: 28, 32, 48, 64
 
@@ -1944,7 +2031,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="MCSSHA3"/>
+
+<a name="MCSSHA3"/>
 ##### MCSSHA3
 - Block size: 28, 32, 48, 64
 
@@ -1955,7 +2043,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="MeshHash"/>
+
+<a name="MeshHash"/>
 ##### MeshHash
 - Block size: 1-4095
 
@@ -1966,7 +2055,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="NaSHA"/>
+
+<a name="NaSHA"/>
 ##### NaSHA
 - Block size: 28, 32, 48, 64
 
@@ -1977,7 +2067,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Sarmal"/>
+
+<a name="Sarmal"/>
 ##### Sarmal
 - Block size: 28, 32, 48, 64
 
@@ -1988,7 +2079,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Shabal"/>
+
+<a name="Shabal"/>
 ##### Shabal
 - Block size: 24, 28, 32, 48, 64
 
@@ -1999,7 +2091,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="SHAMATA"/>
+
+<a name="SHAMATA"/>
 ##### SHAMATA
 - Block size: 28, 32, 48, 64
 
@@ -2010,7 +2103,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="SHAvite3"/>
+
+<a name="SHAvite3"/>
 ##### SHAvite3
 - Block size: 28, 32, 48, 64
 
@@ -2021,7 +2115,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="SpectralHash"/>
+
+<a name="SpectralHash"/>
 ##### SpectralHash
 - Block size: 16-64 (divisible by 4)
 
@@ -2032,7 +2127,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="StreamHash"/>
+
+<a name="StreamHash"/>
 ##### StreamHash
 - Block size: 28, 32, 48, 64
 
@@ -2043,7 +2139,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Vortex"/>
+
+<a name="Vortex"/>
 ##### Vortex
 - Block size: 28, 32, 48, 64
 
@@ -2054,7 +2151,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="WaMM"/>
+
+<a name="WaMM"/>
 ##### WaMM
 - Block size: 24-256 (divisible by 5)
 
@@ -2065,7 +2163,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Waterfall"/>
+
+<a name="Waterfall"/>
 ##### Waterfall
 - Block size: 1-64 (divisible by 5)
 
@@ -2076,7 +2175,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
- <a name="Tangle2"/>
+
+<a name="Tangle2"/>
 ##### Tangle2
 - Block size: ?28, 32, 48, 64, 96, 128?
 
