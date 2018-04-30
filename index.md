@@ -1052,7 +1052,8 @@ CryptoStreams
 |            8GB | 3         | 3        | 3       | -        |
 |          100MB | 3         | 3        | 3       | 3        |
 |           10MB | 3         | 3        | 3       | 3        |
- <a name="BLOWFISH"/>
+
+<a name="BLOWFISH"/>
 ##### BLOWFISH
 - Block size: 8
 
