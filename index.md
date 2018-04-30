@@ -1039,7 +1039,7 @@ CryptoStreams
 
 ### Detailed info
 #### Block ciphers
-##### AES <a name=AES></a>
+##### AES <a name="AES"></a>
 - Block size: 16
 
 - Key size: 16
@@ -1051,7 +1051,7 @@ CryptoStreams
 |            8GB | 3         | 3        | 3       | -        |
 |          100MB | 3         | 3        | 3       | 3        |
 |           10MB | 3         | 3        | 3       | 3        |
-<a name=BLOWFISH></a>
+<a name="BLOWFISH"></a>
 ##### BLOWFISH 
 - Block size: 8
 
