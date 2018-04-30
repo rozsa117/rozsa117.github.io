@@ -1039,7 +1039,8 @@ CryptoStreams
 
 ### Detailed info
 #### Block ciphers
-##### AES <a name="AES"></a>
+ <a name="AES"/>
+##### AES
 - Block size: 16
 
 - Key size: 16
@@ -1051,8 +1052,8 @@ CryptoStreams
 |            8GB | 3         | 3        | 3       | -        |
 |          100MB | 3         | 3        | 3       | 3        |
 |           10MB | 3         | 3        | 3       | 3        |
-<a name="BLOWFISH"></a>
-##### BLOWFISH 
+ <a name="BLOWFISH"/>
+##### BLOWFISH
 - Block size: 8
 
 - Key size: 4-56
@@ -1064,7 +1065,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 2       | -        |
 |          100MB | 2         | 2        | 2       | 2        |
 |           10MB | 3         | 1        | 2       | 2        |
-##### MARS <a name=MARS/>
+ <a name="MARS"/>
+##### MARS
 - Block size: 16
 
 - Key size: 16, 24, 32
@@ -1076,7 +1078,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | 0        |
 |           10MB | -         | -        | -       | 0        |
-##### RC6 <a name=RC6/>
+ <a name="RC6"/>
+##### RC6
 - Block size: 16
 
 - Key size: 16, 24, 32
@@ -1088,7 +1091,8 @@ CryptoStreams
 |            8GB | 4         | 4        | 4       | -        |
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 4       | 4        |
-##### SERPENT <a name=SERPENT/>
+ <a name="SERPENT"/>
+##### SERPENT
 - Block size: 16
 
 - Key size: 16, 24, 32
@@ -1100,7 +1104,8 @@ CryptoStreams
 |            8GB | 3         | 3        | 3       | -        |
 |          100MB | 3         | 3        | 3       | 3        |
 |           10MB | 3         | 3        | 3       | 3        |
-##### TWOFISH <a name=TWOFISH/>
+ <a name="TWOFISH"/>
+##### TWOFISH
 - Block size: 16
 
 - Key size: 16, 24, 32
@@ -1112,7 +1117,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 2       | -        |
 |          100MB | 2         | 2        | 2       | 2        |
 |           10MB | 2         | 2        | 2       | 2        |
-##### SIMON <a name=SIMON/>
+ <a name="SIMON"/>
+##### SIMON
 - Block size: 4-16
 
 - Key size: 8-32
@@ -1124,7 +1130,8 @@ CryptoStreams
 |            8GB | 16        | 16       | 17      | -        |
 |          100MB | 15        | 16       | 16      | 18       |
 |           10MB | 13        | 15       | 16      | 17       |
-##### SPECK <a name=SPECK/>
+ <a name="SPECK"/>
+##### SPECK
 - Block size: 4-16
 
 - Key size: 8-32
@@ -1136,7 +1143,8 @@ CryptoStreams
 |            8GB | 8         | 7        | 9       | -        |
 |          100MB | 8         | 7        | 8       | 9        |
 |           10MB | 8         | 7        | 8       | 9        |
-##### GOST <a name=GOST/>
+ <a name="GOST"/>
+##### GOST
 - Block size: 8
 
 - Key size: 32
@@ -1148,7 +1156,8 @@ CryptoStreams
 |            8GB | 8         | 8        | 9       | -        |
 |          100MB | 7         | 8        | 8       | 10       |
 |           10MB | 7         | 7        | 8       | 10       |
-##### SINGLE-DES <a name=SINGLE-DES/>
+ <a name="SINGLE-DES"/>
+##### SINGLE-DES
 - Block size: 8
 
 - Key size: 7
@@ -1160,7 +1169,8 @@ CryptoStreams
 |            8GB | 5         | 4        | 5       | -        |
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 5       | 4        |
-##### TRIPLE-DES <a name=TRIPLE-DES/>
+ <a name="TRIPLE-DES"/>
+##### TRIPLE-DES
 - Block size: 8
 
 - Key size: 21
@@ -1172,7 +1182,8 @@ CryptoStreams
 |            8GB | 3         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 2       | 3        |
 |           10MB | 2         | 2        | 2       | 3        |
-##### TEA <a name=TEA/>
+ <a name="TEA"/>
+##### TEA
 - Block size: 8
 
 - Key size: 16
@@ -1185,7 +1196,8 @@ CryptoStreams
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 4       | 4        |
 #### Stream ciphers
-##### HC-128 <a name=HC-128/>
+ <a name="HC-128"/>
+##### HC-128
 - Rounds: no (note 1)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1193,7 +1205,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Rabbit <a name=Rabbit/>
+ <a name="Rabbit"/>
+##### Rabbit
 - Rounds: 0-4 (4) (note 2)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1201,7 +1214,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Salsa20 <a name=Salsa20/>
+ <a name="Salsa20"/>
+##### Salsa20
 - Rounds: 0-20 (20) (note 3)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1209,7 +1223,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### SOSEMANUK <a name=SOSEMANUK/>
+ <a name="SOSEMANUK"/>
+##### SOSEMANUK
 - Rounds: 0-25 (25) (note 4)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1217,7 +1232,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Grain <a name=Grain/>
+ <a name="Grain"/>
+##### Grain
 - Rounds: **1**-13 (13) (note 1)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1225,7 +1241,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 3       | 0        |
 |           10MB | 2         | 2        | 2       | 0        |
-##### MICKEY <a name=MICKEY/>
+ <a name="MICKEY"/>
+##### MICKEY
 - Rounds: 0-8
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1233,7 +1250,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Trivium <a name=Trivium/>
+ <a name="Trivium"/>
+##### Trivium
 - Rounds: 0-9 (9)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1241,7 +1259,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### F-FCSR <a name=F-FCSR/>
+ <a name="F-FCSR"/>
+##### F-FCSR
 - Rounds: **1**-5 (5)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1249,7 +1268,8 @@ CryptoStreams
 |            8GB | 1         | 1        | 1       | -        |
 |          100MB | 1         | 1        | 1       | -        |
 |           10MB | 2         | 1        | 1       | -        |
-##### RC4 <a name=RC4/>
+ <a name="RC4"/>
+##### RC4
 - Rounds: not round-reduced
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1257,7 +1277,8 @@ CryptoStreams
 |            8GB | 1         | -        | 1       | -        |
 |          100MB | 1         | -        | 1       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Chacha <a name=Chacha/>
+ <a name="Chacha"/>
+##### Chacha
 - Rounds: 0-20 (20)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1265,7 +1286,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 3       | -        |
 |           10MB | 2         | 2        | 3       | -        |
-##### ABC <a name=ABC/>
+ <a name="ABC"/>
+##### ABC
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1273,7 +1295,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Achterbahn <a name=Achterbahn/>
+ <a name="Achterbahn"/>
+##### Achterbahn
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1281,7 +1304,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### CryptMT <a name=CryptMT/>
+ <a name="CryptMT"/>
+##### CryptMT
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1289,7 +1313,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### DECIM <a name=DECIM/>
+ <a name="DECIM"/>
+##### DECIM
 - Rounds: 1-8 (8)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1297,7 +1322,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### DICING <a name=DICING/>
+ <a name="DICING"/>
+##### DICING
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1305,7 +1331,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Dragon <a name=Dragon/>
+ <a name="Dragon"/>
+##### Dragon
 - Rounds: 0-16 `DRAGON_MIXING_STAGES`
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1313,7 +1340,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Edon80 <a name=Edon80/>
+ <a name="Edon80"/>
+##### Edon80
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1321,7 +1349,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### F-FCSR <a name=F-FCSR/>
+ <a name="F-FCSR"/>
+##### F-FCSR
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1329,7 +1358,8 @@ CryptoStreams
 |            8GB | 1         | 1        | 1       | -        |
 |          100MB | 1         | 1        | 1       | -        |
 |           10MB | 2         | 1        | 1       | -        |
-##### Frogbit <a name=Frogbit/>
+ <a name="Frogbit"/>
+##### Frogbit
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1337,7 +1367,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Fubuki <a name=Fubuki/>
+ <a name="Fubuki"/>
+##### Fubuki
 - Rounds: 1-32 (4)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1345,7 +1376,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Grain <a name=Grain/>
+ <a name="Grain"/>
+##### Grain
 - Rounds: 1-13 (13)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1353,7 +1385,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 3       | 0        |
 |           10MB | 2         | 2        | 2       | 0        |
-##### HC-128 <a name=HC-128/>
+ <a name="HC-128"/>
+##### HC-128
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1361,7 +1394,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Hermes <a name=Hermes/>
+ <a name="Hermes"/>
+##### Hermes
 - Rounds: 1-13 (10)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1369,7 +1403,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### LEX <a name=LEX/>
+ <a name="LEX"/>
+##### LEX
 - Rounds: 1-10 (10)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1377,7 +1412,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### MAG <a name=MAG/>
+ <a name="MAG"/>
+##### MAG
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1385,7 +1421,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### MICKEY <a name=MICKEY/>
+ <a name="MICKEY"/>
+##### MICKEY
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1393,7 +1430,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Mir-1 <a name=Mir-1/>
+ <a name="Mir-1"/>
+##### Mir-1
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1401,7 +1439,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Moustique <a name=Moustique/>
+ <a name="Moustique"/>
+##### Moustique
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1409,7 +1448,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### NLS <a name=NLS/>
+ <a name="NLS"/>
+##### NLS
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1417,7 +1457,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Phelix <a name=Phelix/>
+ <a name="Phelix"/>
+##### Phelix
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1425,7 +1466,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Polar Bear <a name=Polar Bear/>
+ <a name="Polar Bear"/>
+##### Polar Bear
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1433,7 +1475,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Pomaranch <a name=Pomaranch/>
+ <a name="Pomaranch"/>
+##### Pomaranch
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1441,7 +1484,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Py <a name=Py/>
+ <a name="Py"/>
+##### Py
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1449,7 +1493,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Rabbit <a name=Rabbit/>
+ <a name="Rabbit"/>
+##### Rabbit
 - Rounds: 1-4 (4) iterations of keystream preparation
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1457,7 +1502,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Salsa20 <a name=Salsa20/>
+ <a name="Salsa20"/>
+##### Salsa20
 - Rounds: 1-20 (20/12)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1465,7 +1511,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### SFINKS <a name=SFINKS/>
+ <a name="SFINKS"/>
+##### SFINKS
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1473,7 +1520,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### SOSEMANUK <a name=SOSEMANUK/>
+ <a name="SOSEMANUK"/>
+##### SOSEMANUK
 - Rounds: 1-25 (25)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1481,7 +1529,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### SSS <a name=SSS/>
+ <a name="SSS"/>
+##### SSS
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1489,7 +1538,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### TRBDK3 YAEA <a name=TRBDK3 YAEA/>
+ <a name="TRBDK3 YAEA"/>
+##### TRBDK3 YAEA
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1497,7 +1547,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Trivium <a name=Trivium/>
+ <a name="Trivium"/>
+##### Trivium
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1505,7 +1556,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### TSC-4 <a name=TSC-4/>
+ <a name="TSC-4"/>
+##### TSC-4
 - Rounds: 1-32 (32)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1513,7 +1565,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### VEST <a name=VEST/>
+ <a name="VEST"/>
+##### VEST
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1521,7 +1574,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### WG <a name=WG/>
+ <a name="WG"/>
+##### WG
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1529,7 +1583,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Yamb <a name=Yamb/>
+ <a name="Yamb"/>
+##### Yamb
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1537,7 +1592,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Zk-Crypt <a name=Zk-Crypt/>
+ <a name="Zk-Crypt"/>
+##### Zk-Crypt
 - Rounds: -
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -1546,7 +1602,8 @@ CryptoStreams
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
 #### Hash functions
-##### BLAKE <a name=BLAKE/>
+ <a name="BLAKE"/>
+##### BLAKE
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (l<48 ? 14 : 16)
@@ -1556,7 +1613,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Grostl <a name=Grostl/>
+ <a name="Grostl"/>
+##### Grostl
 - Block size: 1-64
 
 - Rounds: l<=32 ? 0-10 (10) : 2-x (14)
@@ -1566,7 +1624,8 @@ CryptoStreams
 |            8GB | 2         | 2        | 2       | -        |
 |          100MB | 2         | 2        | 2       | 2        |
 |           10MB | 2         | 2        | 2       | 2        |
-##### JH <a name=JH/>
+ <a name="JH"/>
+##### JH
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (42)
@@ -1576,7 +1635,8 @@ CryptoStreams
 |            8GB | 6         | 6        | 6       | -        |
 |          100MB | 6         | 6        | 6       | 6        |
 |           10MB | -         | -        | -       | 6        |
-##### Keccak <a name=Keccak/>
+ <a name="Keccak"/>
+##### Keccak
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-24
@@ -1586,7 +1646,8 @@ CryptoStreams
 |            8GB | 3         | 2        | 3       | -        |
 |          100MB | 2         | 2        | 2       | 3        |
 |           10MB | 2         | 2        | 2       | 3        |
-##### Skein <a name=Skein/>
+ <a name="Skein"/>
+##### Skein
 - Block size: 1-64
 
 - Rounds: 0-72 (80 for 128 B)
@@ -1596,7 +1657,8 @@ CryptoStreams
 |            8GB | 3         | 3        | 4       | -        |
 |          100MB | 3         | 3        | 3       | 1        |
 |           10MB | 3         | 3        | 3       | 1        |
-##### Abacus <a name=Abacus/>
+ <a name="Abacus"/>
+##### Abacus
 - Block size: 1-x (?)
 
 - Rounds: 1-280 (135)
@@ -1606,7 +1668,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### ARIRANG <a name=ARIRANG/>
+ <a name="ARIRANG"/>
+##### ARIRANG
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-4 (4)
@@ -1616,7 +1679,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### AURORA <a name=AURORA/>
+ <a name="AURORA"/>
+##### AURORA
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-16 (17)
@@ -1626,7 +1690,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Cheetah <a name=Cheetah/>
+ <a name="Cheetah"/>
+##### Cheetah
 - Block size: 28, 32, 48, 64
 
 - Rounds: l<=32 ? 0-15 (16) : 0-11 (12)
@@ -1636,7 +1701,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### CubeHash <a name=CubeHash/>
+ <a name="CubeHash"/>
+##### CubeHash
 - Block size: 8-512, divisible by 8
 
 - Rounds: 0-x (8)
@@ -1646,7 +1712,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### DCH <a name=DCH/>
+ <a name="DCH"/>
+##### DCH
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (4)
@@ -1656,7 +1723,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### DynamicSHA <a name=DynamicSHA/>
+ <a name="DynamicSHA"/>
+##### DynamicSHA
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-16 (16)
@@ -1666,7 +1734,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### DynamicSHA2 <a name=DynamicSHA2/>
+ <a name="DynamicSHA2"/>
+##### DynamicSHA2
 - Block size: 28, 32, 48, 64
 
 - Rounds: 1-17 (17)
@@ -1676,7 +1745,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### ECHO <a name=ECHO/>
+ <a name="ECHO"/>
+##### ECHO
 - Block size: 1-x
 
 - Rounds: 1-x l<=32 ? (8) : (10)
@@ -1686,7 +1756,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Hamsi <a name=Hamsi/>
+ <a name="Hamsi"/>
+##### Hamsi
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (l<=32 3 : 6)
@@ -1696,7 +1767,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Lesamnta <a name=Lesamnta/>
+ <a name="Lesamnta"/>
+##### Lesamnta
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-32 (32)
@@ -1706,7 +1778,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Luffa <a name=Luffa/>
+ <a name="Luffa"/>
+##### Luffa
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-8 (8)
@@ -1716,7 +1789,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### MD6 <a name=MD6/>
+ <a name="MD6"/>
+##### MD6
 - Block size: 1-64
 
 - Rounds: 0-104 (104)
@@ -1726,7 +1800,8 @@ CryptoStreams
 |            8GB | 8         | 8        | 9       | -        |
 |          100MB | 8         | 8        | 8       | 9        |
 |           10MB | 8         | 8        | 8       | 9        |
-##### SIMD <a name=SIMD/>
+ <a name="SIMD"/>
+##### SIMD
 - Block size: 1-64
 
 - Rounds: 0-4 (4)
@@ -1736,7 +1811,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Tangle <a name=Tangle/>
+ <a name="Tangle"/>
+##### Tangle
 - Block size: 28, 32, 48, 64, 96, 128
 
 - Rounds: 0-x (72, 80, 96, 112, 128, 144)
@@ -1746,7 +1822,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Twister <a name=Twister/>
+ <a name="Twister"/>
+##### Twister
 - Block size: 4-64 (divisible by 4)
 
 - Rounds: l<=32 ? 0-9 (9) : 0-10 (10)
@@ -1756,7 +1833,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Blender <a name=Blender/>
+ <a name="Blender"/>
+##### Blender
 - Block size: any divsible by 2
 
 - Rounds: 0-x (32)
@@ -1766,7 +1844,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### BMW <a name=BMW/>
+ <a name="BMW"/>
+##### BMW
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-16 (16)
@@ -1776,7 +1855,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Boole <a name=Boole/>
+ <a name="Boole"/>
+##### Boole
 - Block size: 1-64
 
 - Rounds: 0-x (16)
@@ -1786,7 +1866,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### CHI <a name=CHI/>
+ <a name="CHI"/>
+##### CHI
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (l<37.5 ? 20 : 40)
@@ -1796,7 +1877,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### CRUNCH <a name=CRUNCH/>
+ <a name="CRUNCH"/>
+##### CRUNCH
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (224)
@@ -1806,7 +1888,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### EDON <a name=EDON/>
+ <a name="EDON"/>
+##### EDON
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
@@ -1816,7 +1899,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### ESSENCE <a name=ESSENCE/>
+ <a name="ESSENCE"/>
+##### ESSENCE
 - Block size: 16-64
 
 - Rounds: 8-x (32)
@@ -1826,7 +1910,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Fugue <a name=Fugue/>
+ <a name="Fugue"/>
+##### Fugue
 - Block size: 1-x (?)
 
 - Rounds: ?? ( **5**,6,8,13)
@@ -1836,7 +1921,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Khichidi <a name=Khichidi/>
+ <a name="Khichidi"/>
+##### Khichidi
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
@@ -1846,7 +1932,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### LANE <a name=LANE/>
+ <a name="LANE"/>
+##### LANE
 - Block size: 28, 32, 48, 64
 
 - Rounds: (6+3,8+4)
@@ -1856,7 +1943,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### MCSSHA3 <a name=MCSSHA3/>
+ <a name="MCSSHA3"/>
+##### MCSSHA3
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
@@ -1866,7 +1954,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### MeshHash <a name=MeshHash/>
+ <a name="MeshHash"/>
+##### MeshHash
 - Block size: 1-4095
 
 - Rounds: (32)
@@ -1876,7 +1965,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### NaSHA <a name=NaSHA/>
+ <a name="NaSHA"/>
+##### NaSHA
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
@@ -1886,7 +1976,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Sarmal <a name=Sarmal/>
+ <a name="Sarmal"/>
+##### Sarmal
 - Block size: 28, 32, 48, 64
 
 - Rounds: l<=32 ? 0-16 (16) : 0-20 (20)
@@ -1896,7 +1987,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Shabal <a name=Shabal/>
+ <a name="Shabal"/>
+##### Shabal
 - Block size: 24, 28, 32, 48, 64
 
 - Rounds: n/a
@@ -1906,7 +1998,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### SHAMATA <a name=SHAMATA/>
+ <a name="SHAMATA"/>
+##### SHAMATA
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
@@ -1916,7 +2009,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### SHAvite3 <a name=SHAvite3/>
+ <a name="SHAvite3"/>
+##### SHAvite3
 - Block size: 28, 32, 48, 64
 
 - Rounds: l<=32 ? 0-11 (12) : 0-14 (14)
@@ -1926,7 +2020,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### SpectralHash <a name=SpectralHash/>
+ <a name="SpectralHash"/>
+##### SpectralHash
 - Block size: 16-64 (divisible by 4)
 
 - Rounds: n/a
@@ -1936,7 +2031,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### StreamHash <a name=StreamHash/>
+ <a name="StreamHash"/>
+##### StreamHash
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
@@ -1946,7 +2042,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Vortex <a name=Vortex/>
+ <a name="Vortex"/>
+##### Vortex
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-15 (15)
@@ -1956,7 +2053,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### WaMM <a name=WaMM/>
+ <a name="WaMM"/>
+##### WaMM
 - Block size: 24-256 (divisible by 5)
 
 - Rounds: 0-x (2)
@@ -1966,7 +2064,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Waterfall <a name=Waterfall/>
+ <a name="Waterfall"/>
+##### Waterfall
 - Block size: 1-64 (divisible by 5)
 
 - Rounds: 0-x (4+16)
@@ -1976,7 +2075,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-##### Tangle2 <a name=Tangle2/>
+ <a name="Tangle2"/>
+##### Tangle2
 - Block size: ?28, 32, 48, 64, 96, 128?
 
 - Rounds: ?0-x (72, 80, 96, 112, 128, 144)?
