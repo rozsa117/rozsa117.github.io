@@ -1039,7 +1039,6 @@ CryptoStreams
 
 ### Detailed info
 #### Block ciphers
-
 <a name="AES"/>
 ##### AES
 - Block size: 16
@@ -1207,8 +1206,8 @@ CryptoStreams
 |            8GB | 4         | 4        | 5       | -        |
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 4       | 4        |
-#### Stream ciphers
 
+#### Stream ciphers
 <a name="HC-128"/>
 ##### HC-128
 - Rounds: no (note 1)
@@ -1658,8 +1657,8 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
-#### Hash functions
 
+#### Hash functions
 <a name="BLAKE"/>
 ##### BLAKE
 - Block size: 28, 32, 48, 64
@@ -2187,3 +2186,4 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
+
