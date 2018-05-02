@@ -8,7 +8,7 @@ CryptoStreams
     transition: 0.3s;
     border-radius: 15px;
     width: 25%;
-    height: auto;
+    height: 25%;
     padding: 10px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.3);
@@ -21,6 +21,17 @@ CryptoStreams
 .container {
     padding: 2px 16px;
 }
+.empty {
+    float: left;
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 25%;
+    height: 25%;
+    padding: 10px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 </style>
 
 #### Block ciphers
@@ -47,7 +58,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>MARS</b></h5>
-      0-16 (8 always used)<br/>
+      0-16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS">Test vectors</a><br/>
       <a href="#MARS">Detailed info</a><br/>
@@ -144,11 +155,74 @@ CryptoStreams
     </div>
 </div>
 
+<div class="card">
+    <div class="container">
+      <h5><b>KASUMI</b></h5>
+      8<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kasumi">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KASUMI">Test vectors</a><br/>
+      <a href="#KASUMI">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>KUZNYECHIK</b></h5>
+      10<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kuznyechik">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KUZNYECHIK">Test vectors</a><br/>
+      <a href="#KUZNYECHIK">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>MISTY1</b></h5>
+      4<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/misty1">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MISTY1">Test vectors</a><br/>
+      <a href="#MISTY1">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>NOEKEON</b></h5>
+      16<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/noekeon">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/NOEKEON">Test vectors</a><br/>
+      <a href="#NOEKEON">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>SHACAL2</b></h5>
+      80<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/shacal2">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SHACAL2">Test vectors</a><br/>
+      <a href="#SHACAL2">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>XTEA</b></h5>
+      32<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/xtea">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/XTEA">Test vectors</a><br/>
+      <a href="#XTEA">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="empty"/></div>
+<div class="empty"/></div>
+
 #### Stream ciphers
 <div class="card">
     <div class="container">
       <h5><b>HC-128</b></h5>
-      no (note 1)<br/>
+      no<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/HC-128">Test vectors</a><br/>
       <a href="#HC-128">Detailed info</a><br/>
@@ -158,7 +232,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Rabbit</b></h5>
-      0-4 (4) (note 2)<br/>
+      4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Rabbit">Test vectors</a><br/>
       <a href="#Rabbit">Detailed info</a><br/>
@@ -168,7 +242,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Salsa20</b></h5>
-      0-20 (20) (note 3)<br/>
+      20<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Salsa20">Test vectors</a><br/>
       <a href="#Salsa20">Detailed info</a><br/>
@@ -178,7 +252,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>SOSEMANUK</b></h5>
-      0-25 (25) (note 4)<br/>
+      25<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/SOSEMANUK">Test vectors</a><br/>
       <a href="#SOSEMANUK">Detailed info</a><br/>
@@ -188,7 +262,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Grain</b></h5>
-      **1**-13 (13) (note 1)<br/>
+      13<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Grain">Test vectors</a><br/>
       <a href="#Grain">Detailed info</a><br/>
@@ -208,7 +282,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Trivium</b></h5>
-      0-9 (9)<br/>
+      9<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Trivium">Test vectors</a><br/>
       <a href="#Trivium">Detailed info</a><br/>
@@ -218,7 +292,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>F-FCSR</b></h5>
-      **1**-5 (5)<br/>
+      5<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/F-FCSR">Test vectors</a><br/>
       <a href="#F-FCSR">Detailed info</a><br/>
@@ -228,7 +302,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>RC4</b></h5>
-      not round-reduced<br/>
+      -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/RC4">Test vectors</a><br/>
       <a href="#RC4">Detailed info</a><br/>
@@ -238,7 +312,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Chacha</b></h5>
-      0-20 (20)<br/>
+      20<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Chacha">Test vectors</a><br/>
       <a href="#Chacha">Detailed info</a><br/>
@@ -278,7 +352,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>DECIM</b></h5>
-      1-8 (8)<br/>
+      8<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/decim">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/DECIM">Test vectors</a><br/>
       <a href="#DECIM">Detailed info</a><br/>
@@ -298,7 +372,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Dragon</b></h5>
-      0-16 `DRAGON_MIXING_STAGES`<br/>
+      16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Dragon">Test vectors</a><br/>
       <a href="#Dragon">Detailed info</a><br/>
@@ -338,7 +412,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Fubuki</b></h5>
-      1-32 (4)<br/>
+      4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/fubuki">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Fubuki">Test vectors</a><br/>
       <a href="#Fubuki">Detailed info</a><br/>
@@ -348,7 +422,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Grain</b></h5>
-      1-13 (13)<br/>
+      13<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Grain">Test vectors</a><br/>
       <a href="#Grain">Detailed info</a><br/>
@@ -368,7 +442,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Hermes</b></h5>
-      1-13 (10)<br/>
+      10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hermes">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Hermes">Test vectors</a><br/>
       <a href="#Hermes">Detailed info</a><br/>
@@ -378,7 +452,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>LEX</b></h5>
-      1-10 (10)<br/>
+      10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/lex">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/LEX">Test vectors</a><br/>
       <a href="#LEX">Detailed info</a><br/>
@@ -478,7 +552,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Rabbit</b></h5>
-      1-4 (4) iterations of keystream preparation<br/>
+      4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Rabbit">Test vectors</a><br/>
       <a href="#Rabbit">Detailed info</a><br/>
@@ -488,7 +562,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Salsa20</b></h5>
-      1-20 (20/12)<br/>
+      20/12<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Salsa20">Test vectors</a><br/>
       <a href="#Salsa20">Detailed info</a><br/>
@@ -508,7 +582,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>SOSEMANUK</b></h5>
-      1-25 (25)<br/>
+      25<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/SOSEMANUK">Test vectors</a><br/>
       <a href="#SOSEMANUK">Detailed info</a><br/>
@@ -537,18 +611,8 @@ CryptoStreams
 
 <div class="card">
     <div class="container">
-      <h5><b>Trivium</b></h5>
-      -<br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Trivium">Test vectors</a><br/>
-      <a href="#Trivium">Detailed info</a><br/>
-    </div>
-</div>
-
-<div class="card">
-    <div class="container">
       <h5><b>TSC-4</b></h5>
-      1-32 (32)<br/>
+      32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/tsc-4">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/TSC-4">Test vectors</a><br/>
       <a href="#TSC-4">Detailed info</a><br/>
@@ -577,16 +641,6 @@ CryptoStreams
 
 <div class="card">
     <div class="container">
-      <h5><b>Yamb</b></h5>
-      n/a<br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/yamb">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Yamb">Test vectors</a><br/>
-      <a href="#Yamb">Detailed info</a><br/>
-    </div>
-</div>
-
-<div class="card">
-    <div class="container">
       <h5><b>Zk-Crypt</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt">Source code</a><br/>
@@ -595,11 +649,13 @@ CryptoStreams
     </div>
 </div>
 
+<div class="empty"/></div>
+
 #### Hash functions
 <div class="card">
     <div class="container">
       <h5><b>BLAKE</b></h5>
-      0-x (l<48 ? 14 : 16)<br/>
+      14, 16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BLAKE">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/BLAKE">Test vectors</a><br/>
       <a href="#BLAKE">Detailed info</a><br/>
@@ -609,7 +665,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Grostl</b></h5>
-      l<=32 ? 0-10 (10) : 2-x (14)<br/>
+      10, 14<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Grostl">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Grostl">Test vectors</a><br/>
       <a href="#Grostl">Detailed info</a><br/>
@@ -619,7 +675,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>JH</b></h5>
-      0-x (42)<br/>
+      42<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/JH">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/JH">Test vectors</a><br/>
       <a href="#JH">Detailed info</a><br/>
@@ -629,7 +685,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Keccak</b></h5>
-      0-24<br/>
+      24<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Keccak">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Keccak">Test vectors</a><br/>
       <a href="#Keccak">Detailed info</a><br/>
@@ -639,7 +695,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Skein</b></h5>
-      0-72 (80 for 128 B)<br/>
+      72, 80<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Skein">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Skein">Test vectors</a><br/>
       <a href="#Skein">Detailed info</a><br/>
@@ -649,7 +705,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Abacus</b></h5>
-      1-280 (135)<br/>
+      280<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Abacus">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Abacus">Test vectors</a><br/>
       <a href="#Abacus">Detailed info</a><br/>
@@ -659,7 +715,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>ARIRANG</b></h5>
-      0-4 (4)<br/>
+      4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ARIRANG">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ARIRANG">Test vectors</a><br/>
       <a href="#ARIRANG">Detailed info</a><br/>
@@ -669,7 +725,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>AURORA</b></h5>
-      0-16 (17)<br/>
+      17<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/AURORA">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/AURORA">Test vectors</a><br/>
       <a href="#AURORA">Detailed info</a><br/>
@@ -679,7 +735,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Cheetah</b></h5>
-      l<=32 ? 0-15 (16) : 0-11 (12)<br/>
+      12, 16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Cheetah">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Cheetah">Test vectors</a><br/>
       <a href="#Cheetah">Detailed info</a><br/>
@@ -689,7 +745,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>CubeHash</b></h5>
-      0-x (8)<br/>
+      8<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CubeHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CubeHash">Test vectors</a><br/>
       <a href="#CubeHash">Detailed info</a><br/>
@@ -699,7 +755,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>DCH</b></h5>
-      0-x (4)<br/>
+      4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DCH">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DCH">Test vectors</a><br/>
       <a href="#DCH">Detailed info</a><br/>
@@ -709,7 +765,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>DynamicSHA</b></h5>
-      0-16 (16)<br/>
+      16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA">Test vectors</a><br/>
       <a href="#DynamicSHA">Detailed info</a><br/>
@@ -719,7 +775,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>DynamicSHA2</b></h5>
-      1-17 (17)<br/>
+      17<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA2">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA2">Test vectors</a><br/>
       <a href="#DynamicSHA2">Detailed info</a><br/>
@@ -729,7 +785,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>ECHO</b></h5>
-      1-x l<=32 ? (8) : (10)<br/>
+      8,10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ECHO">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ECHO">Test vectors</a><br/>
       <a href="#ECHO">Detailed info</a><br/>
@@ -739,7 +795,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Hamsi</b></h5>
-      0-x (l<=32 3 : 6)<br/>
+      3, 6<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Hamsi">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Hamsi">Test vectors</a><br/>
       <a href="#Hamsi">Detailed info</a><br/>
@@ -749,7 +805,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Lesamnta</b></h5>
-      0-32 (32)<br/>
+      32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lesamnta">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lesamnta">Test vectors</a><br/>
       <a href="#Lesamnta">Detailed info</a><br/>
@@ -759,7 +815,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Luffa</b></h5>
-      0-8 (8)<br/>
+      8<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Luffa">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Luffa">Test vectors</a><br/>
       <a href="#Luffa">Detailed info</a><br/>
@@ -769,7 +825,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>MD6</b></h5>
-      0-104 (104)<br/>
+      104<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MD6">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD6">Test vectors</a><br/>
       <a href="#MD6">Detailed info</a><br/>
@@ -779,7 +835,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>SIMD</b></h5>
-      0-4 (4)<br/>
+      4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SIMD">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SIMD">Test vectors</a><br/>
       <a href="#SIMD">Detailed info</a><br/>
@@ -789,7 +845,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Tangle</b></h5>
-      0-x (72, 80, 96, 112, 128, 144)<br/>
+      72, 80, 96, 112, 128, 144<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle">Test vectors</a><br/>
       <a href="#Tangle">Detailed info</a><br/>
@@ -799,7 +855,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Twister</b></h5>
-      l<=32 ? 0-9 (9) : 0-10 (10)<br/>
+      9, 10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Twister">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Twister">Test vectors</a><br/>
       <a href="#Twister">Detailed info</a><br/>
@@ -809,7 +865,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Blender</b></h5>
-      0-x (32)<br/>
+      32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blender">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blender">Test vectors</a><br/>
       <a href="#Blender">Detailed info</a><br/>
@@ -819,7 +875,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>BMW</b></h5>
-      0-16 (16)<br/>
+      16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BMW">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/BMW">Test vectors</a><br/>
       <a href="#BMW">Detailed info</a><br/>
@@ -829,7 +885,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Boole</b></h5>
-      0-x (16)<br/>
+      16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Boole">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Boole">Test vectors</a><br/>
       <a href="#Boole">Detailed info</a><br/>
@@ -839,7 +895,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>CHI</b></h5>
-      0-x (l<37.5 ? 20 : 40)<br/>
+      20, 40<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CHI">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CHI">Test vectors</a><br/>
       <a href="#CHI">Detailed info</a><br/>
@@ -849,7 +905,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>CRUNCH</b></h5>
-      0-x (224)<br/>
+      244<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CRUNCH">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CRUNCH">Test vectors</a><br/>
       <a href="#CRUNCH">Detailed info</a><br/>
@@ -869,7 +925,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>ESSENCE</b></h5>
-      8-x (32)<br/>
+      32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ESSENCE">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ESSENCE">Test vectors</a><br/>
       <a href="#ESSENCE">Detailed info</a><br/>
@@ -879,7 +935,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Fugue</b></h5>
-      ?? ( **5**,6,8,13)<br/>
+      5, 6, 8, 13<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Fugue">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Fugue">Test vectors</a><br/>
       <a href="#Fugue">Detailed info</a><br/>
@@ -899,7 +955,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>LANE</b></h5>
-      (6+3,8+4)<br/>
+      6+3, 8+4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/LANE">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/LANE">Test vectors</a><br/>
       <a href="#LANE">Detailed info</a><br/>
@@ -919,7 +975,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>MeshHash</b></h5>
-      (32)<br/>
+      32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MeshHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MeshHash">Test vectors</a><br/>
       <a href="#MeshHash">Detailed info</a><br/>
@@ -939,7 +995,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Sarmal</b></h5>
-      l<=32 ? 0-16 (16) : 0-20 (20)<br/>
+      16, 20<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Sarmal">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Sarmal">Test vectors</a><br/>
       <a href="#Sarmal">Detailed info</a><br/>
@@ -969,7 +1025,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>SHAvite3</b></h5>
-      l<=32 ? 0-11 (12) : 0-14 (14)<br/>
+      12, 14<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAvite3">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHAvite3">Test vectors</a><br/>
       <a href="#SHAvite3">Detailed info</a><br/>
@@ -999,7 +1055,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Vortex</b></h5>
-      0-15 (15)<br/>
+      15<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Vortex">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Vortex">Test vectors</a><br/>
       <a href="#Vortex">Detailed info</a><br/>
@@ -1009,7 +1065,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>WaMM</b></h5>
-      0-x (2)<br/>
+      2<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/WaMM">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/WaMM">Test vectors</a><br/>
       <a href="#WaMM">Detailed info</a><br/>
@@ -1019,7 +1075,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Waterfall</b></h5>
-      0-x (4+16)<br/>
+      4+16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Waterfall">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Waterfall">Test vectors</a><br/>
       <a href="#Waterfall">Detailed info</a><br/>
@@ -1029,12 +1085,84 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>Tangle2</b></h5>
-      ?0-x (72, 80, 96, 112, 128, 144)?<br/>
+      72, 80, 96, 112, 128, 144<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle2">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle2">Test vectors</a><br/>
       <a href="#Tangle2">Detailed info</a><br/>
     </div>
 </div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>Gost</b></h5>
+      32<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/gost">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Gost">Test vectors</a><br/>
+      <a href="#Gost">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>MD5</b></h5>
+      64<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/md5">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD5">Test vectors</a><br/>
+      <a href="#MD5">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>RIPMD160</b></h5>
+      20<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/RIPMD160">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPMD160">Test vectors</a><br/>
+      <a href="#RIPMD160">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>SHA1</b></h5>
+      80<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha1">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA1">Test vectors</a><br/>
+      <a href="#SHA1">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>SHA256</b></h5>
+      64<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHA256">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA256">Test vectors</a><br/>
+      <a href="#SHA256">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>Tiger</b></h5>
+      23<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger">Test vectors</a><br/>
+      <a href="#Tiger">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="card">
+    <div class="container">
+      <h5><b>Whirlpool</b></h5>
+      10<br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/whirlpool">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Whirlpool">Test vectors</a><br/>
+      <a href="#Whirlpool">Detailed info</a><br/>
+    </div>
+</div>
+
+<div class="empty"/></div>
 
 
 ### Detailed info
@@ -1207,6 +1335,90 @@ CryptoStreams
 |          100MB | 4         | 4        | 4       | 5        |
 |           10MB | 4         | 4        | 4       | 4        |
 
+<a name="KASUMI"/>
+##### KASUMI
+- Block size: 8
+
+- Key size: 16
+
+- Rounds: 8
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | -        |
+|           10MB | -         | -        | -       | -        |
+
+<a name="KUZNYECHIK"/>
+##### KUZNYECHIK
+- Block size: 16
+
+- Key size: 32
+
+- Rounds: 10
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | -        |
+|           10MB | -         | -        | -       | -        |
+
+<a name="MISTY1"/>
+##### MISTY1
+- Block size: 8
+
+- Key size: 16
+
+- Rounds: 4*n
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | -        |
+|           10MB | -         | -        | -       | -        |
+
+<a name="NOEKEON"/>
+##### NOEKEON
+- Block size: 16
+
+- Key size: 16
+
+- Rounds: 16
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | -        |
+|           10MB | -         | -        | -       | -        |
+
+<a name="SHACAL2"/>
+##### SHACAL2
+- Block size: 32
+
+- Key size: 16-64
+
+- Rounds: 80
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | -        |
+|           10MB | -         | -        | -       | -        |
+
+<a name="XTEA"/>
+##### XTEA
+- Block size: 8
+
+- Key size: 16
+
+- Rounds: 32
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | -        |
+|           10MB | -         | -        | -       | -        |
+
 #### Stream ciphers
 <a name="HC-128"/>
 ##### HC-128
@@ -1220,7 +1432,7 @@ CryptoStreams
 
 <a name="Rabbit"/>
 ##### Rabbit
-- Rounds: 0-4 (4) (note 2)
+- Rounds: 0-4(4) (note 2)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1230,7 +1442,7 @@ CryptoStreams
 
 <a name="Salsa20"/>
 ##### Salsa20
-- Rounds: 0-20 (20) (note 3)
+- Rounds: 0-20(20) (note 3)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1598,16 +1810,6 @@ CryptoStreams
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
 
-<a name="Trivium"/>
-##### Trivium
-- Rounds: -
-
-| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
-
 <a name="TSC-4"/>
 ##### TSC-4
 - Rounds: 1-32 (32)
@@ -1630,16 +1832,6 @@ CryptoStreams
 
 <a name="WG"/>
 ##### WG
-- Rounds: n/a
-
-| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
-
-<a name="Yamb"/>
-##### Yamb
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
@@ -2071,7 +2263,7 @@ CryptoStreams
 ##### Sarmal
 - Block size: 28, 32, 48, 64
 
-- Rounds: l<=32 ? 0-16 (16) : 0-20 (20)
+- Rounds: l<=32 ? 0-16 (16) : 0-20 (20)  ok
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2187,3 +2379,86 @@ CryptoStreams
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
 
+<a name="Gost"/>
+##### Gost
+- Block size: 32
+
+- Rounds: 0-32
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | 1         | 1        | 1       | -        |
+|          100MB | 1         | 1        | 1       | 1        |
+|           10MB | 1         | 1        | 1       | 1        |
+
+<a name="MD5"/>
+##### MD5
+- Block size: 16
+
+- Rounds: 0-64
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | 10        | 9        | 10      | -        |
+|          100MB | 10        | 9        | 9       | 11       |
+|           10MB | 10        | 9        | 10      | 11       |
+
+<a name="RIPMD160"/>
+##### RIPMD160
+- Block size: 20
+
+- Rounds: 80
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | -        |
+|           10MB | -         | -        | -       | -        |
+
+<a name="SHA1"/>
+##### SHA1
+- Block size: 20
+
+- Rounds: 80
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | 13        | 12       | 14      | -        |
+|          100MB | 12        | 12       | 13      | 12       |
+|           10MB | 12        | 12       | 12      | 12       |
+
+<a name="SHA256"/>
+##### SHA256
+- Block size: 32
+
+- Rounds: 64
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | 6         | 6        | 7       | -        |
+|          100MB | 6         | 6        | 6       | 7        |
+|           10MB | 6         | 6        | 6       | 7        |
+
+<a name="Tiger"/>
+##### Tiger
+- Block size: 24
+
+- Rounds: 23
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | -         | -        | -       | 0        |
+|           10MB | -         | -        | -       | 0        |
+
+<a name="Whirlpool"/>
+##### Whirlpool
+- Block size: 64
+
+- Rounds: 10
+
+| Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
+| --------------:| --------- | -------- | ------- | -------- |
+|            8GB | -         | -        | -       | -        |
+|          100MB | 1         | 1        | 1       | 1        |
+|           10MB | -         | -        | -       | 1        |
