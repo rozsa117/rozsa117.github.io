@@ -21,7 +21,7 @@ CryptoStreams
 .container {
     padding: 2px 16px;
 }
-}
+
 .empty {
     float: left;
     transition: 0.3s;
@@ -2264,7 +2264,7 @@ CryptoStreams
 ##### Sarmal
 - Block size: 28, 32, 48, 64
 
-- Rounds: l<=32 ? 0-16 (16) : 0-20 (20)  ok
+- Rounds: l<=32 ? 0-16 (16) : 0-20 (20)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
