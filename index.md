@@ -21,12 +21,13 @@ CryptoStreams
 .container {
     padding: 2px 16px;
 }
+}
 .empty {
     float: left;
     transition: 0.3s;
     border-radius: 15px;
     width: 25%;
-    height: 25%;
+    height: 200px;
     padding: 10px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0);
@@ -215,8 +216,8 @@ CryptoStreams
     </div>
 </div>
 
-<div class="empty"/></div>
-<div class="empty"/></div>
+<div class="empty"></div>
+<div class="empty"></div>
 
 #### Stream ciphers
 <div class="card">
@@ -649,7 +650,7 @@ CryptoStreams
     </div>
 </div>
 
-<div class="empty"/></div>
+<div class="empty"></div>
 
 #### Hash functions
 <div class="card">
@@ -1162,7 +1163,7 @@ CryptoStreams
     </div>
 </div>
 
-<div class="empty"/></div>
+<div class="empty"></div>
 
 
 ### Detailed info
@@ -2462,3 +2463,4 @@ CryptoStreams
 |            8GB | -         | -        | -       | -        |
 |          100MB | 1         | 1        | 1       | 1        |
 |           10MB | -         | -        | -       | 1        |
+
