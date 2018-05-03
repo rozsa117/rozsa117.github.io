@@ -59,7 +59,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>MARS</b></h5>
-      0-16<br/>
+      16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS">Test vectors</a><br/>
       <a href="#MARS">Detailed info</a><br/>
@@ -69,7 +69,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>RC6</b></h5>
-      0-20<br/>
+      20<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/rc6">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/RC6">Test vectors</a><br/>
       <a href="#RC6">Detailed info</a><br/>
@@ -79,7 +79,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>SERPENT</b></h5>
-      0-32<br/>
+      32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/serpent">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SERPENT">Test vectors</a><br/>
       <a href="#SERPENT">Detailed info</a><br/>
@@ -89,7 +89,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>TWOFISH</b></h5>
-      0-16<br/>
+      16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/twofish">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TWOFISH">Test vectors</a><br/>
       <a href="#TWOFISH">Detailed info</a><br/>
@@ -99,7 +99,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>SIMON</b></h5>
-      0-(32-72)<br/>
+      68<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/simon">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SIMON">Test vectors</a><br/>
       <a href="#SIMON">Detailed info</a><br/>
@@ -109,7 +109,7 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>SPECK</b></h5>
-      0-(22-34)<br/>
+      32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/speck">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SPECK">Test vectors</a><br/>
       <a href="#SPECK">Detailed info</a><br/>
@@ -225,7 +225,7 @@ CryptoStreams
       <h5><b>HC-128</b></h5>
       no<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/HC-128">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/HC-128">Test vectors</a><br/>
       <a href="#HC-128">Detailed info</a><br/>
     </div>
 </div>
@@ -235,7 +235,7 @@ CryptoStreams
       <h5><b>Rabbit</b></h5>
       4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Rabbit">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Rabbit">Test vectors</a><br/>
       <a href="#Rabbit">Detailed info</a><br/>
     </div>
 </div>
@@ -245,7 +245,7 @@ CryptoStreams
       <h5><b>Salsa20</b></h5>
       20<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Salsa20">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20">Test vectors</a><br/>
       <a href="#Salsa20">Detailed info</a><br/>
     </div>
 </div>
@@ -255,7 +255,7 @@ CryptoStreams
       <h5><b>SOSEMANUK</b></h5>
       25<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/SOSEMANUK">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SOSEMANUK">Test vectors</a><br/>
       <a href="#SOSEMANUK">Detailed info</a><br/>
     </div>
 </div>
@@ -265,7 +265,7 @@ CryptoStreams
       <h5><b>Grain</b></h5>
       13<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Grain">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain">Test vectors</a><br/>
       <a href="#Grain">Detailed info</a><br/>
     </div>
 </div>
@@ -275,7 +275,7 @@ CryptoStreams
       <h5><b>MICKEY</b></h5>
       0-8<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/MICKEY">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY">Test vectors</a><br/>
       <a href="#MICKEY">Detailed info</a><br/>
     </div>
 </div>
@@ -285,7 +285,7 @@ CryptoStreams
       <h5><b>Trivium</b></h5>
       9<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Trivium">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Trivium">Test vectors</a><br/>
       <a href="#Trivium">Detailed info</a><br/>
     </div>
 </div>
@@ -295,7 +295,7 @@ CryptoStreams
       <h5><b>F-FCSR</b></h5>
       5<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/F-FCSR">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/F-FCSR">Test vectors</a><br/>
       <a href="#F-FCSR">Detailed info</a><br/>
     </div>
 </div>
@@ -305,7 +305,7 @@ CryptoStreams
       <h5><b>RC4</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/RC4">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4">Test vectors</a><br/>
       <a href="#RC4">Detailed info</a><br/>
     </div>
 </div>
@@ -315,7 +315,7 @@ CryptoStreams
       <h5><b>Chacha</b></h5>
       20<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Chacha">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha">Test vectors</a><br/>
       <a href="#Chacha">Detailed info</a><br/>
     </div>
 </div>
@@ -325,7 +325,7 @@ CryptoStreams
       <h5><b>ABC</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/ABC">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/ABC">Test vectors</a><br/>
       <a href="#ABC">Detailed info</a><br/>
     </div>
 </div>
@@ -335,7 +335,7 @@ CryptoStreams
       <h5><b>Achterbahn</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Achterbahn">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Achterbahn">Test vectors</a><br/>
       <a href="#Achterbahn">Detailed info</a><br/>
     </div>
 </div>
@@ -345,7 +345,7 @@ CryptoStreams
       <h5><b>CryptMT</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/CryptMT">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/CryptMT">Test vectors</a><br/>
       <a href="#CryptMT">Detailed info</a><br/>
     </div>
 </div>
@@ -355,7 +355,7 @@ CryptoStreams
       <h5><b>DECIM</b></h5>
       8<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/decim">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/DECIM">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DECIM">Test vectors</a><br/>
       <a href="#DECIM">Detailed info</a><br/>
     </div>
 </div>
@@ -365,7 +365,7 @@ CryptoStreams
       <h5><b>DICING</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/DICING">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DICING">Test vectors</a><br/>
       <a href="#DICING">Detailed info</a><br/>
     </div>
 </div>
@@ -375,7 +375,7 @@ CryptoStreams
       <h5><b>Dragon</b></h5>
       16<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Dragon">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Dragon">Test vectors</a><br/>
       <a href="#Dragon">Detailed info</a><br/>
     </div>
 </div>
@@ -385,7 +385,7 @@ CryptoStreams
       <h5><b>Edon80</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Edon80">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Edon80">Test vectors</a><br/>
       <a href="#Edon80">Detailed info</a><br/>
     </div>
 </div>
@@ -395,7 +395,7 @@ CryptoStreams
       <h5><b>F-FCSR</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/F-FCSR">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/F-FCSR">Test vectors</a><br/>
       <a href="#F-FCSR">Detailed info</a><br/>
     </div>
 </div>
@@ -405,7 +405,7 @@ CryptoStreams
       <h5><b>Frogbit</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Frogbit">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Frogbit">Test vectors</a><br/>
       <a href="#Frogbit">Detailed info</a><br/>
     </div>
 </div>
@@ -415,7 +415,7 @@ CryptoStreams
       <h5><b>Fubuki</b></h5>
       4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/fubuki">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Fubuki">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Fubuki">Test vectors</a><br/>
       <a href="#Fubuki">Detailed info</a><br/>
     </div>
 </div>
@@ -425,7 +425,7 @@ CryptoStreams
       <h5><b>Grain</b></h5>
       13<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Grain">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain">Test vectors</a><br/>
       <a href="#Grain">Detailed info</a><br/>
     </div>
 </div>
@@ -435,7 +435,7 @@ CryptoStreams
       <h5><b>HC-128</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/HC-128">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/HC-128">Test vectors</a><br/>
       <a href="#HC-128">Detailed info</a><br/>
     </div>
 </div>
@@ -445,7 +445,7 @@ CryptoStreams
       <h5><b>Hermes</b></h5>
       10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hermes">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Hermes">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Hermes">Test vectors</a><br/>
       <a href="#Hermes">Detailed info</a><br/>
     </div>
 </div>
@@ -455,7 +455,7 @@ CryptoStreams
       <h5><b>LEX</b></h5>
       10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/lex">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/LEX">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/LEX">Test vectors</a><br/>
       <a href="#LEX">Detailed info</a><br/>
     </div>
 </div>
@@ -465,7 +465,7 @@ CryptoStreams
       <h5><b>MAG</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/MAG">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MAG">Test vectors</a><br/>
       <a href="#MAG">Detailed info</a><br/>
     </div>
 </div>
@@ -475,7 +475,7 @@ CryptoStreams
       <h5><b>MICKEY</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/MICKEY">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY">Test vectors</a><br/>
       <a href="#MICKEY">Detailed info</a><br/>
     </div>
 </div>
@@ -485,7 +485,7 @@ CryptoStreams
       <h5><b>Mir-1</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Mir-1">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Mir-1">Test vectors</a><br/>
       <a href="#Mir-1">Detailed info</a><br/>
     </div>
 </div>
@@ -495,7 +495,7 @@ CryptoStreams
       <h5><b>Moustique</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Moustique">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Moustique">Test vectors</a><br/>
       <a href="#Moustique">Detailed info</a><br/>
     </div>
 </div>
@@ -505,7 +505,7 @@ CryptoStreams
       <h5><b>NLS</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/NLS">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/NLS">Test vectors</a><br/>
       <a href="#NLS">Detailed info</a><br/>
     </div>
 </div>
@@ -515,7 +515,7 @@ CryptoStreams
       <h5><b>Phelix</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Phelix">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Phelix">Test vectors</a><br/>
       <a href="#Phelix">Detailed info</a><br/>
     </div>
 </div>
@@ -525,7 +525,7 @@ CryptoStreams
       <h5><b>Polar Bear</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polar bear">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Polar Bear">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Polar Bear">Test vectors</a><br/>
       <a href="#Polar Bear">Detailed info</a><br/>
     </div>
 </div>
@@ -535,7 +535,7 @@ CryptoStreams
       <h5><b>Pomaranch</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Pomaranch">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Pomaranch">Test vectors</a><br/>
       <a href="#Pomaranch">Detailed info</a><br/>
     </div>
 </div>
@@ -545,7 +545,7 @@ CryptoStreams
       <h5><b>Py</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Py">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Py">Test vectors</a><br/>
       <a href="#Py">Detailed info</a><br/>
     </div>
 </div>
@@ -555,7 +555,7 @@ CryptoStreams
       <h5><b>Rabbit</b></h5>
       4<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Rabbit">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Rabbit">Test vectors</a><br/>
       <a href="#Rabbit">Detailed info</a><br/>
     </div>
 </div>
@@ -565,7 +565,7 @@ CryptoStreams
       <h5><b>Salsa20</b></h5>
       20/12<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Salsa20">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20">Test vectors</a><br/>
       <a href="#Salsa20">Detailed info</a><br/>
     </div>
 </div>
@@ -575,7 +575,7 @@ CryptoStreams
       <h5><b>SFINKS</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/SFINKS">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SFINKS">Test vectors</a><br/>
       <a href="#SFINKS">Detailed info</a><br/>
     </div>
 </div>
@@ -585,7 +585,7 @@ CryptoStreams
       <h5><b>SOSEMANUK</b></h5>
       25<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/SOSEMANUK">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SOSEMANUK">Test vectors</a><br/>
       <a href="#SOSEMANUK">Detailed info</a><br/>
     </div>
 </div>
@@ -595,7 +595,7 @@ CryptoStreams
       <h5><b>SSS</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/SSS">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SSS">Test vectors</a><br/>
       <a href="#SSS">Detailed info</a><br/>
     </div>
 </div>
@@ -605,7 +605,7 @@ CryptoStreams
       <h5><b>TRBDK3 YAEA</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3 yaea">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/TRBDK3 YAEA">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TRBDK3 YAEA">Test vectors</a><br/>
       <a href="#TRBDK3 YAEA">Detailed info</a><br/>
     </div>
 </div>
@@ -615,7 +615,7 @@ CryptoStreams
       <h5><b>TSC-4</b></h5>
       32<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/tsc-4">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/TSC-4">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TSC-4">Test vectors</a><br/>
       <a href="#TSC-4">Detailed info</a><br/>
     </div>
 </div>
@@ -625,7 +625,7 @@ CryptoStreams
       <h5><b>VEST</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/VEST">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/VEST">Test vectors</a><br/>
       <a href="#VEST">Detailed info</a><br/>
     </div>
 </div>
@@ -635,7 +635,7 @@ CryptoStreams
       <h5><b>WG</b></h5>
       n/a<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/WG">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/WG">Test vectors</a><br/>
       <a href="#WG">Detailed info</a><br/>
     </div>
 </div>
@@ -645,7 +645,7 @@ CryptoStreams
       <h5><b>Zk-Crypt</b></h5>
       -<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_ciphers/Zk-Crypt">Test vectors</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Zk-Crypt">Test vectors</a><br/>
       <a href="#Zk-Crypt">Detailed info</a><br/>
     </div>
 </div>
@@ -655,11 +655,11 @@ CryptoStreams
 #### Hash functions
 <div class="card">
     <div class="container">
-      <h5><b>BLAKE</b></h5>
+      <h5><b>Blake</b></h5>
       14, 16<br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BLAKE">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/BLAKE">Test vectors</a><br/>
-      <a href="#BLAKE">Detailed info</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blake">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blake">Test vectors</a><br/>
+      <a href="#Blake">Detailed info</a><br/>
     </div>
 </div>
 
@@ -725,11 +725,11 @@ CryptoStreams
 
 <div class="card">
     <div class="container">
-      <h5><b>AURORA</b></h5>
+      <h5><b>Aurora</b></h5>
       17<br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/AURORA">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/AURORA">Test vectors</a><br/>
-      <a href="#AURORA">Detailed info</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Aurora">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Aurora">Test vectors</a><br/>
+      <a href="#Aurora">Detailed info</a><br/>
     </div>
 </div>
 
@@ -955,11 +955,11 @@ CryptoStreams
 
 <div class="card">
     <div class="container">
-      <h5><b>LANE</b></h5>
+      <h5><b>Lane</b></h5>
       6+3, 8+4<br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/LANE">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/LANE">Test vectors</a><br/>
-      <a href="#LANE">Detailed info</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lane">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lane">Test vectors</a><br/>
+      <a href="#Lane">Detailed info</a><br/>
     </div>
 </div>
 
@@ -1015,11 +1015,11 @@ CryptoStreams
 
 <div class="card">
     <div class="container">
-      <h5><b>SHAMATA</b></h5>
+      <h5><b>Shamata</b></h5>
       n/a<br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAMATA">Source code</a><br/>
-      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHAMATA">Test vectors</a><br/>
-      <a href="#SHAMATA">Detailed info</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata">Source code</a><br/>
+      <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Shamata">Test vectors</a><br/>
+      <a href="#Shamata">Detailed info</a><br/>
     </div>
 </div>
 
@@ -1276,7 +1276,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 8         | 7        | 9       | -        |
+|            8GB | 8         | 7        | 10      | -        |
 |          100MB | 8         | 7        | 8       | 9        |
 |           10MB | 8         | 7        | 8       | 9        |
 
@@ -1346,9 +1346,9 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+|            8GB | 2         | 2        | 3       | -        |
+|          100MB | 2         | 2        | 2       | 2        |
+|           10MB | 2         | 2        | 2       | 3        |
 
 <a name="KUZNYECHIK"/>
 ##### KUZNYECHIK
@@ -1360,9 +1360,9 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+|            8GB | 2         | 2        | 2       | -        |
+|          100MB | 2         | 2        | 2       | 2        |
+|           10MB | 2         | 2        | 2       | 3        |
 
 <a name="MISTY1"/>
 ##### MISTY1
@@ -1374,9 +1374,9 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+|            8GB | 2         | 2        | 2       | -        |
+|          100MB | 1         | 1        | 2       | 2        |
+|           10MB | 1         | 1        | 2       | 2        |
 
 <a name="NOEKEON"/>
 ##### NOEKEON
@@ -1388,9 +1388,9 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+|            8GB | 2         | 2        | 3       | -        |
+|          100MB | 2         | 2        | 3       | 3        |
+|           10MB | 2         | 2        | 2       | 3        |
 
 <a name="SHACAL2"/>
 ##### SHACAL2
@@ -1402,9 +1402,9 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+|            8GB | 9         | 9        | 10      | -        |
+|          100MB | 9         | 9        | 9       | 8        |
+|           10MB | 8         | 9        | 9       | 8        |
 
 <a name="XTEA"/>
 ##### XTEA
@@ -1416,9 +1416,9 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+|            8GB | 5         | 4        | 5       | -        |
+|          100MB | 4         | 4        | 5       | 5        |
+|           10MB | 4         | 4        | 4       | 4        |
 
 #### Stream ciphers
 <a name="HC-128"/>
@@ -1467,7 +1467,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 3       | -        |
+|            8GB | -         | -        | -       | -        |
 |          100MB | 2         | 2        | 3       | 0        |
 |           10MB | 2         | 2        | 2       | 0        |
 
@@ -1497,7 +1497,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 1         | 1        | 1       | -        |
+|            8GB | -         | -        | -       | -        |
 |          100MB | 1         | 1        | 1       | -        |
 |           10MB | 2         | 1        | 1       | -        |
 
@@ -1507,7 +1507,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 1         | -        | 1       | -        |
+|            8GB | -         | -        | -       | -        |
 |          100MB | 1         | -        | 1       | -        |
 |           10MB | -         | -        | -       | -        |
 
@@ -1517,7 +1517,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 3       | -        |
+|            8GB | -         | -        | -       | -        |
 |          100MB | 2         | 2        | 3       | -        |
 |           10MB | 2         | 2        | 3       | -        |
 
@@ -1597,7 +1597,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 1         | 1        | 1       | -        |
+|            8GB | -         | -        | -       | -        |
 |          100MB | 1         | 1        | 1       | -        |
 |           10MB | 2         | 1        | 1       | -        |
 
@@ -1627,7 +1627,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 3       | -        |
+|            8GB | -         | -        | -       | -        |
 |          100MB | 2         | 2        | 3       | 0        |
 |           10MB | 2         | 2        | 2       | 0        |
 
@@ -1852,17 +1852,17 @@ CryptoStreams
 |           10MB | -         | -        | -       | -        |
 
 #### Hash functions
-<a name="BLAKE"/>
-##### BLAKE
+<a name="Blake"/>
+##### Blake
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (l<48 ? 14 : 16)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+|            8GB | 1         | 1        | 1       | -        |
+|          100MB | -         | -        | -       | 1        |
+|           10MB | -         | -        | -       | 1        |
 
 <a name="Grostl"/>
 ##### Grostl
@@ -1936,8 +1936,8 @@ CryptoStreams
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
 
-<a name="AURORA"/>
-##### AURORA
+<a name="Aurora"/>
+##### Aurora
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-16 (17)
@@ -2212,8 +2212,8 @@ CryptoStreams
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
 
-<a name="LANE"/>
-##### LANE
+<a name="Lane"/>
+##### Lane
 - Block size: 28, 32, 48, 64
 
 - Rounds: (6+3,8+4)
@@ -2284,8 +2284,8 @@ CryptoStreams
 |          100MB | -         | -        | -       | -        |
 |           10MB | -         | -        | -       | -        |
 
-<a name="SHAMATA"/>
-##### SHAMATA
+<a name="Shamata"/>
+##### Shamata
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
@@ -2400,7 +2400,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 10        | 9        | 10      | -        |
+|            8GB | 10        | 9        | 13      | -        |
 |          100MB | 10        | 9        | 9       | 11       |
 |           10MB | 10        | 9        | 10      | 11       |
 
@@ -2424,7 +2424,7 @@ CryptoStreams
 
 | Length of data | Dieharder | NIST-STS | TestU01 | Booltest |
 | --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 13        | 12       | 14      | -        |
+|            8GB | 13        | 12       | 15      | -        |
 |          100MB | 12        | 12       | 13      | 12       |
 |           10MB | 12        | 12       | 12      | 12       |
 
