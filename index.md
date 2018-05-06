@@ -39,6 +39,10 @@ CryptoStreams
 <div class="card">
     <div class="container">
       <h5><b>AES</b></h5>
+      <svg width="100%" height="12">
+            <rect width="50%" height="12" style="fill:rgb(255,0,0)"/>
+            <rect x=50% width="50%" height="12" style="fill:rgb(0,255,0)" />
+      </svg>
       10<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES">Test vectors</a><br/>
