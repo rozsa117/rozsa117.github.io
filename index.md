@@ -67,7 +67,7 @@ CryptoStreams
     <div class="container">
       <h5><b>MARS</b></h5>
       -/16<br/>
-No results are aviable.<br/>
+No results aviable.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS">Test vectors</a><br/>
       <a href="#MARS">Detailed info</a><br/>
