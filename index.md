@@ -67,7 +67,7 @@ CryptoStreams
     <div class="container">
       <h5><b>MARS</b></h5>
       -/16<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS">Test vectors</a><br/>
       <a href="#MARS">Detailed info</a><br/>
@@ -361,7 +361,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>HC-128</b></h5>
       -/no<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/HC-128">Test vectors</a><br/>
       <a href="#HC-128">Detailed info</a><br/>
@@ -372,7 +372,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Rabbit</b></h5>
       -/4<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Rabbit">Test vectors</a><br/>
       <a href="#Rabbit">Detailed info</a><br/>
@@ -383,7 +383,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Salsa20</b></h5>
       -/20<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20">Test vectors</a><br/>
       <a href="#Salsa20">Detailed info</a><br/>
@@ -394,7 +394,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>SOSEMANUK</b></h5>
       -/25<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SOSEMANUK">Test vectors</a><br/>
       <a href="#SOSEMANUK">Detailed info</a><br/>
@@ -405,7 +405,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Grain</b></h5>
       -/13<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain">Test vectors</a><br/>
       <a href="#Grain">Detailed info</a><br/>
@@ -416,7 +416,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>MICKEY</b></h5>
       -/8<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY">Test vectors</a><br/>
       <a href="#MICKEY">Detailed info</a><br/>
@@ -427,7 +427,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Trivium</b></h5>
       -/9<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Trivium">Test vectors</a><br/>
       <a href="#Trivium">Detailed info</a><br/>
@@ -438,7 +438,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>F-FCSR</b></h5>
       -/5<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/F-FCSR">Test vectors</a><br/>
       <a href="#F-FCSR">Detailed info</a><br/>
@@ -449,7 +449,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>RC4</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4">Test vectors</a><br/>
       <a href="#RC4">Detailed info</a><br/>
@@ -460,7 +460,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Chacha</b></h5>
       -/20<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha">Test vectors</a><br/>
       <a href="#Chacha">Detailed info</a><br/>
@@ -471,7 +471,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>ABC</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/ABC">Test vectors</a><br/>
       <a href="#ABC">Detailed info</a><br/>
@@ -482,7 +482,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Achterbahn</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Achterbahn">Test vectors</a><br/>
       <a href="#Achterbahn">Detailed info</a><br/>
@@ -493,7 +493,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>CryptMT</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/CryptMT">Test vectors</a><br/>
       <a href="#CryptMT">Detailed info</a><br/>
@@ -504,7 +504,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>DECIM</b></h5>
       -/8<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/decim">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DECIM">Test vectors</a><br/>
       <a href="#DECIM">Detailed info</a><br/>
@@ -515,7 +515,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>DICING</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DICING">Test vectors</a><br/>
       <a href="#DICING">Detailed info</a><br/>
@@ -526,7 +526,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Dragon</b></h5>
       -/16<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Dragon">Test vectors</a><br/>
       <a href="#Dragon">Detailed info</a><br/>
@@ -537,7 +537,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Edon80</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Edon80">Test vectors</a><br/>
       <a href="#Edon80">Detailed info</a><br/>
@@ -548,7 +548,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>F-FCSR</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/F-FCSR">Test vectors</a><br/>
       <a href="#F-FCSR">Detailed info</a><br/>
@@ -559,7 +559,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Frogbit</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Frogbit">Test vectors</a><br/>
       <a href="#Frogbit">Detailed info</a><br/>
@@ -570,7 +570,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Fubuki</b></h5>
       -/4<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/fubuki">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Fubuki">Test vectors</a><br/>
       <a href="#Fubuki">Detailed info</a><br/>
@@ -581,7 +581,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Grain</b></h5>
       -/13<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain">Test vectors</a><br/>
       <a href="#Grain">Detailed info</a><br/>
@@ -592,7 +592,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Hermes</b></h5>
       -/10<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hermes">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Hermes">Test vectors</a><br/>
       <a href="#Hermes">Detailed info</a><br/>
@@ -603,7 +603,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>LEX</b></h5>
       -/10<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/lex">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/LEX">Test vectors</a><br/>
       <a href="#LEX">Detailed info</a><br/>
@@ -614,7 +614,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>MAG</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MAG">Test vectors</a><br/>
       <a href="#MAG">Detailed info</a><br/>
@@ -625,7 +625,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>MICKEY</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY">Test vectors</a><br/>
       <a href="#MICKEY">Detailed info</a><br/>
@@ -636,7 +636,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Mir-1</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Mir-1">Test vectors</a><br/>
       <a href="#Mir-1">Detailed info</a><br/>
@@ -647,7 +647,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Moustique</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Moustique">Test vectors</a><br/>
       <a href="#Moustique">Detailed info</a><br/>
@@ -658,7 +658,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>NLS</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/NLS">Test vectors</a><br/>
       <a href="#NLS">Detailed info</a><br/>
@@ -669,7 +669,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Phelix</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Phelix">Test vectors</a><br/>
       <a href="#Phelix">Detailed info</a><br/>
@@ -680,7 +680,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Polar Bear</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polar bear">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Polar Bear">Test vectors</a><br/>
       <a href="#Polar Bear">Detailed info</a><br/>
@@ -691,7 +691,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Pomaranch</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Pomaranch">Test vectors</a><br/>
       <a href="#Pomaranch">Detailed info</a><br/>
@@ -702,7 +702,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Py</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Py">Test vectors</a><br/>
       <a href="#Py">Detailed info</a><br/>
@@ -713,7 +713,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Rabbit</b></h5>
       -/4<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Rabbit">Test vectors</a><br/>
       <a href="#Rabbit">Detailed info</a><br/>
@@ -724,7 +724,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Salsa20</b></h5>
       -/20<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20">Test vectors</a><br/>
       <a href="#Salsa20">Detailed info</a><br/>
@@ -735,7 +735,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>SFINKS</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SFINKS">Test vectors</a><br/>
       <a href="#SFINKS">Detailed info</a><br/>
@@ -746,7 +746,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>SOSEMANUK</b></h5>
       -/25<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SOSEMANUK">Test vectors</a><br/>
       <a href="#SOSEMANUK">Detailed info</a><br/>
@@ -757,7 +757,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>SSS</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SSS">Test vectors</a><br/>
       <a href="#SSS">Detailed info</a><br/>
@@ -768,7 +768,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>TRBDK3 YAEA</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3 yaea">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TRBDK3 YAEA">Test vectors</a><br/>
       <a href="#TRBDK3 YAEA">Detailed info</a><br/>
@@ -779,7 +779,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>TSC-4</b></h5>
       -/32<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/tsc-4">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TSC-4">Test vectors</a><br/>
       <a href="#TSC-4">Detailed info</a><br/>
@@ -790,7 +790,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>VEST</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/VEST">Test vectors</a><br/>
       <a href="#VEST">Detailed info</a><br/>
@@ -801,7 +801,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>WG</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/WG">Test vectors</a><br/>
       <a href="#WG">Detailed info</a><br/>
@@ -812,7 +812,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Zk-Crypt</b></h5>
       -/-<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Zk-Crypt">Test vectors</a><br/>
       <a href="#Zk-Crypt">Detailed info</a><br/>
@@ -897,7 +897,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Abacus</b></h5>
       -/280<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Abacus">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Abacus">Test vectors</a><br/>
       <a href="#Abacus">Detailed info</a><br/>
@@ -908,7 +908,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>ARIRANG</b></h5>
       -/4<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ARIRANG">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ARIRANG">Test vectors</a><br/>
       <a href="#ARIRANG">Detailed info</a><br/>
@@ -919,7 +919,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Aurora</b></h5>
       -/17<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Aurora">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Aurora">Test vectors</a><br/>
       <a href="#Aurora">Detailed info</a><br/>
@@ -930,7 +930,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Cheetah</b></h5>
       -/16<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Cheetah">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Cheetah">Test vectors</a><br/>
       <a href="#Cheetah">Detailed info</a><br/>
@@ -941,7 +941,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>CubeHash</b></h5>
       -/8<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CubeHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CubeHash">Test vectors</a><br/>
       <a href="#CubeHash">Detailed info</a><br/>
@@ -952,7 +952,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>DCH</b></h5>
       -/4<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DCH">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DCH">Test vectors</a><br/>
       <a href="#DCH">Detailed info</a><br/>
@@ -963,7 +963,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>DynamicSHA</b></h5>
       -/16<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA">Test vectors</a><br/>
       <a href="#DynamicSHA">Detailed info</a><br/>
@@ -974,7 +974,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>DynamicSHA2</b></h5>
       -/17<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA2">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA2">Test vectors</a><br/>
       <a href="#DynamicSHA2">Detailed info</a><br/>
@@ -985,7 +985,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>ECHO</b></h5>
       -/8<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ECHO">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ECHO">Test vectors</a><br/>
       <a href="#ECHO">Detailed info</a><br/>
@@ -996,7 +996,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Hamsi</b></h5>
       -/3<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Hamsi">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Hamsi">Test vectors</a><br/>
       <a href="#Hamsi">Detailed info</a><br/>
@@ -1007,7 +1007,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Lesamnta</b></h5>
       -/32<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lesamnta">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lesamnta">Test vectors</a><br/>
       <a href="#Lesamnta">Detailed info</a><br/>
@@ -1018,7 +1018,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Luffa</b></h5>
       -/8<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Luffa">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Luffa">Test vectors</a><br/>
       <a href="#Luffa">Detailed info</a><br/>
@@ -1043,7 +1043,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>SIMD</b></h5>
       -/4<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SIMD">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SIMD">Test vectors</a><br/>
       <a href="#SIMD">Detailed info</a><br/>
@@ -1054,7 +1054,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Tangle</b></h5>
       -/80<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle">Test vectors</a><br/>
       <a href="#Tangle">Detailed info</a><br/>
@@ -1065,7 +1065,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Twister</b></h5>
       -/9<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Twister">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Twister">Test vectors</a><br/>
       <a href="#Twister">Detailed info</a><br/>
@@ -1076,7 +1076,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Blender</b></h5>
       -/32<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blender">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blender">Test vectors</a><br/>
       <a href="#Blender">Detailed info</a><br/>
@@ -1087,7 +1087,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>BMW</b></h5>
       -/16<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BMW">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/BMW">Test vectors</a><br/>
       <a href="#BMW">Detailed info</a><br/>
@@ -1098,7 +1098,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Boole</b></h5>
       -/16<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Boole">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Boole">Test vectors</a><br/>
       <a href="#Boole">Detailed info</a><br/>
@@ -1109,7 +1109,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>CHI</b></h5>
       -/20<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CHI">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CHI">Test vectors</a><br/>
       <a href="#CHI">Detailed info</a><br/>
@@ -1120,7 +1120,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>CRUNCH</b></h5>
       -/244<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CRUNCH">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CRUNCH">Test vectors</a><br/>
       <a href="#CRUNCH">Detailed info</a><br/>
@@ -1131,7 +1131,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>EDON</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/EDON">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/EDON">Test vectors</a><br/>
       <a href="#EDON">Detailed info</a><br/>
@@ -1142,7 +1142,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>ESSENCE</b></h5>
       -/32<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ESSENCE">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ESSENCE">Test vectors</a><br/>
       <a href="#ESSENCE">Detailed info</a><br/>
@@ -1153,7 +1153,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Fugue</b></h5>
       -/5<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Fugue">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Fugue">Test vectors</a><br/>
       <a href="#Fugue">Detailed info</a><br/>
@@ -1164,7 +1164,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Khichidi</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Khichidi">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Khichidi">Test vectors</a><br/>
       <a href="#Khichidi">Detailed info</a><br/>
@@ -1175,7 +1175,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Lane</b></h5>
       -/9<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lane">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lane">Test vectors</a><br/>
       <a href="#Lane">Detailed info</a><br/>
@@ -1186,7 +1186,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>MCSSHA3</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MCSSHA3">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MCSSHA3">Test vectors</a><br/>
       <a href="#MCSSHA3">Detailed info</a><br/>
@@ -1197,7 +1197,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>MeshHash</b></h5>
       -/32<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MeshHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MeshHash">Test vectors</a><br/>
       <a href="#MeshHash">Detailed info</a><br/>
@@ -1208,7 +1208,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>NaSHA</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/NaSHA">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/NaSHA">Test vectors</a><br/>
       <a href="#NaSHA">Detailed info</a><br/>
@@ -1219,7 +1219,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Sarmal</b></h5>
       -/16<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Sarmal">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Sarmal">Test vectors</a><br/>
       <a href="#Sarmal">Detailed info</a><br/>
@@ -1230,7 +1230,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Shabal</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shabal">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Shabal">Test vectors</a><br/>
       <a href="#Shabal">Detailed info</a><br/>
@@ -1241,7 +1241,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Shamata</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Shamata">Test vectors</a><br/>
       <a href="#Shamata">Detailed info</a><br/>
@@ -1252,7 +1252,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>SHAvite3</b></h5>
       -/12<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAvite3">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHAvite3">Test vectors</a><br/>
       <a href="#SHAvite3">Detailed info</a><br/>
@@ -1263,7 +1263,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>SpectralHash</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SpectralHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SpectralHash">Test vectors</a><br/>
       <a href="#SpectralHash">Detailed info</a><br/>
@@ -1274,7 +1274,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>StreamHash</b></h5>
       -/n/a<br/>
-No results available.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/StreamHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/StreamHash">Test vectors</a><br/>
       <a href="#StreamHash">Detailed info</a><br/>
@@ -1285,7 +1285,7 @@ No results available.<br/>
     <div class="container">
       <h5><b>Vortex</b></h5>
       -/15<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Vortex">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Vortex">Test vectors</a><br/>
       <a href="#Vortex">Detailed info</a><br/>
@@ -1296,7 +1296,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>WaMM</b></h5>
       -/2<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/WaMM">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/WaMM">Test vectors</a><br/>
       <a href="#WaMM">Detailed info</a><br/>
@@ -1307,7 +1307,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Waterfall</b></h5>
       -/20<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Waterfall">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Waterfall">Test vectors</a><br/>
       <a href="#Waterfall">Detailed info</a><br/>
@@ -1318,7 +1318,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Tangle2</b></h5>
       -/80<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle2">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle2">Test vectors</a><br/>
       <a href="#Tangle2">Detailed info</a><br/>
@@ -1357,7 +1357,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>RIPMD160</b></h5>
       -/80<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/RIPMD160">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPMD160">Test vectors</a><br/>
       <a href="#RIPMD160">Detailed info</a><br/>
@@ -1396,7 +1396,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Tiger</b></h5>
       -/23<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger">Test vectors</a><br/>
       <a href="#Tiger">Detailed info</a><br/>
@@ -1407,7 +1407,7 @@ No results aviable.<br/>
     <div class="container">
       <h5><b>Whirlpool</b></h5>
       -/10<br/>
-No results aviable.<br/>
+No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/whirlpool">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Whirlpool">Test vectors</a><br/>
       <a href="#Whirlpool">Detailed info</a><br/>
