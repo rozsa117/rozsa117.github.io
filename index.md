@@ -11,11 +11,11 @@ CryptoStreams
     height: 25%;
     padding: 10px;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .card:hover {
-    box-shadow: 0 0 20px rgba(0,255,255,0.3);
+    box-shadow: 0 0 20px rgba(0,0,255,0.5);
 }
 
 .container {
