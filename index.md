@@ -11,8 +11,7 @@ CryptoStreams
     height: 25%;
     padding: 10px;
     margin: auto;
-    background-color: rgba(0, 0, 0, 0.2);
-}
+    background-color: rgba(0, 0, 0, 0.2);}
 
 .card:hover {
     box-shadow: 0 0 25px rgba(0,0,255,1);
@@ -362,7 +361,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>HC-128</b></h5>
       -/no<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/HC-128">Test vectors</a><br/>
       <a href="#HC-128">Detailed info</a><br/>
@@ -450,7 +449,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>RC4</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4">Test vectors</a><br/>
       <a href="#RC4">Detailed info</a><br/>
@@ -472,7 +471,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>ABC</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/ABC">Test vectors</a><br/>
       <a href="#ABC">Detailed info</a><br/>
@@ -483,7 +482,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Achterbahn</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Achterbahn">Test vectors</a><br/>
       <a href="#Achterbahn">Detailed info</a><br/>
@@ -494,7 +493,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>CryptMT</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/CryptMT">Test vectors</a><br/>
       <a href="#CryptMT">Detailed info</a><br/>
@@ -516,7 +515,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>DICING</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DICING">Test vectors</a><br/>
       <a href="#DICING">Detailed info</a><br/>
@@ -538,7 +537,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Edon80</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Edon80">Test vectors</a><br/>
       <a href="#Edon80">Detailed info</a><br/>
@@ -549,7 +548,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>F-FCSR</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/F-FCSR">Test vectors</a><br/>
       <a href="#F-FCSR">Detailed info</a><br/>
@@ -560,7 +559,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Frogbit</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Frogbit">Test vectors</a><br/>
       <a href="#Frogbit">Detailed info</a><br/>
@@ -615,7 +614,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>MAG</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MAG">Test vectors</a><br/>
       <a href="#MAG">Detailed info</a><br/>
@@ -626,7 +625,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>MICKEY</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY">Test vectors</a><br/>
       <a href="#MICKEY">Detailed info</a><br/>
@@ -637,7 +636,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Mir-1</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Mir-1">Test vectors</a><br/>
       <a href="#Mir-1">Detailed info</a><br/>
@@ -648,7 +647,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Moustique</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Moustique">Test vectors</a><br/>
       <a href="#Moustique">Detailed info</a><br/>
@@ -659,7 +658,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>NLS</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/NLS">Test vectors</a><br/>
       <a href="#NLS">Detailed info</a><br/>
@@ -670,7 +669,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Phelix</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Phelix">Test vectors</a><br/>
       <a href="#Phelix">Detailed info</a><br/>
@@ -681,7 +680,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Polar Bear</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polar bear">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Polar Bear">Test vectors</a><br/>
       <a href="#Polar Bear">Detailed info</a><br/>
@@ -692,7 +691,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Pomaranch</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Pomaranch">Test vectors</a><br/>
       <a href="#Pomaranch">Detailed info</a><br/>
@@ -703,7 +702,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Py</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Py">Test vectors</a><br/>
       <a href="#Py">Detailed info</a><br/>
@@ -736,7 +735,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>SFINKS</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SFINKS">Test vectors</a><br/>
       <a href="#SFINKS">Detailed info</a><br/>
@@ -758,7 +757,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>SSS</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/SSS">Test vectors</a><br/>
       <a href="#SSS">Detailed info</a><br/>
@@ -769,7 +768,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>TRBDK3 YAEA</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3 yaea">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TRBDK3 YAEA">Test vectors</a><br/>
       <a href="#TRBDK3 YAEA">Detailed info</a><br/>
@@ -791,7 +790,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>VEST</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/VEST">Test vectors</a><br/>
       <a href="#VEST">Detailed info</a><br/>
@@ -802,7 +801,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>WG</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/WG">Test vectors</a><br/>
       <a href="#WG">Detailed info</a><br/>
@@ -813,7 +812,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Zk-Crypt</b></h5>
       -/-<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Zk-Crypt">Test vectors</a><br/>
       <a href="#Zk-Crypt">Detailed info</a><br/>
@@ -1132,7 +1131,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>EDON</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/EDON">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/EDON">Test vectors</a><br/>
       <a href="#EDON">Detailed info</a><br/>
@@ -1165,7 +1164,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Khichidi</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Khichidi">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Khichidi">Test vectors</a><br/>
       <a href="#Khichidi">Detailed info</a><br/>
@@ -1187,7 +1186,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>MCSSHA3</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MCSSHA3">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MCSSHA3">Test vectors</a><br/>
       <a href="#MCSSHA3">Detailed info</a><br/>
@@ -1209,7 +1208,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>NaSHA</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/NaSHA">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/NaSHA">Test vectors</a><br/>
       <a href="#NaSHA">Detailed info</a><br/>
@@ -1231,7 +1230,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Shabal</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shabal">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Shabal">Test vectors</a><br/>
       <a href="#Shabal">Detailed info</a><br/>
@@ -1242,7 +1241,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>Shamata</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Shamata">Test vectors</a><br/>
       <a href="#Shamata">Detailed info</a><br/>
@@ -1264,7 +1263,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>SpectralHash</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SpectralHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SpectralHash">Test vectors</a><br/>
       <a href="#SpectralHash">Detailed info</a><br/>
@@ -1275,7 +1274,7 @@ No results are aviable.<br/>
     <div class="container">
       <h5><b>StreamHash</b></h5>
       -/n/a<br/>
-No results are aviable.<br/>
+No results available.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/StreamHash">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/StreamHash">Test vectors</a><br/>
       <a href="#StreamHash">Detailed info</a><br/>
@@ -1746,7 +1745,9 @@ No results are aviable.<br/>
 <a name="HC-128"/>
 ##### HC-128
 - Rounds: no (note 1)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1756,7 +1757,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Rabbit"/>
 ##### Rabbit
 - Rounds: 0-4(4) (note 2)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1766,7 +1769,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Salsa20"/>
 ##### Salsa20
 - Rounds: 0-20(20) (note 3)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1776,7 +1781,9 @@ Unfortunatelly, no test results are avaible.
 <a name="SOSEMANUK"/>
 ##### SOSEMANUK
 - Rounds: 0-25 (25) (note 4)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1796,7 +1803,9 @@ Unfortunatelly, no test results are avaible.
 <a name="MICKEY"/>
 ##### MICKEY
 - Rounds: 0-8
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1806,7 +1815,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Trivium"/>
 ##### Trivium
 - Rounds: 0-9 (9)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1846,7 +1857,9 @@ Unfortunatelly, no test results are avaible.
 <a name="ABC"/>
 ##### ABC
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1856,7 +1869,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Achterbahn"/>
 ##### Achterbahn
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1866,7 +1881,9 @@ Unfortunatelly, no test results are avaible.
 <a name="CryptMT"/>
 ##### CryptMT
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1876,7 +1893,9 @@ Unfortunatelly, no test results are avaible.
 <a name="DECIM"/>
 ##### DECIM
 - Rounds: 1-8 (8)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1886,7 +1905,9 @@ Unfortunatelly, no test results are avaible.
 <a name="DICING"/>
 ##### DICING
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1896,7 +1917,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Dragon"/>
 ##### Dragon
 - Rounds: 0-16 `DRAGON_MIXING_STAGES`
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1906,7 +1929,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Edon80"/>
 ##### Edon80
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1926,7 +1951,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Frogbit"/>
 ##### Frogbit
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1936,7 +1963,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Fubuki"/>
 ##### Fubuki
 - Rounds: 1-32 (4)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1956,7 +1985,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Hermes"/>
 ##### Hermes
 - Rounds: 1-13 (10)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1966,7 +1997,9 @@ Unfortunatelly, no test results are avaible.
 <a name="LEX"/>
 ##### LEX
 - Rounds: 1-10 (10)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1976,7 +2009,9 @@ Unfortunatelly, no test results are avaible.
 <a name="MAG"/>
 ##### MAG
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1986,7 +2021,9 @@ Unfortunatelly, no test results are avaible.
 <a name="MICKEY"/>
 ##### MICKEY
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -1996,7 +2033,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Mir-1"/>
 ##### Mir-1
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2006,7 +2045,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Moustique"/>
 ##### Moustique
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2016,7 +2057,9 @@ Unfortunatelly, no test results are avaible.
 <a name="NLS"/>
 ##### NLS
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2026,7 +2069,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Phelix"/>
 ##### Phelix
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2036,7 +2081,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Polar Bear"/>
 ##### Polar Bear
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2046,7 +2093,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Pomaranch"/>
 ##### Pomaranch
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2056,7 +2105,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Py"/>
 ##### Py
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2066,7 +2117,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Rabbit"/>
 ##### Rabbit
 - Rounds: 1-4 (4) iterations of keystream preparation
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2076,7 +2129,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Salsa20"/>
 ##### Salsa20
 - Rounds: 1-20 (20/12)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2086,7 +2141,9 @@ Unfortunatelly, no test results are avaible.
 <a name="SFINKS"/>
 ##### SFINKS
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2096,7 +2153,9 @@ Unfortunatelly, no test results are avaible.
 <a name="SOSEMANUK"/>
 ##### SOSEMANUK
 - Rounds: 1-25 (25)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2106,7 +2165,9 @@ Unfortunatelly, no test results are avaible.
 <a name="SSS"/>
 ##### SSS
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2116,7 +2177,9 @@ Unfortunatelly, no test results are avaible.
 <a name="TRBDK3 YAEA"/>
 ##### TRBDK3 YAEA
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2126,7 +2189,9 @@ Unfortunatelly, no test results are avaible.
 <a name="TSC-4"/>
 ##### TSC-4
 - Rounds: 1-32 (32)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2136,7 +2201,9 @@ Unfortunatelly, no test results are avaible.
 <a name="VEST"/>
 ##### VEST
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2146,7 +2213,9 @@ Unfortunatelly, no test results are avaible.
 <a name="WG"/>
 ##### WG
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2156,7 +2225,9 @@ Unfortunatelly, no test results are avaible.
 <a name="Zk-Crypt"/>
 ##### Zk-Crypt
 - Rounds: -
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2229,7 +2300,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 1-x (?)
 
 - Rounds: 1-280 (135)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2241,7 +2314,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-4 (4)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2253,7 +2328,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-16 (17)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2265,7 +2342,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: l<=32 ? 0-15 (16) : 0-11 (12)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2277,7 +2356,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 8-512, divisible by 8
 
 - Rounds: 0-x (8)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2289,7 +2370,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (4)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2301,7 +2384,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-16 (16)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2313,7 +2398,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 1-17 (17)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2325,7 +2412,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 1-x
 
 - Rounds: 1-x l<=32 ? (8) : (10)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2337,7 +2426,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (l<=32 3 : 6)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2349,7 +2440,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-32 (32)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2361,7 +2454,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-8 (8)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2385,7 +2480,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 1-64
 
 - Rounds: 0-4 (4)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2397,7 +2494,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64, 96, 128
 
 - Rounds: 0-x (72, 80, 96, 112, 128, 144)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2409,7 +2508,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 4-64 (divisible by 4)
 
 - Rounds: l<=32 ? 0-9 (9) : 0-10 (10)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2421,7 +2522,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: any divsible by 2
 
 - Rounds: 0-x (32)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2433,7 +2536,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-16 (16)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2445,7 +2550,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 1-64
 
 - Rounds: 0-x (16)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2457,7 +2564,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (l<37.5 ? 20 : 40)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2469,7 +2578,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-x (224)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2481,7 +2592,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2493,7 +2606,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 16-64
 
 - Rounds: 8-x (32)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2505,7 +2620,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 1-x (?)
 
 - Rounds: ?? ( **5**,6,8,13)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2517,7 +2634,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2529,7 +2648,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: (6+3,8+4)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2541,7 +2662,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2553,7 +2676,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 1-4095
 
 - Rounds: (32)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2565,7 +2690,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2577,7 +2704,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: l<=32 ? 0-16 (16) : 0-20 (20)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2589,7 +2718,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 24, 28, 32, 48, 64
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2601,7 +2732,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2613,7 +2746,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: l<=32 ? 0-11 (12) : 0-14 (14)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2625,7 +2760,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 16-64 (divisible by 4)
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2637,7 +2774,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: n/a
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2649,7 +2788,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 28, 32, 48, 64
 
 - Rounds: 0-15 (15)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2661,7 +2802,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 24-256 (divisible by 5)
 
 - Rounds: 0-x (2)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2673,7 +2816,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 1-64 (divisible by 5)
 
 - Rounds: 0-x (4+16)
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2685,7 +2830,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: ?28, 32, 48, 64, 96, 128?
 
 - Rounds: ?0-x (72, 80, 96, 112, 128, 144)?
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2721,7 +2868,9 @@ Unfortunatelly, no test results are avaible.
 - Block size: 20
 
 - Rounds: 80
+
 Unfortunatelly, no test results are avaible.
+
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
 |            8GB | -         | -        | -       | -        |
@@ -2775,3 +2924,4 @@ Unfortunatelly, no test results are avaible.
 |            8GB | -         | -        | -       | -        |
 |          100MB | 1         | 1        | 1       | 1        |
 |           10MB | -         | -        | -       | 1        |
+
