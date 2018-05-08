@@ -41,7 +41,7 @@ CryptoStreams
       <h5><b>AES</b></h5>
       3/10<br/>
         <svg width="100%" height="12">
-              <rect width="30.0%" height="12" style="fill:rgb(255,0,0)"/>
+              <rect width="30.0%" height="12" style="fill:rgb(50,205,50)"/>
               <rect x="30.0%" width="70.0%" height="12" style="fill:rgb(0,255,0)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes">Source code</a><br/>
