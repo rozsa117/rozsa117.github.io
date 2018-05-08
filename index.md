@@ -1426,10 +1426,10 @@ No test results.<br/>
 - Rounds: 10
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 3         | 3        | 3       | -        |
-|          100MB | 3         | 3        | 3       | 3        |
-|           10MB | 3         | 3        | 3       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     3     |    3     |    3    |    -     |
+|          100MB |     3     |    3     |    3    |    3     |
+|           10MB |     3     |    3     |    3    |    3     |
 
 <a name="BLOWFISH"/>
 ##### BLOWFISH
@@ -1440,10 +1440,10 @@ No test results.<br/>
 - Rounds: 16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 2       | -        |
-|          100MB | 2         | 2        | 2       | 2        |
-|           10MB | 3         | 1        | 2       | 2        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    2    |    -     |
+|          100MB |     2     |    2     |    2    |    2     |
+|           10MB |     3     |    1     |    2    |    2     |
 
 <a name="MARS"/>
 ##### MARS
@@ -1454,10 +1454,10 @@ No test results.<br/>
 - Rounds: 0-16 (8 always used)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | 0        |
-|           10MB | -         | -        | -       | 0        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    0     |
+|           10MB |     -     |    -     |    -    |    0     |
 
 <a name="RC6"/>
 ##### RC6
@@ -1468,10 +1468,10 @@ No test results.<br/>
 - Rounds: 0-20
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 4         | 4        | 4       | -        |
-|          100MB | 4         | 4        | 4       | 5        |
-|           10MB | 4         | 4        | 4       | 4        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     4     |    4     |    4    |    -     |
+|          100MB |     4     |    4     |    4    |    5     |
+|           10MB |     4     |    4     |    4    |    4     |
 
 <a name="SERPENT"/>
 ##### SERPENT
@@ -1482,10 +1482,10 @@ No test results.<br/>
 - Rounds: 0-32
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 3         | 3        | 3       | -        |
-|          100MB | 3         | 3        | 3       | 3        |
-|           10MB | 3         | 3        | 3       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     3     |    3     |    3    |    -     |
+|          100MB |     3     |    3     |    3    |    3     |
+|           10MB |     3     |    3     |    3    |    3     |
 
 <a name="TWOFISH"/>
 ##### TWOFISH
@@ -1496,10 +1496,10 @@ No test results.<br/>
 - Rounds: 0-16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 2       | -        |
-|          100MB | 2         | 2        | 2       | 2        |
-|           10MB | 2         | 2        | 2       | 2        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    2    |    -     |
+|          100MB |     2     |    2     |    2    |    2     |
+|           10MB |     2     |    2     |    2    |    2     |
 
 <a name="SIMON"/>
 ##### SIMON
@@ -1510,10 +1510,10 @@ No test results.<br/>
 - Rounds: 0-(32-72)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 16        | 16       | 17      | -        |
-|          100MB | 15        | 16       | 16      | 18       |
-|           10MB | 13        | 15       | 16      | 17       |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |    16     |    16    |   17    |    -     |
+|          100MB |    15     |    16    |   16    |    18    |
+|           10MB |    13     |    15    |   16    |    17    |
 
 <a name="SPECK"/>
 ##### SPECK
@@ -1524,10 +1524,10 @@ No test results.<br/>
 - Rounds: 0-(22-34)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 8         | 7        | 10      | -        |
-|          100MB | 8         | 7        | 8       | 9        |
-|           10MB | 8         | 7        | 8       | 9        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     8     |    7     |   10    |    -     |
+|          100MB |     8     |    7     |    8    |    9     |
+|           10MB |     8     |    7     |    8    |    9     |
 
 <a name="GOST"/>
 ##### GOST
@@ -1538,10 +1538,10 @@ No test results.<br/>
 - Rounds: 32
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 8         | 8        | 9       | -        |
-|          100MB | 7         | 8        | 8       | 10       |
-|           10MB | 7         | 7        | 8       | 10       |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     8     |    8     |    9    |    -     |
+|          100MB |     7     |    8     |    8    |    10    |
+|           10MB |     7     |    7     |    8    |    10    |
 
 <a name="SINGLE-DES"/>
 ##### SINGLE-DES
@@ -1552,10 +1552,10 @@ No test results.<br/>
 - Rounds: 16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 5         | 4        | 5       | -        |
-|          100MB | 4         | 4        | 4       | 5        |
-|           10MB | 4         | 4        | 5       | 4        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     5     |    4     |    5    |    -     |
+|          100MB |     4     |    4     |    4    |    5     |
+|           10MB |     4     |    4     |    5    |    4     |
 
 <a name="TRIPLE-DES"/>
 ##### TRIPLE-DES
@@ -1566,10 +1566,10 @@ No test results.<br/>
 - Rounds: 16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 3         | 2        | 3       | -        |
-|          100MB | 2         | 2        | 2       | 3        |
-|           10MB | 2         | 2        | 2       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     3     |    2     |    3    |    -     |
+|          100MB |     2     |    2     |    2    |    3     |
+|           10MB |     2     |    2     |    2    |    3     |
 
 <a name="TEA"/>
 ##### TEA
@@ -1580,10 +1580,10 @@ No test results.<br/>
 - Rounds: 32
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 4         | 4        | 5       | -        |
-|          100MB | 4         | 4        | 4       | 5        |
-|           10MB | 4         | 4        | 4       | 4        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     4     |    4     |    5    |    -     |
+|          100MB |     4     |    4     |    4    |    5     |
+|           10MB |     4     |    4     |    4    |    4     |
 
 <a name="KASUMI"/>
 ##### KASUMI
@@ -1594,10 +1594,10 @@ No test results.<br/>
 - Rounds: 8
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 3       | -        |
-|          100MB | 2         | 2        | 2       | 2        |
-|           10MB | 2         | 2        | 2       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    3    |    -     |
+|          100MB |     2     |    2     |    2    |    2     |
+|           10MB |     2     |    2     |    2    |    3     |
 
 <a name="KUZNYECHIK"/>
 ##### KUZNYECHIK
@@ -1608,10 +1608,10 @@ No test results.<br/>
 - Rounds: 10
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 2       | -        |
-|          100MB | 2         | 2        | 2       | 2        |
-|           10MB | 2         | 2        | 2       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    2    |    -     |
+|          100MB |     2     |    2     |    2    |    2     |
+|           10MB |     2     |    2     |    2    |    3     |
 
 <a name="MISTY1"/>
 ##### MISTY1
@@ -1622,10 +1622,10 @@ No test results.<br/>
 - Rounds: 4*n
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 2       | -        |
-|          100MB | 1         | 1        | 2       | 2        |
-|           10MB | 1         | 1        | 2       | 2        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    2    |    -     |
+|          100MB |     1     |    1     |    2    |    2     |
+|           10MB |     1     |    1     |    2    |    2     |
 
 <a name="NOEKEON"/>
 ##### NOEKEON
@@ -1636,10 +1636,10 @@ No test results.<br/>
 - Rounds: 16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 3       | -        |
-|          100MB | 2         | 2        | 3       | 3        |
-|           10MB | 2         | 2        | 2       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    3    |    -     |
+|          100MB |     2     |    2     |    3    |    3     |
+|           10MB |     2     |    2     |    2    |    3     |
 
 <a name="SHACAL2"/>
 ##### SHACAL2
@@ -1650,10 +1650,10 @@ No test results.<br/>
 - Rounds: 80
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 9         | 9        | 10      | -        |
-|          100MB | 9         | 9        | 9       | 8        |
-|           10MB | 8         | 9        | 9       | 8        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     9     |    9     |   10    |    -     |
+|          100MB |     9     |    9     |    9    |    8     |
+|           10MB |     8     |    9     |    9    |    8     |
 
 <a name="XTEA"/>
 ##### XTEA
@@ -1664,10 +1664,10 @@ No test results.<br/>
 - Rounds: 32
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 5         | 4        | 5       | -        |
-|          100MB | 4         | 4        | 5       | 5        |
-|           10MB | 4         | 4        | 4       | 4        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     5     |    4     |    5    |    -     |
+|          100MB |     4     |    4     |    5    |    5     |
+|           10MB |     4     |    4     |    4    |    4     |
 
 <a name="ARIA"/>
 ##### ARIA
@@ -1678,10 +1678,10 @@ No test results.<br/>
 - Rounds: 12/14/16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 3       | -        |
-|          100MB | 2         | 2        | 2       | 2        |
-|           10MB | 2         | 1        | 2       | 2        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    3    |    -     |
+|          100MB |     2     |    2     |    2    |    2     |
+|           10MB |     2     |    1     |    2    |    2     |
 
 <a name="CAMELLIA"/>
 ##### CAMELLIA
@@ -1692,10 +1692,10 @@ No test results.<br/>
 - Rounds: 18 or 24
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 3       | -        |
-|          100MB | 2         | 2        | 3       | 3        |
-|           10MB | 2         | 2        | 2       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    3    |    -     |
+|          100MB |     2     |    2     |    3    |    3     |
+|           10MB |     2     |    2     |    2    |    3     |
 
 <a name="CAST"/>
 ##### CAST
@@ -1706,10 +1706,10 @@ No test results.<br/>
 - Rounds: 12 or 16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 3         | 3        | 3       | -        |
-|          100MB | 3         | 3        | 3       | -        |
-|           10MB | 3         | 3        | 3       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     3     |    3     |    3    |    -     |
+|          100MB |     3     |    3     |    3    |    -     |
+|           10MB |     3     |    3     |    3    |    -     |
 
 <a name="IDEA"/>
 ##### IDEA
@@ -1720,10 +1720,10 @@ No test results.<br/>
 - Rounds: 8.5
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 1         | 1        | 1       | -        |
-|          100MB | 1         | 1        | 1       | 1        |
-|           10MB | 1         | 1        | 1       | 1        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     1     |    1     |    1    |    -     |
+|          100MB |     1     |    1     |    1    |    1     |
+|           10MB |     1     |    1     |    1    |    1     |
 
 <a name="SEED"/>
 ##### SEED
@@ -1734,10 +1734,10 @@ No test results.<br/>
 - Rounds: 16
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 2       | -        |
-|          100MB | 2         | 2        | 2       | 2        |
-|           10MB | 2         | 2        | 2       | 2        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    2    |    -     |
+|          100MB |     2     |    2     |    2    |    2     |
+|           10MB |     2     |    2     |    2    |    2     |
 
 #### Stream ciphers
 <a name="HC-128"/>
@@ -1747,10 +1747,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Rabbit"/>
 ##### Rabbit
@@ -1759,10 +1759,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Salsa20"/>
 ##### Salsa20
@@ -1771,10 +1771,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="SOSEMANUK"/>
 ##### SOSEMANUK
@@ -1783,20 +1783,20 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Grain"/>
 ##### Grain
 - Rounds: **1**-13 (13) (note 1)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | 2         | 2        | 3       | 0        |
-|           10MB | 2         | 2        | 2       | 0        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     2     |    2     |    3    |    0     |
+|           10MB |     2     |    2     |    2    |    0     |
 
 <a name="MICKEY"/>
 ##### MICKEY
@@ -1805,10 +1805,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Trivium"/>
 ##### Trivium
@@ -1817,40 +1817,40 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="F-FCSR"/>
 ##### F-FCSR
 - Rounds: **1**-5 (5)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | 1         | 1        | 1       | -        |
-|           10MB | 2         | 1        | 1       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     1     |    1     |    1    |    -     |
+|           10MB |     2     |    1     |    1    |    -     |
 
 <a name="RC4"/>
 ##### RC4
 - Rounds: not round-reduced
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | 1         | -        | 1       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     1     |    -     |    1    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Chacha"/>
 ##### Chacha
 - Rounds: 0-20 (20)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | 2         | 2        | 3       | -        |
-|           10MB | 2         | 2        | 3       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     2     |    2     |    3    |    -     |
+|           10MB |     2     |    2     |    3    |    -     |
 
 <a name="ABC"/>
 ##### ABC
@@ -1859,10 +1859,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Achterbahn"/>
 ##### Achterbahn
@@ -1871,10 +1871,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="CryptMT"/>
 ##### CryptMT
@@ -1883,10 +1883,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="DECIM"/>
 ##### DECIM
@@ -1895,10 +1895,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="DICING"/>
 ##### DICING
@@ -1907,10 +1907,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Dragon"/>
 ##### Dragon
@@ -1919,10 +1919,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Edon80"/>
 ##### Edon80
@@ -1931,20 +1931,20 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="F-FCSR"/>
 ##### F-FCSR
 - Rounds: n/a
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | 1         | 1        | 1       | -        |
-|           10MB | 2         | 1        | 1       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     1     |    1     |    1    |    -     |
+|           10MB |     2     |    1     |    1    |    -     |
 
 <a name="Frogbit"/>
 ##### Frogbit
@@ -1953,10 +1953,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Fubuki"/>
 ##### Fubuki
@@ -1965,20 +1965,20 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Grain"/>
 ##### Grain
 - Rounds: 1-13 (13)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | 2         | 2        | 3       | 0        |
-|           10MB | 2         | 2        | 2       | 0        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     2     |    2     |    3    |    0     |
+|           10MB |     2     |    2     |    2    |    0     |
 
 <a name="Hermes"/>
 ##### Hermes
@@ -1987,10 +1987,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="LEX"/>
 ##### LEX
@@ -1999,10 +1999,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="MAG"/>
 ##### MAG
@@ -2011,10 +2011,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="MICKEY"/>
 ##### MICKEY
@@ -2023,10 +2023,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Mir-1"/>
 ##### Mir-1
@@ -2035,10 +2035,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Moustique"/>
 ##### Moustique
@@ -2047,10 +2047,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="NLS"/>
 ##### NLS
@@ -2059,10 +2059,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Phelix"/>
 ##### Phelix
@@ -2071,10 +2071,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Polar Bear"/>
 ##### Polar Bear
@@ -2083,10 +2083,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Pomaranch"/>
 ##### Pomaranch
@@ -2095,10 +2095,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Py"/>
 ##### Py
@@ -2107,10 +2107,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Rabbit"/>
 ##### Rabbit
@@ -2119,10 +2119,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Salsa20"/>
 ##### Salsa20
@@ -2131,10 +2131,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="SFINKS"/>
 ##### SFINKS
@@ -2143,10 +2143,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="SOSEMANUK"/>
 ##### SOSEMANUK
@@ -2155,10 +2155,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="SSS"/>
 ##### SSS
@@ -2167,10 +2167,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="TRBDK3 YAEA"/>
 ##### TRBDK3 YAEA
@@ -2179,10 +2179,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="TSC-4"/>
 ##### TSC-4
@@ -2191,10 +2191,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="VEST"/>
 ##### VEST
@@ -2203,10 +2203,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="WG"/>
 ##### WG
@@ -2215,10 +2215,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Zk-Crypt"/>
 ##### Zk-Crypt
@@ -2227,10 +2227,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 #### Hash functions
 <a name="Blake"/>
@@ -2240,10 +2240,10 @@ No test results.<br/>
 - Rounds: 0-x (l<48 ? 14 : 16)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 1         | 1        | 1       | -        |
-|          100MB | -         | -        | -       | 1        |
-|           10MB | -         | -        | -       | 1        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     1     |    1     |    1    |    -     |
+|          100MB |     -     |    -     |    -    |    1     |
+|           10MB |     -     |    -     |    -    |    1     |
 
 <a name="Grostl"/>
 ##### Grostl
@@ -2252,10 +2252,10 @@ No test results.<br/>
 - Rounds: l<=32 ? 0-10 (10) : 2-x (14)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 2         | 2        | 2       | -        |
-|          100MB | 2         | 2        | 2       | 2        |
-|           10MB | 2         | 2        | 2       | 2        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     2     |    2     |    2    |    -     |
+|          100MB |     2     |    2     |    2    |    2     |
+|           10MB |     2     |    2     |    2    |    2     |
 
 <a name="JH"/>
 ##### JH
@@ -2264,10 +2264,10 @@ No test results.<br/>
 - Rounds: 0-x (42)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 6         | 6        | 6       | -        |
-|          100MB | 6         | 6        | 6       | 6        |
-|           10MB | -         | -        | -       | 6        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     6     |    6     |    6    |    -     |
+|          100MB |     6     |    6     |    6    |    6     |
+|           10MB |     -     |    -     |    -    |    6     |
 
 <a name="Keccak"/>
 ##### Keccak
@@ -2276,10 +2276,10 @@ No test results.<br/>
 - Rounds: 0-24
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 3         | 2        | 3       | -        |
-|          100MB | 2         | 2        | 2       | 3        |
-|           10MB | 2         | 2        | 2       | 3        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     3     |    2     |    3    |    -     |
+|          100MB |     2     |    2     |    2    |    3     |
+|           10MB |     2     |    2     |    2    |    3     |
 
 <a name="Skein"/>
 ##### Skein
@@ -2288,10 +2288,10 @@ No test results.<br/>
 - Rounds: 0-72 (80 for 128 B)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 3         | 3        | 4       | -        |
-|          100MB | 3         | 3        | 3       | 1        |
-|           10MB | 3         | 3        | 3       | 1        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     3     |    3     |    4    |    -     |
+|          100MB |     3     |    3     |    3    |    1     |
+|           10MB |     3     |    3     |    3    |    1     |
 
 <a name="Abacus"/>
 ##### Abacus
@@ -2302,10 +2302,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="ARIRANG"/>
 ##### ARIRANG
@@ -2316,10 +2316,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Aurora"/>
 ##### Aurora
@@ -2330,10 +2330,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Cheetah"/>
 ##### Cheetah
@@ -2344,10 +2344,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="CubeHash"/>
 ##### CubeHash
@@ -2358,10 +2358,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="DCH"/>
 ##### DCH
@@ -2372,10 +2372,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="DynamicSHA"/>
 ##### DynamicSHA
@@ -2386,10 +2386,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="DynamicSHA2"/>
 ##### DynamicSHA2
@@ -2400,10 +2400,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="ECHO"/>
 ##### ECHO
@@ -2414,10 +2414,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Hamsi"/>
 ##### Hamsi
@@ -2428,10 +2428,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Lesamnta"/>
 ##### Lesamnta
@@ -2442,10 +2442,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Luffa"/>
 ##### Luffa
@@ -2456,10 +2456,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="MD6"/>
 ##### MD6
@@ -2468,10 +2468,10 @@ No test results.<br/>
 - Rounds: 0-104 (104)
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 8         | 8        | 9       | -        |
-|          100MB | 8         | 8        | 8       | 9        |
-|           10MB | 8         | 8        | 8       | 9        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     8     |    8     |    9    |    -     |
+|          100MB |     8     |    8     |    8    |    9     |
+|           10MB |     8     |    8     |    8    |    9     |
 
 <a name="SIMD"/>
 ##### SIMD
@@ -2482,10 +2482,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Tangle"/>
 ##### Tangle
@@ -2496,10 +2496,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Twister"/>
 ##### Twister
@@ -2510,10 +2510,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Blender"/>
 ##### Blender
@@ -2524,10 +2524,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="BMW"/>
 ##### BMW
@@ -2538,10 +2538,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Boole"/>
 ##### Boole
@@ -2552,10 +2552,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="CHI"/>
 ##### CHI
@@ -2566,10 +2566,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="CRUNCH"/>
 ##### CRUNCH
@@ -2580,10 +2580,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="EDON"/>
 ##### EDON
@@ -2594,10 +2594,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="ESSENCE"/>
 ##### ESSENCE
@@ -2608,10 +2608,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Fugue"/>
 ##### Fugue
@@ -2622,10 +2622,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Khichidi"/>
 ##### Khichidi
@@ -2636,10 +2636,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Lane"/>
 ##### Lane
@@ -2650,10 +2650,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="MCSSHA3"/>
 ##### MCSSHA3
@@ -2664,10 +2664,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="MeshHash"/>
 ##### MeshHash
@@ -2678,10 +2678,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="NaSHA"/>
 ##### NaSHA
@@ -2692,10 +2692,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Sarmal"/>
 ##### Sarmal
@@ -2706,10 +2706,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Shabal"/>
 ##### Shabal
@@ -2720,10 +2720,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Shamata"/>
 ##### Shamata
@@ -2734,10 +2734,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="SHAvite3"/>
 ##### SHAvite3
@@ -2748,10 +2748,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="SpectralHash"/>
 ##### SpectralHash
@@ -2762,10 +2762,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="StreamHash"/>
 ##### StreamHash
@@ -2776,10 +2776,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Vortex"/>
 ##### Vortex
@@ -2790,10 +2790,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="WaMM"/>
 ##### WaMM
@@ -2804,10 +2804,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Waterfall"/>
 ##### Waterfall
@@ -2818,10 +2818,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Tangle2"/>
 ##### Tangle2
@@ -2832,10 +2832,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Gost"/>
 ##### Gost
@@ -2844,10 +2844,10 @@ No test results.<br/>
 - Rounds: 0-32
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 1         | 1        | 1       | -        |
-|          100MB | 1         | 1        | 1       | 1        |
-|           10MB | 1         | 1        | 1       | 1        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     1     |    1     |    1    |    -     |
+|          100MB |     1     |    1     |    1    |    1     |
+|           10MB |     1     |    1     |    1    |    1     |
 
 <a name="MD5"/>
 ##### MD5
@@ -2856,10 +2856,10 @@ No test results.<br/>
 - Rounds: 0-64
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 10        | 9        | 13      | -        |
-|          100MB | 10        | 9        | 9       | 11       |
-|           10MB | 10        | 9        | 10      | 11       |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |    10     |    9     |   13    |    -     |
+|          100MB |    10     |    9     |    9    |    11    |
+|           10MB |    10     |    9     |   10    |    11    |
 
 <a name="RIPMD160"/>
 ##### RIPMD160
@@ -2870,10 +2870,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="SHA1"/>
 ##### SHA1
@@ -2882,10 +2882,10 @@ No test results.<br/>
 - Rounds: 80
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | 13        | 12       | 15      | -        |
-|          100MB | 12        | 12       | 13      | 12       |
-|           10MB | 12        | 12       | 12      | 12       |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |    13     |    12    |   15    |    -     |
+|          100MB |    12     |    12    |   13    |    12    |
+|           10MB |    12     |    12    |   12    |    12    |
 
 <a name="SHA2"/>
 ##### SHA2
@@ -2896,10 +2896,10 @@ No test results.<br/>
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | -        |
-|           10MB | -         | -        | -       | -        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    -     |
+|           10MB |     -     |    -     |    -    |    -     |
 
 <a name="Tiger"/>
 ##### Tiger
@@ -2908,10 +2908,10 @@ No test results.<br/>
 - Rounds: 23
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | -         | -        | -       | 0        |
-|           10MB | -         | -        | -       | 0        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     -     |    -     |    -    |    0     |
+|           10MB |     -     |    -     |    -    |    0     |
 
 <a name="Whirlpool"/>
 ##### Whirlpool
@@ -2920,8 +2920,8 @@ No test results.<br/>
 - Rounds: 10
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:| --------- | -------- | ------- | -------- |
-|            8GB | -         | -        | -       | -        |
-|          100MB | 1         | 1        | 1       | 1        |
-|           10MB | -         | -        | -       | 1        |
+| --------------:|:---------:|:--------:|:-------:|:--------:|
+|            8GB |     -     |    -     |    -    |    -     |
+|          100MB |     1     |    1     |    1    |    1     |
+|           10MB |     -     |    -     |    -    |    1     |
 
