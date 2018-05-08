@@ -363,7 +363,7 @@ No test results.<br/>
       -/no<br/>
 No test results.<br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128">Source code</a><br/>
-      <a href="no_tv.md">Test vectors</a><br/>
+      <a href="no_tv">Test vectors</a><br/>
       <a href="#HC-128">Detailed info</a><br/>
     </div>
 </div>
