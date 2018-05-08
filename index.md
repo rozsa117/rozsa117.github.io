@@ -41,8 +41,8 @@ CryptoStreams
       <h5><b>AES</b></h5>
       3/10<br/>
         <svg width="100%" height="12">
-              <rect width="30.0%" height="12" style="fill:rgb(50,205,50)"/>
-              <rect x="30.0%" width="70.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect width="30.0%" height="12" style="fill:rgb(255,0,0)"/>
+              <rect x="30.0%" width="70.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES">Test vectors</a><br/>
@@ -56,7 +56,7 @@ CryptoStreams
       2/16<br/>
         <svg width="100%" height="12">
               <rect width="12.5%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/blowfish">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/BLOWFISH">Test vectors</a><br/>
@@ -81,7 +81,7 @@ No test results.<br/>
       4/20<br/>
         <svg width="100%" height="12">
               <rect width="20.0%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="20.0%" width="80.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="20.0%" width="80.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/rc6">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/RC6">Test vectors</a><br/>
@@ -95,7 +95,7 @@ No test results.<br/>
       3/32<br/>
         <svg width="100%" height="12">
               <rect width="9.375%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="9.375%" width="90.625%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="9.375%" width="90.625%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/serpent">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SERPENT">Test vectors</a><br/>
@@ -109,7 +109,7 @@ No test results.<br/>
       2/16<br/>
         <svg width="100%" height="12">
               <rect width="12.5%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/twofish">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TWOFISH">Test vectors</a><br/>
@@ -123,7 +123,7 @@ No test results.<br/>
       17/68<br/>
         <svg width="100%" height="12">
               <rect width="25.0%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="25.0%" width="75.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="25.0%" width="75.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/simon">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SIMON">Test vectors</a><br/>
@@ -137,7 +137,7 @@ No test results.<br/>
       10/32<br/>
         <svg width="100%" height="12">
               <rect width="31.25%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="31.25%" width="68.75%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="31.25%" width="68.75%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/speck">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SPECK">Test vectors</a><br/>
@@ -151,7 +151,7 @@ No test results.<br/>
       9/32<br/>
         <svg width="100%" height="12">
               <rect width="28.125%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="28.125%" width="71.875%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="28.125%" width="71.875%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/gost">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/GOST">Test vectors</a><br/>
@@ -165,7 +165,7 @@ No test results.<br/>
       5/16<br/>
         <svg width="100%" height="12">
               <rect width="31.25%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="31.25%" width="68.75%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="31.25%" width="68.75%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/single-des">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SINGLE-DES">Test vectors</a><br/>
@@ -179,7 +179,7 @@ No test results.<br/>
       3/16<br/>
         <svg width="100%" height="12">
               <rect width="18.75%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="18.75%" width="81.25%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="18.75%" width="81.25%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/triple-des">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TRIPLE-DES">Test vectors</a><br/>
@@ -193,7 +193,7 @@ No test results.<br/>
       5/32<br/>
         <svg width="100%" height="12">
               <rect width="15.625%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="15.625%" width="84.375%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="15.625%" width="84.375%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/tea">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TEA">Test vectors</a><br/>
@@ -207,7 +207,7 @@ No test results.<br/>
       3/8<br/>
         <svg width="100%" height="12">
               <rect width="37.5%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="37.5%" width="62.5%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="37.5%" width="62.5%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kasumi">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KASUMI">Test vectors</a><br/>
@@ -221,7 +221,7 @@ No test results.<br/>
       2/10<br/>
         <svg width="100%" height="12">
               <rect width="20.0%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="20.0%" width="80.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="20.0%" width="80.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kuznyechik">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KUZNYECHIK">Test vectors</a><br/>
@@ -235,7 +235,7 @@ No test results.<br/>
       2/4<br/>
         <svg width="100%" height="12">
               <rect width="50.0%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="50.0%" width="50.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="50.0%" width="50.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/misty1">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MISTY1">Test vectors</a><br/>
@@ -249,7 +249,7 @@ No test results.<br/>
       3/16<br/>
         <svg width="100%" height="12">
               <rect width="18.75%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="18.75%" width="81.25%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="18.75%" width="81.25%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/noekeon">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/NOEKEON">Test vectors</a><br/>
@@ -263,7 +263,7 @@ No test results.<br/>
       10/80<br/>
         <svg width="100%" height="12">
               <rect width="12.5%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/shacal2">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SHACAL2">Test vectors</a><br/>
@@ -277,7 +277,7 @@ No test results.<br/>
       5/32<br/>
         <svg width="100%" height="12">
               <rect width="15.625%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="15.625%" width="84.375%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="15.625%" width="84.375%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/xtea">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/XTEA">Test vectors</a><br/>
@@ -291,7 +291,7 @@ No test results.<br/>
       3/12<br/>
         <svg width="100%" height="12">
               <rect width="25.0%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="25.0%" width="75.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="25.0%" width="75.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aria">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/ARIA">Test vectors</a><br/>
@@ -305,7 +305,7 @@ No test results.<br/>
       3/18<br/>
         <svg width="100%" height="12">
               <rect width="16.666666666666664%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="16.666666666666664%" width="83.33333333333334%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="16.666666666666664%" width="83.33333333333334%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/camellia">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAMELLIA">Test vectors</a><br/>
@@ -319,7 +319,7 @@ No test results.<br/>
       3/12<br/>
         <svg width="100%" height="12">
               <rect width="25.0%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="25.0%" width="75.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="25.0%" width="75.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/cast">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAST">Test vectors</a><br/>
@@ -333,7 +333,7 @@ No test results.<br/>
       1/8<br/>
         <svg width="100%" height="12">
               <rect width="12.5%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/idea">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/IDEA">Test vectors</a><br/>
@@ -347,7 +347,7 @@ No test results.<br/>
       2/16<br/>
         <svg width="100%" height="12">
               <rect width="12.5%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/seed">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SEED">Test vectors</a><br/>
@@ -830,7 +830,7 @@ No test results.<br/>
       1/14<br/>
         <svg width="100%" height="12">
               <rect width="7.142857142857143%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="7.142857142857143%" width="92.85714285714286%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="7.142857142857143%" width="92.85714285714286%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blake">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blake">Test vectors</a><br/>
@@ -844,7 +844,7 @@ No test results.<br/>
       2/10<br/>
         <svg width="100%" height="12">
               <rect width="20.0%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="20.0%" width="80.0%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="20.0%" width="80.0%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Grostl">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Grostl">Test vectors</a><br/>
@@ -858,7 +858,7 @@ No test results.<br/>
       6/42<br/>
         <svg width="100%" height="12">
               <rect width="14.285714285714285%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="14.285714285714285%" width="85.71428571428572%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="14.285714285714285%" width="85.71428571428572%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/JH">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/JH">Test vectors</a><br/>
@@ -872,7 +872,7 @@ No test results.<br/>
       3/24<br/>
         <svg width="100%" height="12">
               <rect width="12.5%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="12.5%" width="87.5%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Keccak">Source code</a><br/>
       <a href="no_tv">Test vectors</a><br/>
@@ -886,7 +886,7 @@ No test results.<br/>
       4/72<br/>
         <svg width="100%" height="12">
               <rect width="5.555555555555555%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="5.555555555555555%" width="94.44444444444444%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="5.555555555555555%" width="94.44444444444444%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Skein">Source code</a><br/>
       <a href="no_tv">Test vectors</a><br/>
@@ -1032,7 +1032,7 @@ No test results.<br/>
       9/104<br/>
         <svg width="100%" height="12">
               <rect width="8.653846153846153%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="8.653846153846153%" width="91.34615384615384%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="8.653846153846153%" width="91.34615384615384%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MD6">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD6">Test vectors</a><br/>
@@ -1332,7 +1332,7 @@ No test results.<br/>
       1/32<br/>
         <svg width="100%" height="12">
               <rect width="3.125%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="3.125%" width="96.875%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="3.125%" width="96.875%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/gost">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Gost">Test vectors</a><br/>
@@ -1346,7 +1346,7 @@ No test results.<br/>
       13/64<br/>
         <svg width="100%" height="12">
               <rect width="20.3125%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="20.3125%" width="79.6875%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="20.3125%" width="79.6875%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/md5">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD5">Test vectors</a><br/>
@@ -1371,7 +1371,7 @@ No test results.<br/>
       15/80<br/>
         <svg width="100%" height="12">
               <rect width="18.75%" height="12" style="fill:rgb(255,0,0)"/>
-              <rect x="18.75%" width="81.25%" height="12" style="fill:rgb(0,255,0)" />
+              <rect x="18.75%" width="81.25%" height="12" style="fill:rgb(50,205,50)" />
         </svg><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha1">Source code</a><br/>
       <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA1">Test vectors</a><br/>
@@ -1744,7 +1744,7 @@ No test results.<br/>
 ##### HC-128
 - Rounds: no (note 1)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1756,7 +1756,7 @@ No test results.<br/>
 ##### Rabbit
 - Rounds: 0-4(4) (note 2)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1768,7 +1768,7 @@ No test results.<br/>
 ##### Salsa20
 - Rounds: 0-20(20) (note 3)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1780,7 +1780,7 @@ No test results.<br/>
 ##### SOSEMANUK
 - Rounds: 0-25 (25) (note 4)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1802,7 +1802,7 @@ No test results.<br/>
 ##### MICKEY
 - Rounds: 0-8
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1814,7 +1814,7 @@ No test results.<br/>
 ##### Trivium
 - Rounds: 0-9 (9)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1856,7 +1856,7 @@ No test results.<br/>
 ##### ABC
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1868,7 +1868,7 @@ No test results.<br/>
 ##### Achterbahn
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1880,7 +1880,7 @@ No test results.<br/>
 ##### CryptMT
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1892,7 +1892,7 @@ No test results.<br/>
 ##### DECIM
 - Rounds: 1-8 (8)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1904,7 +1904,7 @@ No test results.<br/>
 ##### DICING
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1916,7 +1916,7 @@ No test results.<br/>
 ##### Dragon
 - Rounds: 0-16 `DRAGON_MIXING_STAGES`
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1928,7 +1928,7 @@ No test results.<br/>
 ##### Edon80
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1950,7 +1950,7 @@ No test results.<br/>
 ##### Frogbit
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1962,7 +1962,7 @@ No test results.<br/>
 ##### Fubuki
 - Rounds: 1-32 (4)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1984,7 +1984,7 @@ No test results.<br/>
 ##### Hermes
 - Rounds: 1-13 (10)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -1996,7 +1996,7 @@ No test results.<br/>
 ##### LEX
 - Rounds: 1-10 (10)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2008,7 +2008,7 @@ No test results.<br/>
 ##### MAG
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2020,7 +2020,7 @@ No test results.<br/>
 ##### MICKEY
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2032,7 +2032,7 @@ No test results.<br/>
 ##### Mir-1
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2044,7 +2044,7 @@ No test results.<br/>
 ##### Moustique
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2056,7 +2056,7 @@ No test results.<br/>
 ##### NLS
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2068,7 +2068,7 @@ No test results.<br/>
 ##### Phelix
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2080,7 +2080,7 @@ No test results.<br/>
 ##### Polar Bear
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2092,7 +2092,7 @@ No test results.<br/>
 ##### Pomaranch
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2104,7 +2104,7 @@ No test results.<br/>
 ##### Py
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2116,7 +2116,7 @@ No test results.<br/>
 ##### Rabbit
 - Rounds: 1-4 (4) iterations of keystream preparation
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2128,7 +2128,7 @@ No test results.<br/>
 ##### Salsa20
 - Rounds: 1-20 (20/12)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2140,7 +2140,7 @@ No test results.<br/>
 ##### SFINKS
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2152,7 +2152,7 @@ No test results.<br/>
 ##### SOSEMANUK
 - Rounds: 1-25 (25)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2164,7 +2164,7 @@ No test results.<br/>
 ##### SSS
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2176,7 +2176,7 @@ No test results.<br/>
 ##### TRBDK3 YAEA
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2188,7 +2188,7 @@ No test results.<br/>
 ##### TSC-4
 - Rounds: 1-32 (32)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2200,7 +2200,7 @@ No test results.<br/>
 ##### VEST
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2212,7 +2212,7 @@ No test results.<br/>
 ##### WG
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2224,7 +2224,7 @@ No test results.<br/>
 ##### Zk-Crypt
 - Rounds: -
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2299,7 +2299,7 @@ No test results.<br/>
 
 - Rounds: 1-280 (135)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2313,7 +2313,7 @@ No test results.<br/>
 
 - Rounds: 0-4 (4)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2327,7 +2327,7 @@ No test results.<br/>
 
 - Rounds: 0-16 (17)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2341,7 +2341,7 @@ No test results.<br/>
 
 - Rounds: l<=32 ? 0-15 (16) : 0-11 (12)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2355,7 +2355,7 @@ No test results.<br/>
 
 - Rounds: 0-x (8)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2369,7 +2369,7 @@ No test results.<br/>
 
 - Rounds: 0-x (4)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2383,7 +2383,7 @@ No test results.<br/>
 
 - Rounds: 0-16 (16)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2397,7 +2397,7 @@ No test results.<br/>
 
 - Rounds: 1-17 (17)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2411,7 +2411,7 @@ No test results.<br/>
 
 - Rounds: 1-x l<=32 ? (8) : (10)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2425,7 +2425,7 @@ No test results.<br/>
 
 - Rounds: 0-x (l<=32 3 : 6)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2439,7 +2439,7 @@ No test results.<br/>
 
 - Rounds: 0-32 (32)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2453,7 +2453,7 @@ No test results.<br/>
 
 - Rounds: 0-8 (8)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2479,7 +2479,7 @@ No test results.<br/>
 
 - Rounds: 0-4 (4)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2493,7 +2493,7 @@ No test results.<br/>
 
 - Rounds: 0-x (72, 80, 96, 112, 128, 144)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2507,7 +2507,7 @@ No test results.<br/>
 
 - Rounds: l<=32 ? 0-9 (9) : 0-10 (10)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2521,7 +2521,7 @@ No test results.<br/>
 
 - Rounds: 0-x (32)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2535,7 +2535,7 @@ No test results.<br/>
 
 - Rounds: 0-16 (16)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2549,7 +2549,7 @@ No test results.<br/>
 
 - Rounds: 0-x (16)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2563,7 +2563,7 @@ No test results.<br/>
 
 - Rounds: 0-x (l<37.5 ? 20 : 40)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2577,7 +2577,7 @@ No test results.<br/>
 
 - Rounds: 0-x (224)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2591,7 +2591,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2605,7 +2605,7 @@ No test results.<br/>
 
 - Rounds: 8-x (32)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2619,7 +2619,7 @@ No test results.<br/>
 
 - Rounds: ?? ( **5**,6,8,13)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2633,7 +2633,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2647,7 +2647,7 @@ No test results.<br/>
 
 - Rounds: (6+3,8+4)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2661,7 +2661,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2675,7 +2675,7 @@ No test results.<br/>
 
 - Rounds: (32)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2689,7 +2689,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2703,7 +2703,7 @@ No test results.<br/>
 
 - Rounds: l<=32 ? 0-16 (16) : 0-20 (20)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2717,7 +2717,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2731,7 +2731,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2745,7 +2745,7 @@ No test results.<br/>
 
 - Rounds: l<=32 ? 0-11 (12) : 0-14 (14)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2759,7 +2759,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2773,7 +2773,7 @@ No test results.<br/>
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2787,7 +2787,7 @@ No test results.<br/>
 
 - Rounds: 0-15 (15)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2801,7 +2801,7 @@ No test results.<br/>
 
 - Rounds: 0-x (2)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2815,7 +2815,7 @@ No test results.<br/>
 
 - Rounds: 0-x (4+16)
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2829,7 +2829,7 @@ No test results.<br/>
 
 - Rounds: ?0-x (72, 80, 96, 112, 128, 144)?
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2867,7 +2867,7 @@ No test results.<br/>
 
 - Rounds: 80
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
@@ -2893,7 +2893,7 @@ No test results.<br/>
 
 - Rounds: 64
 
-<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
