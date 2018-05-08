@@ -9,7 +9,6 @@ CryptoStreams
     border-radius: 15px;
     width: 25%;
     height: 25%;
-    padding: 10px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.2);}
 
