@@ -1,2 +1,66 @@
 Unfortunatelly we don not have test vectors for the function you have choosen
 -----------------------------------------------------------------------------
+#### In case you had any available test vectors for any of the following functions please contact us.
+
+#### Stream ciphers
+- HC-128
+- Rabbit
+- SOSEMANUK
+- F-FCSR
+- ABC
+- Achterbahn
+- CryptMT
+- DICING
+- Dragon
+- Edon80
+- F-FCSR
+- Frogbit
+- MAG
+- Mir-1
+- Moustique
+- NLS
+- Phelix
+- Polar Bear
+- Pomaranch
+- Py
+- SFINKS
+- SSS
+- TRBDK3 YAEA
+- VEST
+- WG
+- Yamb
+- Zk-Crypt
+
+#### Hash functions
+- Keccak
+- Skein
+- Blender
+- BMW
+- Boole
+- CHI
+- CRUNCH
+- ECOH
+- EDON
+- EnRUPT
+- ESSENCE
+- FSB
+- Fugue
+- Khichidi
+- Lane
+- LUX
+- MCSSHA3
+- MeshHash
+- NaSHA
+- SANDstorm
+- Sarmal
+- Sgail
+- Shabal
+- Shamata
+- SHAvite3
+- SpectralHash
+- StreamHash
+- SWIFFTX
+- TIB3
+- Vortex
+- WaMM
+- Waterfall
