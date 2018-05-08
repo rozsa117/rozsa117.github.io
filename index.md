@@ -1743,7 +1743,7 @@ No test results.<br/>
 ##### HC-128
 - Rounds: no (note 1)
 
-<span style="color:red">Unfortunatelly, no test results are avaible.</span>
+<b><span style="color:red">Unfortunatelly, no test results are avaible.</span></b>
 
 | Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------:| --------- | -------- | ------- | -------- |
