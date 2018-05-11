@@ -1428,11 +1428,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 10
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     3     |    3     |    3    |    -     |
-|          100MB |     3     |    3     |    3    |    3     |
-|           10MB |     3     |    3     |    3    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     3     |    3     |    3    |    -     |
+|                100MB |     3     |    3     |    3    |    3     |
+|                 10MB |     3     |    3     |    3    |    3     |
 
 <a name="BLOWFISH"/>
 ##### BLOWFISH
@@ -1442,11 +1442,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    2    |    -     |
-|          100MB |     2     |    2     |    2    |    2     |
-|           10MB |     3     |    1     |    2    |    2     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    2    |    -     |
+|                100MB |     2     |    2     |    2    |    2     |
+|                 10MB |     3     |    1     |    2    |    2     |
 
 <a name="MARS"/>
 ##### MARS
@@ -1456,11 +1456,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-16 (8 always used)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    0     |
-|           10MB |     -     |    -     |    -    |    0     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    0     |
+|                 10MB |     -     |    -     |    -    |    0     |
 
 <a name="RC6"/>
 ##### RC6
@@ -1470,11 +1470,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-20
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     4     |    4     |    4    |    -     |
-|          100MB |     4     |    4     |    4    |    5     |
-|           10MB |     4     |    4     |    4    |    4     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     4     |    4     |    4    |    -     |
+|                100MB |     4     |    4     |    4    |    5     |
+|                 10MB |     4     |    4     |    4    |    4     |
 
 <a name="SERPENT"/>
 ##### SERPENT
@@ -1484,11 +1484,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-32
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     3     |    3     |    3    |    -     |
-|          100MB |     3     |    3     |    3    |    3     |
-|           10MB |     3     |    3     |    3    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     3     |    3     |    3    |    -     |
+|                100MB |     3     |    3     |    3    |    3     |
+|                 10MB |     3     |    3     |    3    |    3     |
 
 <a name="TWOFISH"/>
 ##### TWOFISH
@@ -1498,11 +1498,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    2    |    -     |
-|          100MB |     2     |    2     |    2    |    2     |
-|           10MB |     2     |    2     |    2    |    2     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    2    |    -     |
+|                100MB |     2     |    2     |    2    |    2     |
+|                 10MB |     2     |    2     |    2    |    2     |
 
 <a name="SIMON"/>
 ##### SIMON
@@ -1512,11 +1512,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-(32-72)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |    16     |    16    |   17    |    -     |
-|          100MB |    15     |    16    |   16    |    18    |
-|           10MB |    13     |    15    |   16    |    17    |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |    16     |    16    |   17    |    -     |
+|                100MB |    15     |    16    |   16    |    18    |
+|                 10MB |    13     |    15    |   16    |    17    |
 
 <a name="SPECK"/>
 ##### SPECK
@@ -1526,11 +1526,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-(22-34)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     8     |    7     |   10    |    -     |
-|          100MB |     8     |    7     |    8    |    9     |
-|           10MB |     8     |    7     |    8    |    9     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     8     |    7     |   10    |    -     |
+|                100MB |     8     |    7     |    8    |    9     |
+|                 10MB |     8     |    7     |    8    |    9     |
 
 <a name="GOST"/>
 ##### GOST
@@ -1540,11 +1540,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 32
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     8     |    8     |    9    |    -     |
-|          100MB |     7     |    8     |    8    |    10    |
-|           10MB |     7     |    7     |    8    |    10    |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     8     |    8     |    9    |    -     |
+|                100MB |     7     |    8     |    8    |    10    |
+|                 10MB |     7     |    7     |    8    |    10    |
 
 <a name="SINGLE-DES"/>
 ##### SINGLE-DES
@@ -1554,11 +1554,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     5     |    4     |    5    |    -     |
-|          100MB |     4     |    4     |    4    |    5     |
-|           10MB |     4     |    4     |    5    |    4     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     5     |    4     |    5    |    -     |
+|                100MB |     4     |    4     |    4    |    5     |
+|                 10MB |     4     |    4     |    5    |    4     |
 
 <a name="TRIPLE-DES"/>
 ##### TRIPLE-DES
@@ -1568,11 +1568,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     3     |    2     |    3    |    -     |
-|          100MB |     2     |    2     |    2    |    3     |
-|           10MB |     2     |    2     |    2    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     3     |    2     |    3    |    -     |
+|                100MB |     2     |    2     |    2    |    3     |
+|                 10MB |     2     |    2     |    2    |    3     |
 
 <a name="TEA"/>
 ##### TEA
@@ -1582,11 +1582,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 32
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     4     |    4     |    5    |    -     |
-|          100MB |     4     |    4     |    4    |    5     |
-|           10MB |     4     |    4     |    4    |    4     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     4     |    4     |    5    |    -     |
+|                100MB |     4     |    4     |    4    |    5     |
+|                 10MB |     4     |    4     |    4    |    4     |
 
 <a name="KASUMI"/>
 ##### KASUMI
@@ -1596,11 +1596,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 8
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    3    |    -     |
-|          100MB |     2     |    2     |    2    |    2     |
-|           10MB |     2     |    2     |    2    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    3    |    -     |
+|                100MB |     2     |    2     |    2    |    2     |
+|                 10MB |     2     |    2     |    2    |    3     |
 
 <a name="KUZNYECHIK"/>
 ##### KUZNYECHIK
@@ -1610,11 +1610,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 10
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    2    |    -     |
-|          100MB |     2     |    2     |    2    |    2     |
-|           10MB |     2     |    2     |    2    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    2    |    -     |
+|                100MB |     2     |    2     |    2    |    2     |
+|                 10MB |     2     |    2     |    2    |    3     |
 
 <a name="MISTY1"/>
 ##### MISTY1
@@ -1624,11 +1624,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 4*n
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    2    |    -     |
-|          100MB |     1     |    1     |    2    |    2     |
-|           10MB |     1     |    1     |    2    |    2     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    2    |    -     |
+|                100MB |     1     |    1     |    2    |    2     |
+|                 10MB |     1     |    1     |    2    |    2     |
 
 <a name="NOEKEON"/>
 ##### NOEKEON
@@ -1638,11 +1638,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    3    |    -     |
-|          100MB |     2     |    2     |    3    |    3     |
-|           10MB |     2     |    2     |    2    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    3    |    -     |
+|                100MB |     2     |    2     |    3    |    3     |
+|                 10MB |     2     |    2     |    2    |    3     |
 
 <a name="SHACAL2"/>
 ##### SHACAL2
@@ -1652,11 +1652,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 80
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     9     |    9     |   10    |    -     |
-|          100MB |     9     |    9     |    9    |    8     |
-|           10MB |     8     |    9     |    9    |    8     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     9     |    9     |   10    |    -     |
+|                100MB |     9     |    9     |    9    |    8     |
+|                 10MB |     8     |    9     |    9    |    8     |
 
 <a name="XTEA"/>
 ##### XTEA
@@ -1666,11 +1666,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 32
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     5     |    4     |    5    |    -     |
-|          100MB |     4     |    4     |    5    |    5     |
-|           10MB |     4     |    4     |    4    |    4     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     5     |    4     |    5    |    -     |
+|                100MB |     4     |    4     |    5    |    5     |
+|                 10MB |     4     |    4     |    4    |    4     |
 
 <a name="ARIA"/>
 ##### ARIA
@@ -1680,11 +1680,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 12/14/16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    3    |    -     |
-|          100MB |     2     |    2     |    2    |    2     |
-|           10MB |     2     |    1     |    2    |    2     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    3    |    -     |
+|                100MB |     2     |    2     |    2    |    2     |
+|                 10MB |     2     |    1     |    2    |    2     |
 
 <a name="CAMELLIA"/>
 ##### CAMELLIA
@@ -1694,11 +1694,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 18 or 24
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    3    |    -     |
-|          100MB |     2     |    2     |    3    |    3     |
-|           10MB |     2     |    2     |    2    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    3    |    -     |
+|                100MB |     2     |    2     |    3    |    3     |
+|                 10MB |     2     |    2     |    2    |    3     |
 
 <a name="CAST"/>
 ##### CAST
@@ -1708,11 +1708,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 12 or 16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     3     |    3     |    3    |    -     |
-|          100MB |     3     |    3     |    3    |    -     |
-|           10MB |     3     |    3     |    3    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     3     |    3     |    3    |    -     |
+|                100MB |     3     |    3     |    3    |    -     |
+|                 10MB |     3     |    3     |    3    |    -     |
 
 <a name="IDEA"/>
 ##### IDEA
@@ -1722,11 +1722,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 8.5
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     1     |    1     |    1    |    -     |
-|          100MB |     1     |    1     |    1    |    1     |
-|           10MB |     1     |    1     |    1    |    1     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     1     |    1     |    1    |    -     |
+|                100MB |     1     |    1     |    1    |    1     |
+|                 10MB |     1     |    1     |    1    |    1     |
 
 <a name="SEED"/>
 ##### SEED
@@ -1736,11 +1736,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 16
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    2    |    -     |
-|          100MB |     2     |    2     |    2    |    2     |
-|           10MB |     2     |    2     |    2    |    2     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    2    |    -     |
+|                100MB |     2     |    2     |    2    |    2     |
+|                 10MB |     2     |    2     |    2    |    2     |
 
 #### Stream ciphers
 <a name="HC-128"/>
@@ -1749,11 +1749,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Rabbit"/>
 ##### Rabbit
@@ -1761,11 +1761,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Salsa20"/>
 ##### Salsa20
@@ -1773,11 +1773,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="SOSEMANUK"/>
 ##### SOSEMANUK
@@ -1785,21 +1785,21 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Grain"/>
 ##### Grain
 - Rounds: **1**-13 (13) (note 1)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     2     |    2     |    3    |    0     |
-|           10MB |     2     |    2     |    2    |    0     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     2     |    2     |    3    |    0     |
+|                 10MB |     2     |    2     |    2    |    0     |
 
 <a name="MICKEY"/>
 ##### MICKEY
@@ -1807,11 +1807,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Trivium"/>
 ##### Trivium
@@ -1819,41 +1819,41 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="F-FCSR"/>
 ##### F-FCSR
 - Rounds: **1**-5 (5)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     1     |    1     |    1    |    -     |
-|           10MB |     2     |    1     |    1    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     1     |    1     |    1    |    -     |
+|                 10MB |     2     |    1     |    1    |    -     |
 
 <a name="RC4"/>
 ##### RC4
 - Rounds: not round-reduced
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     1     |    -     |    1    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     1     |    -     |    1    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Chacha"/>
 ##### Chacha
 - Rounds: 0-20 (20)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     2     |    2     |    3    |    -     |
-|           10MB |     2     |    2     |    3    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     2     |    2     |    3    |    -     |
+|                 10MB |     2     |    2     |    3    |    -     |
 
 <a name="ABC"/>
 ##### ABC
@@ -1861,11 +1861,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Achterbahn"/>
 ##### Achterbahn
@@ -1873,11 +1873,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="CryptMT"/>
 ##### CryptMT
@@ -1885,11 +1885,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="DECIM"/>
 ##### DECIM
@@ -1897,11 +1897,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="DICING"/>
 ##### DICING
@@ -1909,11 +1909,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Dragon"/>
 ##### Dragon
@@ -1921,11 +1921,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Edon80"/>
 ##### Edon80
@@ -1933,21 +1933,21 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="F-FCSR"/>
 ##### F-FCSR
 - Rounds: n/a
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     1     |    1     |    1    |    -     |
-|           10MB |     2     |    1     |    1    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     1     |    1     |    1    |    -     |
+|                 10MB |     2     |    1     |    1    |    -     |
 
 <a name="Frogbit"/>
 ##### Frogbit
@@ -1955,11 +1955,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Fubuki"/>
 ##### Fubuki
@@ -1967,21 +1967,21 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Grain"/>
 ##### Grain
 - Rounds: 1-13 (13)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     2     |    2     |    3    |    0     |
-|           10MB |     2     |    2     |    2    |    0     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     2     |    2     |    3    |    0     |
+|                 10MB |     2     |    2     |    2    |    0     |
 
 <a name="Hermes"/>
 ##### Hermes
@@ -1989,11 +1989,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="LEX"/>
 ##### LEX
@@ -2001,11 +2001,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="MAG"/>
 ##### MAG
@@ -2013,11 +2013,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="MICKEY"/>
 ##### MICKEY
@@ -2025,11 +2025,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Mir-1"/>
 ##### Mir-1
@@ -2037,11 +2037,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Moustique"/>
 ##### Moustique
@@ -2049,11 +2049,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="NLS"/>
 ##### NLS
@@ -2061,11 +2061,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Phelix"/>
 ##### Phelix
@@ -2073,11 +2073,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Polar Bear"/>
 ##### Polar Bear
@@ -2085,11 +2085,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Pomaranch"/>
 ##### Pomaranch
@@ -2097,11 +2097,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Py"/>
 ##### Py
@@ -2109,11 +2109,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Rabbit"/>
 ##### Rabbit
@@ -2121,11 +2121,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Salsa20"/>
 ##### Salsa20
@@ -2133,11 +2133,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="SFINKS"/>
 ##### SFINKS
@@ -2145,11 +2145,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="SOSEMANUK"/>
 ##### SOSEMANUK
@@ -2157,11 +2157,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="SSS"/>
 ##### SSS
@@ -2169,11 +2169,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="TRBDK3 YAEA"/>
 ##### TRBDK3 YAEA
@@ -2181,11 +2181,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="TSC-4"/>
 ##### TSC-4
@@ -2193,11 +2193,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="VEST"/>
 ##### VEST
@@ -2205,11 +2205,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="WG"/>
 ##### WG
@@ -2217,11 +2217,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Zk-Crypt"/>
 ##### Zk-Crypt
@@ -2229,11 +2229,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 #### Hash functions
 <a name="Blake"/>
@@ -2242,11 +2242,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (l<48 ? 14 : 16)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     1     |    1     |    1    |    -     |
-|          100MB |     -     |    -     |    -    |    1     |
-|           10MB |     -     |    -     |    -    |    1     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     1     |    1     |    1    |    -     |
+|                100MB |     -     |    -     |    -    |    1     |
+|                 10MB |     -     |    -     |    -    |    1     |
 
 <a name="Grostl"/>
 ##### Grostl
@@ -2254,11 +2254,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: l<=32 ? 0-10 (10) : 2-x (14)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     2     |    2     |    2    |    -     |
-|          100MB |     2     |    2     |    2    |    2     |
-|           10MB |     2     |    2     |    2    |    2     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     2     |    2     |    2    |    -     |
+|                100MB |     2     |    2     |    2    |    2     |
+|                 10MB |     2     |    2     |    2    |    2     |
 
 <a name="JH"/>
 ##### JH
@@ -2266,11 +2266,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (42)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     6     |    6     |    6    |    -     |
-|          100MB |     6     |    6     |    6    |    6     |
-|           10MB |     -     |    -     |    -    |    6     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     6     |    6     |    6    |    -     |
+|                100MB |     6     |    6     |    6    |    6     |
+|                 10MB |     -     |    -     |    -    |    6     |
 
 <a name="Keccak"/>
 ##### Keccak
@@ -2278,11 +2278,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-24
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     3     |    2     |    3    |    -     |
-|          100MB |     2     |    2     |    2    |    3     |
-|           10MB |     2     |    2     |    2    |    3     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     3     |    2     |    3    |    -     |
+|                100MB |     2     |    2     |    2    |    3     |
+|                 10MB |     2     |    2     |    2    |    3     |
 
 <a name="Skein"/>
 ##### Skein
@@ -2290,11 +2290,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-72 (80 for 128 B)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     3     |    3     |    4    |    -     |
-|          100MB |     3     |    3     |    3    |    1     |
-|           10MB |     3     |    3     |    3    |    1     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     3     |    3     |    4    |    -     |
+|                100MB |     3     |    3     |    3    |    1     |
+|                 10MB |     3     |    3     |    3    |    1     |
 
 <a name="Abacus"/>
 ##### Abacus
@@ -2304,11 +2304,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="ARIRANG"/>
 ##### ARIRANG
@@ -2318,11 +2318,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Aurora"/>
 ##### Aurora
@@ -2332,11 +2332,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Cheetah"/>
 ##### Cheetah
@@ -2346,11 +2346,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="CubeHash"/>
 ##### CubeHash
@@ -2360,11 +2360,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="DCH"/>
 ##### DCH
@@ -2374,11 +2374,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="DynamicSHA"/>
 ##### DynamicSHA
@@ -2388,11 +2388,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="DynamicSHA2"/>
 ##### DynamicSHA2
@@ -2402,11 +2402,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="ECHO"/>
 ##### ECHO
@@ -2416,11 +2416,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Hamsi"/>
 ##### Hamsi
@@ -2430,11 +2430,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Lesamnta"/>
 ##### Lesamnta
@@ -2444,11 +2444,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Luffa"/>
 ##### Luffa
@@ -2458,11 +2458,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="MD6"/>
 ##### MD6
@@ -2470,11 +2470,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-104 (104)
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     8     |    8     |    9    |    -     |
-|          100MB |     8     |    8     |    8    |    9     |
-|           10MB |     8     |    8     |    8    |    9     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     8     |    8     |    9    |    -     |
+|                100MB |     8     |    8     |    8    |    9     |
+|                 10MB |     8     |    8     |    8    |    9     |
 
 <a name="SIMD"/>
 ##### SIMD
@@ -2484,11 +2484,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Tangle"/>
 ##### Tangle
@@ -2498,11 +2498,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Twister"/>
 ##### Twister
@@ -2512,11 +2512,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Blender"/>
 ##### Blender
@@ -2526,11 +2526,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="BMW"/>
 ##### BMW
@@ -2540,11 +2540,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Boole"/>
 ##### Boole
@@ -2554,11 +2554,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="CHI"/>
 ##### CHI
@@ -2568,11 +2568,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="CRUNCH"/>
 ##### CRUNCH
@@ -2582,11 +2582,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="EDON"/>
 ##### EDON
@@ -2596,11 +2596,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="ESSENCE"/>
 ##### ESSENCE
@@ -2610,11 +2610,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Fugue"/>
 ##### Fugue
@@ -2624,11 +2624,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Khichidi"/>
 ##### Khichidi
@@ -2638,11 +2638,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Lane"/>
 ##### Lane
@@ -2652,11 +2652,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="MCSSHA3"/>
 ##### MCSSHA3
@@ -2666,11 +2666,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="MeshHash"/>
 ##### MeshHash
@@ -2680,11 +2680,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="NaSHA"/>
 ##### NaSHA
@@ -2694,11 +2694,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Sarmal"/>
 ##### Sarmal
@@ -2708,11 +2708,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Shabal"/>
 ##### Shabal
@@ -2722,11 +2722,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Shamata"/>
 ##### Shamata
@@ -2736,11 +2736,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="SHAvite3"/>
 ##### SHAvite3
@@ -2750,11 +2750,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="SpectralHash"/>
 ##### SpectralHash
@@ -2764,11 +2764,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="StreamHash"/>
 ##### StreamHash
@@ -2778,11 +2778,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Vortex"/>
 ##### Vortex
@@ -2792,11 +2792,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="WaMM"/>
 ##### WaMM
@@ -2806,11 +2806,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Waterfall"/>
 ##### Waterfall
@@ -2820,11 +2820,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Tangle2"/>
 ##### Tangle2
@@ -2834,11 +2834,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Gost"/>
 ##### Gost
@@ -2846,11 +2846,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-32
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     1     |    1     |    1    |    -     |
-|          100MB |     1     |    1     |    1    |    1     |
-|           10MB |     1     |    1     |    1    |    1     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     1     |    1     |    1    |    -     |
+|                100MB |     1     |    1     |    1    |    1     |
+|                 10MB |     1     |    1     |    1    |    1     |
 
 <a name="MD5"/>
 ##### MD5
@@ -2858,11 +2858,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-64
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |    10     |    9     |   13    |    -     |
-|          100MB |    10     |    9     |    9    |    11    |
-|           10MB |    10     |    9     |   10    |    11    |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |    10     |    9     |   13    |    -     |
+|                100MB |    10     |    9     |    9    |    11    |
+|                 10MB |    10     |    9     |   10    |    11    |
 
 <a name="RIPMD160"/>
 ##### RIPMD160
@@ -2872,11 +2872,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="SHA1"/>
 ##### SHA1
@@ -2884,11 +2884,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 80
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |    13     |    12    |   15    |    -     |
-|          100MB |    12     |    12    |   13    |    12    |
-|           10MB |    12     |    12    |   12    |    12    |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |    13     |    12    |   15    |    -     |
+|                100MB |    12     |    12    |   13    |    12    |
+|                 10MB |    12     |    12    |   12    |    12    |
 
 <a name="SHA2"/>
 ##### SHA2
@@ -2898,11 +2898,11 @@ In the following section you can see detailed information of all functions imple
 
 <b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    -     |
-|           10MB |     -     |    -     |    -    |    -     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    -     |
+|                 10MB |     -     |    -     |    -    |    -     |
 
 <a name="Tiger"/>
 ##### Tiger
@@ -2910,11 +2910,11 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 23
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     -     |    -     |    -    |    0     |
-|           10MB |     -     |    -     |    -    |    0     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     -     |    -     |    -    |    0     |
+|                 10MB |     -     |    -     |    -    |    0     |
 
 <a name="Whirlpool"/>
 ##### Whirlpool
@@ -2922,9 +2922,9 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 10
 
-| Length of data | Dieharder | NIST-STS | TestU01 | BoolTest |
-| --------------:|:---------:|:--------:|:-------:|:--------:|
-|            8GB |     -     |    -     |    -    |    -     |
-|          100MB |     1     |    1     |    1    |    1     |
-|           10MB |     -     |    -     |    -    |    1     |
+| Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
+| --------------------:|:---------:|:--------:|:-------:|:--------:|
+|                  8GB |     -     |    -     |    -    |    -     |
+|                100MB |     1     |    1     |    1    |    1     |
+|                 10MB |     -     |    -     |    -    |    1     |
 
