@@ -1,7 +1,9 @@
 CryptoStreams
 -------------
-[TODO add general info here]
+CryptoStreams is an [open source](https://github.com/crocs-muni/CryptoStreams) library and tool for data generation of specific, if possible round-reduced, cryptographic functions, developed at Masaryk University Faculty of Informatics. On this web page you can find information about all the functions in the project. The page also includes test results for various lengths of tested data with different statistical batteries such as [Dieharder](https://webhome.phy.duke.edu/~rgb/General/dieharder.php), [NIST-STS](https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software), [TestU01](http://simul.iro.umontreal.ca/testu01/tu01.html) and [BoolTest](https://github.com/crocs-muni/booltest).
 
+Here you can see an example of a card with explanation.
+![example](example.png)
 <style>
 .card {
     float: left;
@@ -1416,6 +1418,7 @@ No test results.<br/>
 
 
 ### Detailed info
+In the following section you can see detailed information of all functions implemented in CryptoStreams, grouped by the type of the generator. There is some additional information for each of them. In addition, there is a table included to all generators that contains test results for different lengths of tested data, used as a counter for generation. The following statistical batteries were used for testing: [Dieharder](https://webhome.phy.duke.edu/~rgb/General/dieharder.php), [NIST-STS](https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software), [TestU01](http://simul.iro.umontreal.ca/testu01/tu01.html) and [BoolTest](https://github.com/crocs-muni/booltest). Unfortunately, we do not have test results for all of the functions, but we are working on it.
 #### Block ciphers
 <a name="AES"/>
 ##### AES
