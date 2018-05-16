@@ -1,5 +1,5 @@
-Unfortunately we do not have test vectors for the function you have choosen
----------------------------------------------------------------------------
+Unfortunately we do not have test vectors for the function you have chosen
+--------------------------------------------------------------------------
 #### In case you had any available test vectors for any of the following functions please contact us.
 
 #### Stream ciphers

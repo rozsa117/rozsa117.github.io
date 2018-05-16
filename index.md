@@ -1747,7 +1747,7 @@ In the following section you can see detailed information of all functions imple
 ##### HC-128
 - Rounds: no (note 1)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1759,7 +1759,7 @@ In the following section you can see detailed information of all functions imple
 ##### Rabbit
 - Rounds: 0-4(4) (note 2)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1771,7 +1771,7 @@ In the following section you can see detailed information of all functions imple
 ##### Salsa20
 - Rounds: 0-20(20) (note 3)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1783,7 +1783,7 @@ In the following section you can see detailed information of all functions imple
 ##### SOSEMANUK
 - Rounds: 0-25 (25) (note 4)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1805,7 +1805,7 @@ In the following section you can see detailed information of all functions imple
 ##### MICKEY
 - Rounds: 0-8
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1817,7 +1817,7 @@ In the following section you can see detailed information of all functions imple
 ##### Trivium
 - Rounds: 0-9 (9)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1859,7 +1859,7 @@ In the following section you can see detailed information of all functions imple
 ##### ABC
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1871,7 +1871,7 @@ In the following section you can see detailed information of all functions imple
 ##### Achterbahn
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1883,7 +1883,7 @@ In the following section you can see detailed information of all functions imple
 ##### CryptMT
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1895,7 +1895,7 @@ In the following section you can see detailed information of all functions imple
 ##### DECIM
 - Rounds: 1-8 (8)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1907,7 +1907,7 @@ In the following section you can see detailed information of all functions imple
 ##### DICING
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1919,7 +1919,7 @@ In the following section you can see detailed information of all functions imple
 ##### Dragon
 - Rounds: 0-16 `DRAGON_MIXING_STAGES`
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1931,7 +1931,7 @@ In the following section you can see detailed information of all functions imple
 ##### Edon80
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1953,7 +1953,7 @@ In the following section you can see detailed information of all functions imple
 ##### Frogbit
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1965,7 +1965,7 @@ In the following section you can see detailed information of all functions imple
 ##### Fubuki
 - Rounds: 1-32 (4)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1987,7 +1987,7 @@ In the following section you can see detailed information of all functions imple
 ##### Hermes
 - Rounds: 1-13 (10)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -1999,7 +1999,7 @@ In the following section you can see detailed information of all functions imple
 ##### LEX
 - Rounds: 1-10 (10)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2011,7 +2011,7 @@ In the following section you can see detailed information of all functions imple
 ##### MAG
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2023,7 +2023,7 @@ In the following section you can see detailed information of all functions imple
 ##### MICKEY
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2035,7 +2035,7 @@ In the following section you can see detailed information of all functions imple
 ##### Mir-1
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2047,7 +2047,7 @@ In the following section you can see detailed information of all functions imple
 ##### Moustique
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2059,7 +2059,7 @@ In the following section you can see detailed information of all functions imple
 ##### NLS
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2071,7 +2071,7 @@ In the following section you can see detailed information of all functions imple
 ##### Phelix
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2083,7 +2083,7 @@ In the following section you can see detailed information of all functions imple
 ##### Polar Bear
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2095,7 +2095,7 @@ In the following section you can see detailed information of all functions imple
 ##### Pomaranch
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2107,7 +2107,7 @@ In the following section you can see detailed information of all functions imple
 ##### Py
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2119,7 +2119,7 @@ In the following section you can see detailed information of all functions imple
 ##### Rabbit
 - Rounds: 1-4 (4) iterations of keystream preparation
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2131,7 +2131,7 @@ In the following section you can see detailed information of all functions imple
 ##### Salsa20
 - Rounds: 1-20 (20/12)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2143,7 +2143,7 @@ In the following section you can see detailed information of all functions imple
 ##### SFINKS
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2155,7 +2155,7 @@ In the following section you can see detailed information of all functions imple
 ##### SOSEMANUK
 - Rounds: 1-25 (25)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2167,7 +2167,7 @@ In the following section you can see detailed information of all functions imple
 ##### SSS
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2179,7 +2179,7 @@ In the following section you can see detailed information of all functions imple
 ##### TRBDK3 YAEA
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2191,7 +2191,7 @@ In the following section you can see detailed information of all functions imple
 ##### TSC-4
 - Rounds: 1-32 (32)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2203,7 +2203,7 @@ In the following section you can see detailed information of all functions imple
 ##### VEST
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2215,7 +2215,7 @@ In the following section you can see detailed information of all functions imple
 ##### WG
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2227,7 +2227,7 @@ In the following section you can see detailed information of all functions imple
 ##### Zk-Crypt
 - Rounds: -
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2302,7 +2302,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 1-280 (135)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2316,7 +2316,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-4 (4)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2330,7 +2330,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-16 (17)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2344,7 +2344,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: l<=32 ? 0-15 (16) : 0-11 (12)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2358,7 +2358,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (8)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2372,7 +2372,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (4)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2386,7 +2386,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-16 (16)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2400,7 +2400,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 1-17 (17)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2414,7 +2414,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 1-x l<=32 ? (8) : (10)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2428,7 +2428,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (l<=32 3 : 6)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2442,7 +2442,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-32 (32)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2456,7 +2456,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-8 (8)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2482,7 +2482,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-4 (4)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2496,7 +2496,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (72, 80, 96, 112, 128, 144)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2510,7 +2510,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: l<=32 ? 0-9 (9) : 0-10 (10)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2524,7 +2524,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (32)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2538,7 +2538,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-16 (16)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2552,7 +2552,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (16)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2566,7 +2566,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (l<37.5 ? 20 : 40)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2580,7 +2580,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (224)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2594,7 +2594,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2608,7 +2608,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 8-x (32)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2622,7 +2622,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: ?? ( **5**,6,8,13)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2636,7 +2636,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2650,7 +2650,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: (6+3,8+4)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2664,7 +2664,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2678,7 +2678,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: (32)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2692,7 +2692,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2706,7 +2706,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: l<=32 ? 0-16 (16) : 0-20 (20)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2720,7 +2720,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2734,7 +2734,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2748,7 +2748,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: l<=32 ? 0-11 (12) : 0-14 (14)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2762,7 +2762,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2776,7 +2776,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: n/a
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2790,7 +2790,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-15 (15)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2804,7 +2804,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (2)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2818,7 +2818,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 0-x (4+16)
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2832,7 +2832,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: ?0-x (72, 80, 96, 112, 128, 144)?
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2870,7 +2870,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 80
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
@@ -2896,7 +2896,7 @@ In the following section you can see detailed information of all functions imple
 
 - Rounds: 64
 
-<b><span style="color:red">Unfortunately, no test results are avaible.</span></b>
+<b><span style="color:red">Unfortunately, no test results are available.</span></b>
 
 | Length of data (ctr) | Dieharder | NIST-STS | TestU01 | BoolTest |
 | --------------------:|:---------:|:--------:|:-------:|:--------:|
