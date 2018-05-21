@@ -1,6 +1,6 @@
 Unfortunately we do not have test vectors for the function you have chosen
 --------------------------------------------------------------------------
-#### In case you had any available test vectors for any of the following functions please contact us.
+#### In case you had any available test vectors for any of the following functions please [contact us](https://crocs.fi.muni.cz/public/research/main#adaptive_randomness_statistical_tests_with_supervised_learning).
 
 #### Stream ciphers
 - HC-128
