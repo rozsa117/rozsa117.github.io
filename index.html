@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <title>CryptoStreams</title>
+</head>
+<body>
+  <div class="container h-100 d-flex justify-content-center">
+    <div class="jumbotron my-auto">
+      <h1 class="text-center">CryptoStreams</h1>
+      <p>[TODO add some basic info]</p>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active text-info" data-toggle="pill" href="#home">CryptoStreams</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" data-toggle="pill" href="#menu1">RTT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" data-toggle="pill" href="#menu2">BoolTest</a>
+        </li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane container active" id="home">[TODO add some detailed info]</div>
+        <div class="tab-pane container fade" id="menu1">[TODO add some detailed info]</div>
+        <div class="tab-pane container fade" id="menu2">[TODO add some detailed info]</div>
+      </div>
+
+      <br/>
+      <h3 class="text-info">Block ciphers</h3>
+
+      <div class="container">
+        <div class="card-deck">
+          <div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">AES</h5>
+            <div class="card-body text-center">
+              3/10
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:30%"></div>
+                <div class="progress-bar bg-success" style="width:70%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES" class="btn btn-secondary">Test vectors</a>
+              <a href="#AES" class="btn btn-secondary">Detailed information</a>
+            </div>
+          </div>
+          <div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">BLOWFISH</h5>
+            <div class="card-body text-center">
+              2/16
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:12.5%"></div>
+                <div class="progress-bar bg-success" style="width:87.5%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/blowfish" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/BLOWFISH" class="btn btn-secondary">Test vectors</a>
+              <a href="#BLOWFISH" class="btn btn-secondary">Detailed information</a>
+            </div>
+          </div>
+          <div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">MARS</h5>
+            <div class="card-body text-center">
+              -/16
+              <p class="text-warning">No test results.</p>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS" class="btn btn-secondary">Test vectors</a>
+              <a href="#MARS" class="btn btn-secondary">Detailed information</a>
+            </div>
+          </div>
+          <div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">RC6</h5>
+            <div class="card-body text-center">
+              4/20
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:20%"></div>
+                <div class="progress-bar bg-success" style="width:80%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/rc6" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/RC6" class="btn btn-secondary">Test vectors</a>
+              <a href="#RC6" class="btn btn-secondary">Detailed information</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br/>
+      <h3 class="text-info">Stream ciphers [TODO]</h3>
+      <br/>
+      <h3 class="text-info">Hash functions [TODO]</h3>
+
+      <h2 class="text-center">Detailed information</h2>
+      <p>[TODO add some basic info]</p>
+
+      <h3 class="text-info">Block ciphers</h3>
+      <br/>
+
+      <h4 class="text-muted"><a name="AES"/></a>AES</h4>
+      <ul>
+        <li>Block size: 16</li>
+        <li>Key size: 16</li>
+        <li>Rounds: 10</li>
+      </ul>
+      <table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="2">Dieharder</th>
+          <th colspan="2">NIST-STS</th>
+          <th colspan="2">TestU01</th>
+          <th colspan="2">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+        </tr>
+        <tr>
+          <td>8GB</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+          <td>3</td>
+        </tr>
+      </table>
+      <br/>
+      <h4 class="text-muted"><a name="BLOWFISH"/></a>BLOWFISH</h4>
+      <ul>
+        <li>Block size: 8</li>
+        <li>Key size: 4-56</li>
+        <li>Rounds: 16</li>
+      </ul>
+      <table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="2">Dieharder</th>
+          <th colspan="2">NIST-STS</th>
+          <th colspan="2">TestU01</th>
+          <th colspan="2">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+        </tr>
+        <tr>
+          <td>8GB</td>
+          <td>2</td>
+          <td>3</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>3</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>2</td>
+          <td>3</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>3</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>3</td>
+          <td>2</td>
+          <td>1</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>2</td>
+          <td>3</td>
+        </tr>
+      </table>
+      <br/>
+      <h4 class="text-muted"><a name="MARS"/></a>MARS</h4>
+      <ul>
+        <li>Block size: 16</li>
+        <li>Key size: 16, 24, 32</li>
+        <li>Rounds: 0-16</li>
+      </ul>
+      <table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="2">Dieharder</th>
+          <th colspan="2">NIST-STS</th>
+          <th colspan="2">TestU01</th>
+          <th colspan="2">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+        </tr>
+        <tr>
+          <td>8GB</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+      <br/>
+      <h4 class="text-muted"><a name="RC6"/></a>RC6</h4>
+      <ul>
+        <li>Block size: 16</li>
+        <li>Key size: 16, 24, 32</li>
+        <li>Rounds: 0-20</li>
+      </ul>
+      <table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="2">Dieharder</th>
+          <th colspan="2">NIST-STS</th>
+          <th colspan="2">TestU01</th>
+          <th colspan="2">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>CTR</td>
+          <td>HW</td>
+        </tr>
+        <tr>
+          <td>8GB</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>4</td>
+          <td>5</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>4</td>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+          <td>4</td>
+          <td>3</td>
+        </tr>
+      </table>
+      <br/>
+      <h3 class="text-info">Stream ciphers [TODO]</h3>
+      <br/>
+      <h3 class="text-info">Hash functions [TODO]</h3>
+    </div>
+  </div>
+</body>
+</html>
