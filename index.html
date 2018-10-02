@@ -27,20 +27,43 @@ batteries <a href="https://csrc.nist.gov/projects/random-bit-generation/document
 generation strategies and lengths.</p>
 <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active text-info" data-toggle="pill" href="#CryptoStreams">CryptoStreams</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-info" data-toggle="pill" href="#RTT">RTT</a>
+          <a class="nav-link active text-info" data-toggle="pill" href="#RTT">RTT</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-info" data-toggle="pill" href="#BoolTest">BoolTest</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" data-toggle="pill" href="#Strategies">Strategies</a>
+        </li>
       </ul>
 
       <div class="tab-content">
-        <div class="tab-pane container active" id="CryptoStreams">[TODO add some detailed info CryptoStreams]</div>
-        <div class="tab-pane container fade" id="RTT">[TODO add some detailed info RTT]</div>
-        <div class="tab-pane container fade" id="BoolTest">[TODO add some detailed info BoolTest]</div>
+        <div class="tab-pane container fade" id="RTT"><br/><a href="https://github.com/crocs-muni/randomness-testing-toolkit">Randomness testing toolkit (RTT)</a> is a tool that unites execution of various statistical batteries. Its aim is to detect non-randomness in given binary data in simple and automated manner. RTT also post-processes outputs of batteries so one does not need to cope vith various output formats these batteries use. Advanced users can even implement their own output module with minimal complications.<br/>
+<br/>
+RTT currently implements support for following statistical tools:
+             <ul class="list-unstyled">
+<br/>
+               <li><a href="https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software">NIST Statistical Test Suite</a></li><br/>
+               <li><a href="https://webhome.phy.duke.edu/~rgb/General/dieharder.php">Dieharder: A Random Number Test Suite</a></li><br/>
+               <li><a href="http://simul.iro.umontreal.ca/testu01/tu01.html">TestU01</a></li>
+             </ul>
+        </div>
+        <div class="tab-pane container fade" id="BoolTest">Boolean PRNG tester - analysing statistical properties of PRNGs. Randomness tester based on paper published at <a href="https://crocs.fi.muni.cz/public/papers/secrypt2017">Secrypt 2017</a>.
+        </div>
+        <div class="tab-pane container active" id="Strategies">             <ul class="list-unstyled">
+<br/>
+             <li>Counter (CTR)
+               <ul>
+                 <li>The counter generates blocks of particular size each containing the current block index. Intuitively the high bits are set to zero while the low bits are iterating.</li>
+               </ul>
+             </li>              <br/>
+             <li>Low Hamming weight (HW)
+               <ul>
+                 <li>Generates function's input blocks with the fixed and low Hamming weight. The weight is derived from the block size as it is required to avoid cycling of the generator, i.e., depleting of all options on the block size. If tested function has input block size of 128 bits, the Hamming weight is set to 4, because 16 x (128 over 4) ~ 170 MB. For 64-bit input block, the minimal required Hamming weight is 6, as 8 x (64 over 6) ~ 600 MB. The idea behind the low Hamming weight strategy is to cover the whole input block with small changes only, keeping the total Hamming weight low thus feeding the minimal possible entropy to a function.</li>
+               </ul>
+             </li>
+           </ul>
+        </div>
       </div>
       <br/>
       <h3 class="text-info">Block ciphers</h3>
@@ -402,7 +425,7 @@ No test results            <br/>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Keccak" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Keccak" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -426,7 +449,7 @@ No test results            <br/>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Skein" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Skein" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -591,7 +614,7 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blender" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Blender" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -600,7 +623,7 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BMW" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#BMW" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -611,7 +634,7 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Boole" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Boole" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -620,7 +643,7 @@ No test results            <br/>
 -/20<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CHI" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#CHI" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -629,7 +652,7 @@ No test results            <br/>
 -/244<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CRUNCH" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#CRUNCH" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -638,7 +661,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/EDON" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#EDON" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -649,7 +672,7 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ESSENCE" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#ESSENCE" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -658,7 +681,7 @@ No test results            <br/>
 -/5<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Fugue" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Fugue" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -667,7 +690,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Khichidi" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Khichidi" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -676,7 +699,7 @@ No test results            <br/>
 -/9<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lane" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Lane" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -687,7 +710,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MCSSHA3" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#MCSSHA3" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -696,7 +719,7 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MeshHash" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#MeshHash" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -705,7 +728,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/NaSHA" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#NaSHA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -714,7 +737,7 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Sarmal" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Sarmal" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -725,7 +748,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shabal" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Shabal" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -734,7 +757,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Shamata" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -743,7 +766,7 @@ No test results            <br/>
 -/12<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAvite3" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#SHAvite3" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -752,7 +775,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SpectralHash" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#SpectralHash" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -763,7 +786,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/StreamHash" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#StreamHash" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -772,7 +795,7 @@ No test results            <br/>
 -/15<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Vortex" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Vortex" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -781,7 +804,7 @@ No test results            <br/>
 -/2<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/WaMM" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#WaMM" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -790,7 +813,7 @@ No test results            <br/>
 -/20<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Waterfall" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Waterfall" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -898,7 +921,7 @@ No test results            <br/>
 -/no<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#HC-128" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -911,7 +934,7 @@ No test results            <br/>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Rabbit" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -937,7 +960,7 @@ No test results            <br/>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#SOSEMANUK" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -983,7 +1006,7 @@ No test results            <br/>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#F-FCSR" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -1016,7 +1039,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#ABC" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1025,7 +1048,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Achterbahn" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -1036,7 +1059,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#CryptMT" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1054,7 +1077,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#DICING" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1063,7 +1086,7 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Dragon" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -1074,7 +1097,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Edon80" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1083,7 +1106,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Frogbit" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1121,7 +1144,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#MAG" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1130,7 +1153,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Mir-1" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1139,7 +1162,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Moustique" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -1150,7 +1173,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#NLS" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1159,7 +1182,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Phelix" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1168,7 +1191,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polar bear" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Polar Bear" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1177,7 +1200,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Pomaranch" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -1188,7 +1211,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Py" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1197,7 +1220,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#SFINKS" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1206,7 +1229,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#SSS" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1215,7 +1238,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3 yaea" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#TRBDK3 YAEA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
@@ -1235,7 +1258,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#VEST" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1244,7 +1267,7 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#WG" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1253,7 +1276,7 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt" class="btn btn-secondary">Source code</a>
-              <a href="no_tv" class="btn btn-secondary">Test vectors</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Zk-Crypt" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
