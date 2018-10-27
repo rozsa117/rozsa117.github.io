@@ -62,7 +62,17 @@ RTT currently implements support for following statistical tools:
                  <li>Generates function's input blocks with the fixed and low Hamming weight. The weight is derived from the block size as it is required to avoid cycling of the generator, i.e., depleting of all options on the block size. If tested function has input block size of 128 bits, the Hamming weight is set to 4, because 16 x (128 over 4) ~ 170 MB. For 64-bit input block, the minimal required Hamming weight is 6, as 8 x (64 over 6) ~ 600 MB. The idea behind the low Hamming weight strategy is to cover the whole input block with small changes only, keeping the total Hamming weight low thus feeding the minimal possible entropy to a function.</li>
                </ul>
              </li>
-           </ul>
+              <br/>
+             <li>Strict Avalanche Criterion (SAC)
+               <ul>
+                 <li>The sac strategy aims to test the Strict Avalanche Criterion. It generates pairs of blocks where the first block in the pair is randomly generated and the second one is almost the same except for single bit flip at a randomly selected position. Both blocks are then used as an input to tested function.</li>
+               </ul>
+              <br/>
+             <li>Random-plaintext-ciphertext (RPC)
+               <ul>
+                 <li>enerates random input block pi, which is an input to a tested function f. The resulting data block used for statistical analysis is then p_i || f(pi), the concatenation of plaintext and ciphertext. This particular testing method adds additional entropy to the tested function making the detection more difficult, e.g., it is expected that number of function's internal rounds with still detectable bias would be lower when compared to low-entropy inputs such as counter and Hammingweight. On the other hand, we can directly analyze function's input-output correlation (similar to linear cryptoanalysis)</li>
+               </ul>
+             </li>           </ul>
         </div>
       </div>
       <br/>
