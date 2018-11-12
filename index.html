@@ -7,7 +7,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <title>CryptoStreams</title>
+  <script>
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+  </script>  <title>CryptoStreams</title>
   <style>
   .card-deck .card {
     max-width: calc(25% - 30px);
@@ -25,12 +29,11 @@ page, you can find the information about all the function included in
 the project. The functions are analyzed with four different statistical
 batteries <a href="https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software">STS NIST</a>, <a href="https://webhome.phy.duke.edu/~rgb/General/dieharder.php">Dieharder</a>, <a href="http://simul.iro.umontreal.ca/testu01/tu01.html">TestU01</a>, and <a href="https://github.com/crocs-muni/booltest">BoolTest</a> for numerous data
 generation strategies and lengths.</p>
+ <div class="modal-body row">
+<div class = "col-md-6">
 <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a class="nav-link active text-info" data-toggle="pill" href="#RTT">RTT</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-info" data-toggle="pill" href="#BoolTest">BoolTest</a>
+          <a class="nav-link active text-info" data-toggle="pill" href="#batteries">Supported batteries</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-info" data-toggle="pill" href="#Strategies">Strategies</a>
@@ -38,50 +41,82 @@ generation strategies and lengths.</p>
       </ul>
 
       <div class="tab-content">
-        <div class="tab-pane container active" id="RTT"><br/><a href="https://github.com/crocs-muni/randomness-testing-toolkit">Randomness testing toolkit (RTT)</a> is a tool that unites execution of various statistical batteries. Its aim is to detect non-randomness in given binary data in simple and automated manner. RTT also post-processes outputs of batteries so one does not need to cope vith various output formats these batteries use. Advanced users can even implement their own output module with minimal complications.<br/>
-<br/>
-RTT currently implements support for following statistical tools:
-             <ul class="list-unstyled">
-<br/>
-               <li><a href="https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software">NIST Statistical Test Suite</a></li><br/>
-               <li><a href="https://webhome.phy.duke.edu/~rgb/General/dieharder.php">Dieharder: A Random Number Test Suite</a></li><br/>
-               <li><a href="http://simul.iro.umontreal.ca/testu01/tu01.html">TestU01</a></li>
-             </ul>
-        </div>
-        <div class="tab-pane container fade" id="BoolTest">Boolean PRNG tester - analysing statistical properties of PRNGs. Randomness tester based on paper published at <a href="https://crocs.fi.muni.cz/public/papers/secrypt2017">Secrypt 2017</a>.
-        </div>
+        <div class="tab-pane container active" id="batteries"><br/>         Randomness Testing Toolkit (RTT) is a tool that simplifies the execution
+         of multiple statistical batteries (now STS NIST, Dieharder, TestU01) via
+         a web interface and provides easy-to-understand interpretation of the
+         results.<br/>
+         <br/>
+         We used RTT to analyze a large number of cryptographic functions from
+         CryptoStreams project with the results listed below.<br/>
+         RTT currently implements support for the following statistical tools:<br/>
+         <br/>
+         <ul>         <li>NIST Statistical Test Suite (NIST STS) - the classic and well-known
+         suite of tests required for NIST FIPS140-2 devices according to NIST SP
+         800-22.</li><br/>
+         <li>Dieharder: A Random Number Test Suite - improved testing suite
+         containing additional tests atop of selected ones from NIST STS.</li><br/>
+         <li>TestU01 - extensive and powerful testing suite, suitable for testing
+         larger data streams. Typically more sensitive than NIST STS and Dieharder.</li><br/>
+         <li>BoolTest - test based on efficient search for Boolean functions (to
+         be added soon).</li>         </ul>        </div>
         <div class="tab-pane container fade" id="Strategies">             <ul class="list-unstyled">
 <br/>
              <li>Counter (CTR)
                <ul>
-                 <li>The counter generates blocks of particular size each containing the current block index. Intuitively the high bits are set to zero while the low bits are iterating.</li>
+                 <li>The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.</li>
                </ul>
              </li>              <br/>
              <li>Low Hamming weight (HW)
                <ul>
-                 <li>Generates function's input blocks with the fixed and low Hamming weight. The weight is derived from the block size as it is required to avoid cycling of the generator, i.e., depleting of all options on the block size. If tested function has input block size of 128 bits, the Hamming weight is set to 4, because 16 x (128 over 4) ~ 170 MB. For 64-bit input block, the minimal required Hamming weight is 6, as 8 x (64 over 6) ~ 600 MB. The idea behind the low Hamming weight strategy is to cover the whole input block with small changes only, keeping the total Hamming weight low thus feeding the minimal possible entropy to a function.</li>
+                 <li>The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.</li>
                </ul>
              </li>
               <br/>
              <li>Strict Avalanche Criterion (SAC)
                <ul>
-                 <li>The sac strategy aims to test the Strict Avalanche Criterion. It generates pairs of blocks where the first block in the pair is randomly generated and the second one is almost the same except for single bit flip at a randomly selected position. Both blocks are then used as an input to tested function.</li>
+                 <li>The input blocks are generated as a pair where the first block is random
+and the second one equals to the first block except for single bit flip.
+The output blocks are then the concatenation of the output blocks. The
+goal is to test the diffusion property of the analyzed function.</li>
                </ul>
               <br/>
              <li>Random-plaintext-ciphertext (RPC)
                <ul>
-                 <li>enerates random input block pi, which is an input to a tested function f. The resulting data block used for statistical analysis is then p_i || f(pi), the concatenation of plaintext and ciphertext. This particular testing method adds additional entropy to the tested function making the detection more difficult, e.g., it is expected that number of function's internal rounds with still detectable bias would be lower when compared to low-entropy inputs such as counter and Hammingweight. On the other hand, we can directly analyze function's input-output correlation (similar to linear cryptoanalysis)</li>
+                 <li>The input blocks are generated at random, and the output is a
+concatenation of the input and its corresponding output block (p_i ||
+f(pi)). The goal is to directly analyze function's input-output
+correlation for the analyzed function (similar to linear cryptoanalysis).</li>
                </ul>
              </li>           </ul>
         </div>
       </div>
-      <br/>
+      <br/>    </div>
+    <div class = "col-md-6">
+<img class="img-fluid" src="exapmle.jpg" class="rounded float-right" alt="">    </div>
+    </div>
       <h3 class="text-info">Block ciphers</h3>
 <div class="card-deck">
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">AES</h5>
             <div class="card-body text-center">
-3/10<br/>
+3/10 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:30.0%"></div>
                 <div class="progress-bar bg-success" style="width:70.0%"> </div>
@@ -94,7 +129,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ARIA</h5>
             <div class="card-body text-center">
-3/12<br/>
+3/12 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:25.0%"></div>
                 <div class="progress-bar bg-success" style="width:75.0%"> </div>
@@ -107,10 +146,19 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">BLOWFISH</h5>
             <div class="card-body text-center">
-2/16<br/>
+4/16 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:12.5%"></div>
-                <div class="progress-bar bg-success" style="width:87.5%"> </div>
+                <div class="progress-bar bg-danger" style="width:25.0%"></div>
+                <div class="progress-bar bg-success" style="width:75.0%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/blowfish" class="btn btn-secondary">Source code</a>
@@ -120,10 +168,19 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CAMELLIA</h5>
             <div class="card-body text-center">
-3/18<br/>
+4/18 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:16.666666666666664%"></div>
-                <div class="progress-bar bg-success" style="width:83.33333333333334%"> </div>
+                <div class="progress-bar bg-danger" style="width:22.22222222222222%"></div>
+                <div class="progress-bar bg-success" style="width:77.77777777777777%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/camellia" class="btn btn-secondary">Source code</a>
@@ -135,7 +192,11 @@ RTT currently implements support for following statistical tools:
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CAST</h5>
             <div class="card-body text-center">
-3/12<br/>
+3/12 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:25.0%"></div>
                 <div class="progress-bar bg-success" style="width:75.0%"> </div>
@@ -148,10 +209,19 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">GOST</h5>
             <div class="card-body text-center">
-9/32<br/>
+11/32 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:28.125%"></div>
-                <div class="progress-bar bg-success" style="width:71.875%"> </div>
+                <div class="progress-bar bg-danger" style="width:34.375%"></div>
+                <div class="progress-bar bg-success" style="width:65.625%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/gost" class="btn btn-secondary">Source code</a>
@@ -161,7 +231,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">IDEA</h5>
             <div class="card-body text-center">
-1/8<br/>
+1/8 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:12.5%"></div>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
@@ -174,10 +248,19 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">KASUMI</h5>
             <div class="card-body text-center">
-2/8<br/>
+3/8 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:25.0%"></div>
-                <div class="progress-bar bg-success" style="width:75.0%"> </div>
+                <div class="progress-bar bg-danger" style="width:37.5%"></div>
+                <div class="progress-bar bg-success" style="width:62.5%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kasumi" class="btn btn-secondary">Source code</a>
@@ -189,7 +272,11 @@ RTT currently implements support for following statistical tools:
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">KUZNYECHIK</h5>
             <div class="card-body text-center">
-1/10<br/>
+1/10 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:10.0%"></div>
                 <div class="progress-bar bg-success" style="width:90.0%"> </div>
@@ -202,7 +289,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MISTY1</h5>
             <div class="card-body text-center">
-1/4<br/>
+1/4 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:25.0%"></div>
                 <div class="progress-bar bg-success" style="width:75.0%"> </div>
@@ -215,7 +306,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">NOEKEON</h5>
             <div class="card-body text-center">
-2/16<br/>
+2/16 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:12.5%"></div>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
@@ -228,7 +323,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">RC6</h5>
             <div class="card-body text-center">
-4/20<br/>
+4/20 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:20.0%"></div>
                 <div class="progress-bar bg-success" style="width:80.0%"> </div>
@@ -243,7 +342,11 @@ RTT currently implements support for following statistical tools:
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SEED</h5>
             <div class="card-body text-center">
-2/16<br/>
+2/16 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:12.5%"></div>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
@@ -256,7 +359,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SERPENT</h5>
             <div class="card-body text-center">
-3/32<br/>
+3/32 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:9.375%"></div>
                 <div class="progress-bar bg-success" style="width:90.625%"> </div>
@@ -269,7 +376,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHACAL2</h5>
             <div class="card-body text-center">
-9/80<br/>
+9/80 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:11.25%"></div>
                 <div class="progress-bar bg-success" style="width:88.75%"> </div>
@@ -282,10 +393,19 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SIMON</h5>
             <div class="card-body text-center">
-17/68<br/>
+19/68 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:25.0%"></div>
-                <div class="progress-bar bg-success" style="width:75.0%"> </div>
+                <div class="progress-bar bg-danger" style="width:27.94117647058824%"></div>
+                <div class="progress-bar bg-success" style="width:72.05882352941177%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/simon" class="btn btn-secondary">Source code</a>
@@ -297,10 +417,19 @@ RTT currently implements support for following statistical tools:
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SINGLE-DES</h5>
             <div class="card-body text-center">
-5/16<br/>
+6/16 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:31.25%"></div>
-                <div class="progress-bar bg-success" style="width:68.75%"> </div>
+                <div class="progress-bar bg-danger" style="width:37.5%"></div>
+                <div class="progress-bar bg-success" style="width:62.5%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/single-des" class="btn btn-secondary">Source code</a>
@@ -310,7 +439,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SPECK</h5>
             <div class="card-body text-center">
-10/32<br/>
+10/32 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:31.25%"></div>
                 <div class="progress-bar bg-success" style="width:68.75%"> </div>
@@ -323,7 +456,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">TEA</h5>
             <div class="card-body text-center">
-5/32<br/>
+5/32 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:15.625%"></div>
                 <div class="progress-bar bg-success" style="width:84.375%"> </div>
@@ -336,7 +473,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">TRIPLE-DES</h5>
             <div class="card-body text-center">
-3/16<br/>
+3/16 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:18.75%"></div>
                 <div class="progress-bar bg-success" style="width:81.25%"> </div>
@@ -351,10 +492,19 @@ RTT currently implements support for following statistical tools:
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">TWOFISH</h5>
             <div class="card-body text-center">
-2/16<br/>
+3/16 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:12.5%"></div>
-                <div class="progress-bar bg-success" style="width:87.5%"> </div>
+                <div class="progress-bar bg-danger" style="width:18.75%"></div>
+                <div class="progress-bar bg-success" style="width:81.25%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/twofish" class="btn btn-secondary">Source code</a>
@@ -364,7 +514,11 @@ RTT currently implements support for following statistical tools:
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">XTEA</h5>
             <div class="card-body text-center">
-4/32<br/>
+4/32 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:12.5%"></div>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
@@ -374,25 +528,25 @@ RTT currently implements support for following statistical tools:
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/XTEA" class="btn btn-secondary">Test vectors</a>
               <a href="#XTEA" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">MARS</h5>
-            <div class="card-body text-center">
--/16<br/>
-No test results            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars" class="btn btn-secondary">Source code</a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS" class="btn btn-secondary">Test vectors</a>
-              <a href="#MARS" class="btn btn-secondary">Detailed information</a>
-            </div>
              </div></div>
 <br/>      <h3 class="text-info">Hash functions</h3>
 <div class="card-deck">
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Blake</h5>
             <div class="card-body text-center">
-1/14<br/>
+2/14 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:7.142857142857143%"></div>
-                <div class="progress-bar bg-success" style="width:92.85714285714286%"> </div>
+                <div class="progress-bar bg-danger" style="width:14.285714285714286%"></div>
+                <div class="progress-bar bg-success" style="width:85.71428571428571%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blake" class="btn btn-secondary">Source code</a>
@@ -402,7 +556,11 @@ No test results            <br/>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Gost</h5>
             <div class="card-body text-center">
-1/32<br/>
+1/32 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:3.125%"></div>
                 <div class="progress-bar bg-success" style="width:96.875%"> </div>
@@ -415,7 +573,11 @@ No test results            <br/>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Grostl</h5>
             <div class="card-body text-center">
-2/10<br/>
+2/10 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:20.0%"></div>
                 <div class="progress-bar bg-success" style="width:80.0%"> </div>
@@ -428,7 +590,11 @@ No test results            <br/>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">JH</h5>
             <div class="card-body text-center">
-6/42<br/>
+6/42 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:14.285714285714285%"></div>
                 <div class="progress-bar bg-success" style="width:85.71428571428572%"> </div>
@@ -443,7 +609,11 @@ No test results            <br/>
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Keccak</h5>
             <div class="card-body text-center">
-3/24<br/>
+3/24 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:12.5%"></div>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
@@ -456,10 +626,19 @@ No test results            <br/>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MD5</h5>
             <div class="card-body text-center">
-13/64<br/>
+25/64 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:20.3125%"></div>
-                <div class="progress-bar bg-success" style="width:79.6875%"> </div>
+                <div class="progress-bar bg-danger" style="width:39.0625%"></div>
+                <div class="progress-bar bg-success" style="width:60.9375%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/md5" class="btn btn-secondary">Source code</a>
@@ -469,7 +648,11 @@ No test results            <br/>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MD6</h5>
             <div class="card-body text-center">
-9/104<br/>
+9/104 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:8.653846153846153%"></div>
                 <div class="progress-bar bg-success" style="width:91.34615384615384%"> </div>
@@ -482,10 +665,19 @@ No test results            <br/>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHA1</h5>
             <div class="card-body text-center">
-15/80<br/>
+19/80 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:18.75%"></div>
-                <div class="progress-bar bg-success" style="width:81.25%"> </div>
+                <div class="progress-bar bg-danger" style="width:23.75%"></div>
+                <div class="progress-bar bg-success" style="width:76.25%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha1" class="btn btn-secondary">Source code</a>
@@ -497,7 +689,11 @@ No test results            <br/>
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Skein</h5>
             <div class="card-body text-center">
-4/72<br/>
+4/72 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
               <div class="progress">
                 <div class="progress-bar bg-danger" style="width:5.555555555555555%"></div>
                 <div class="progress-bar bg-success" style="width:94.44444444444444%"> </div>
@@ -508,19 +704,190 @@ No test results            <br/>
               <a href="#Skein" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">Tiger</h5>
+            <div class="card-body text-center">
+2/23 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:8.695652173913043%"></div>
+                <div class="progress-bar bg-success" style="width:91.30434782608695%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger" class="btn btn-secondary">Test vectors</a>
+              <a href="#Tiger" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Whirlpool</h5>
             <div class="card-body text-center">
-1/10<br/>
+2/10 (RPC<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated at random, and the output is a
+concatenation of the input and its corresponding output block (p_i ||
+f(pi)). The goal is to directly analyze function's input-output
+correlation for the analyzed function (similar to linear cryptoanalysis).">?</a>)<br/>
               <div class="progress">
-                <div class="progress-bar bg-danger" style="width:10.0%"></div>
-                <div class="progress-bar bg-success" style="width:90.0%"> </div>
+                <div class="progress-bar bg-danger" style="width:20.0%"></div>
+                <div class="progress-bar bg-success" style="width:80.0%"> </div>
               </div>
             <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/whirlpool" class="btn btn-secondary">Source code</a>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Whirlpool" class="btn btn-secondary">Test vectors</a>
               <a href="#Whirlpool" class="btn btn-secondary">Detailed information</a>
             </div>
+             </div></div>
+<br/>      <h3 class="text-info">Stream ciphers</h3>
+<div class="card-deck">
+<div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">Chacha</h5>
+            <div class="card-body text-center">
+3/20 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:15.0%"></div>
+                <div class="progress-bar bg-success" style="width:85.0%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha" class="btn btn-secondary">Test vectors</a>
+              <a href="#Chacha" class="btn btn-secondary">Detailed information</a>
+            </div>
              </div><div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">F-FCSR</h5>
+            <div class="card-body text-center">
+1/5 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:20.0%"></div>
+                <div class="progress-bar bg-success" style="width:80.0%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#F-FCSR" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div><div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">Grain</h5>
+            <div class="card-body text-center">
+6/13 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:46.15384615384615%"></div>
+                <div class="progress-bar bg-success" style="width:53.84615384615385%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain" class="btn btn-secondary">Test vectors</a>
+              <a href="#Grain" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div><div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">RC4</h5>
+            <div class="card-body text-center">
+1/- (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
+No test results            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4" class="btn btn-secondary">Test vectors</a>
+              <a href="#RC4" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">Rabbit</h5>
+            <div class="card-body text-center">
+4/4 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:100.0%"></div>
+                <div class="progress-bar bg-success" style="width:0.0%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Rabbit" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div><div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">SOSEMANUK</h5>
+            <div class="card-body text-center">
+6/25 (HW<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">?</a>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:24.0%"></div>
+                <div class="progress-bar bg-success" style="width:76.0%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#SOSEMANUK" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div><div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">Salsa20</h5>
+            <div class="card-body text-center">
+2/20 (CTR<a class="text-primary" data-toggle="tooltip" data-placement="right" title="The input blocks are generated as a counter value starting from 0.
+Intuitively, the higher bits are set to zero while the low bits are
+incremented. The goal is to test the diffusion and masking property of
+the analyzed function in case of low entropy inputs and very small
+changes between the subsequent inputs.">?</a>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:10.0%"></div>
+                <div class="progress-bar bg-success" style="width:90.0%"> </div>
+              </div>
+            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20" class="btn btn-secondary">Test vectors</a>
+              <a href="#Salsa20" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div></div>
+<br/>
+<a href="#not-tested" class="btn btn-info" data-toggle="collapse">Show not tested</a><div id="not-tested" class="collapse">      <h3 class="text-info">Block ciphers</h3>
+<div class="card-deck">
+<div class="card bg-secondary text-white">
+            <h5 class="card-title text-center">MARS</h5>
+            <div class="card-body text-center">
+-/16<br/>
+No test results            <br/>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS" class="btn btn-secondary">Test vectors</a>
+              <a href="#MARS" class="btn btn-secondary">Detailed information</a>
+            </div>
+             </div></div>
+<br/>      <h3 class="text-info">Hash functions</h3>
+<div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ARIRANG</h5>
             <div class="card-body text-center">
 -/4<br/>
@@ -538,9 +905,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Abacus" class="btn btn-secondary">Test vectors</a>
               <a href="#Abacus" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Aurora</h5>
             <div class="card-body text-center">
 -/17<br/>
@@ -558,7 +923,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#BMW" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Blender</h5>
             <div class="card-body text-center">
 -/32<br/>
@@ -576,9 +943,7 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Boole" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CHI</h5>
             <div class="card-body text-center">
 -/20<br/>
@@ -596,7 +961,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#CRUNCH" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Cheetah</h5>
             <div class="card-body text-center">
 -/16<br/>
@@ -614,9 +981,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CubeHash" class="btn btn-secondary">Test vectors</a>
               <a href="#CubeHash" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">DCH</h5>
             <div class="card-body text-center">
 -/4<br/>
@@ -634,7 +999,9 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA" class="btn btn-secondary">Test vectors</a>
               <a href="#DynamicSHA" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">DynamicSHA2</h5>
             <div class="card-body text-center">
 -/17<br/>
@@ -652,9 +1019,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ECHO" class="btn btn-secondary">Test vectors</a>
               <a href="#ECHO" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">EDON</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -672,7 +1037,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#ESSENCE" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Fugue</h5>
             <div class="card-body text-center">
 -/5<br/>
@@ -690,9 +1057,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Hamsi" class="btn btn-secondary">Test vectors</a>
               <a href="#Hamsi" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Khichidi</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -710,7 +1075,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Lane" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Lesamnta</h5>
             <div class="card-body text-center">
 -/32<br/>
@@ -728,9 +1095,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Luffa" class="btn btn-secondary">Test vectors</a>
               <a href="#Luffa" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MCSSHA3</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -748,7 +1113,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#MeshHash" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">NaSHA</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -766,9 +1133,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPMD160" class="btn btn-secondary">Test vectors</a>
               <a href="#RIPMD160" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHA2</h5>
             <div class="card-body text-center">
 -/64<br/>
@@ -786,7 +1151,9 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA3" class="btn btn-secondary">Test vectors</a>
               <a href="#SHA3" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHAvite3</h5>
             <div class="card-body text-center">
 -/12<br/>
@@ -804,9 +1171,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SIMD" class="btn btn-secondary">Test vectors</a>
               <a href="#SIMD" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Sarmal</h5>
             <div class="card-body text-center">
 -/16<br/>
@@ -824,7 +1189,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Shabal" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Shamata</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -842,9 +1209,7 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#SpectralHash" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">StreamHash</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -862,7 +1227,9 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle" class="btn btn-secondary">Test vectors</a>
               <a href="#Tangle" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Tangle2</h5>
             <div class="card-body text-center">
 -/80<br/>
@@ -872,17 +1239,6 @@ No test results            <br/>
               <a href="#Tangle2" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">Tiger</h5>
-            <div class="card-body text-center">
--/23<br/>
-No test results            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger" class="btn btn-secondary">Source code</a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger" class="btn btn-secondary">Test vectors</a>
-              <a href="#Tiger" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Twister</h5>
             <div class="card-body text-center">
 -/9<br/>
@@ -909,7 +1265,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#WaMM" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Waterfall</h5>
             <div class="card-body text-center">
 -/20<br/>
@@ -922,86 +1280,6 @@ No test results            <br/>
 <br/>      <h3 class="text-info">Stream ciphers</h3>
 <div class="card-deck">
 <div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">Chacha</h5>
-            <div class="card-body text-center">
-3/20<br/>
-              <div class="progress">
-                <div class="progress-bar bg-danger" style="width:15.0%"></div>
-                <div class="progress-bar bg-success" style="width:85.0%"> </div>
-              </div>
-            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha" class="btn btn-secondary">Source code</a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha" class="btn btn-secondary">Test vectors</a>
-              <a href="#Chacha" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div><div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">F-FCSR</h5>
-            <div class="card-body text-center">
-1/5<br/>
-              <div class="progress">
-                <div class="progress-bar bg-danger" style="width:20.0%"></div>
-                <div class="progress-bar bg-success" style="width:80.0%"> </div>
-              </div>
-            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr" class="btn btn-secondary">Source code</a>
-              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-              <a href="#F-FCSR" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div><div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">Grain</h5>
-            <div class="card-body text-center">
-6/13<br/>
-              <div class="progress">
-                <div class="progress-bar bg-danger" style="width:46.15384615384615%"></div>
-                <div class="progress-bar bg-success" style="width:53.84615384615385%"> </div>
-              </div>
-            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain" class="btn btn-secondary">Source code</a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain" class="btn btn-secondary">Test vectors</a>
-              <a href="#Grain" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div><div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">Rabbit</h5>
-            <div class="card-body text-center">
-4/4<br/>
-              <div class="progress">
-                <div class="progress-bar bg-danger" style="width:100.0%"></div>
-                <div class="progress-bar bg-success" style="width:0.0%"> </div>
-              </div>
-            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit" class="btn btn-secondary">Source code</a>
-              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-              <a href="#Rabbit" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">SOSEMANUK</h5>
-            <div class="card-body text-center">
-4/25<br/>
-              <div class="progress">
-                <div class="progress-bar bg-danger" style="width:16.0%"></div>
-                <div class="progress-bar bg-success" style="width:84.0%"> </div>
-              </div>
-            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk" class="btn btn-secondary">Source code</a>
-              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-              <a href="#SOSEMANUK" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div><div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">Salsa20</h5>
-            <div class="card-body text-center">
-2/20<br/>
-              <div class="progress">
-                <div class="progress-bar bg-danger" style="width:10.0%"></div>
-                <div class="progress-bar bg-success" style="width:90.0%"> </div>
-              </div>
-            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20" class="btn btn-secondary">Source code</a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20" class="btn btn-secondary">Test vectors</a>
-              <a href="#Salsa20" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ABC</h5>
             <div class="card-body text-center">
 -/-<br/>
@@ -1019,9 +1297,7 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Achterbahn" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CryptMT</h5>
             <div class="card-body text-center">
 -/-<br/>
@@ -1039,7 +1315,9 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DECIM" class="btn btn-secondary">Test vectors</a>
               <a href="#DECIM" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">DICING</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -1057,9 +1335,7 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Dragon" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Edon80</h5>
             <div class="card-body text-center">
 -/-<br/>
@@ -1077,7 +1353,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Frogbit" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Fubuki</h5>
             <div class="card-body text-center">
 -/4<br/>
@@ -1095,9 +1373,7 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#HC-128" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Hermes</h5>
             <div class="card-body text-center">
 -/10<br/>
@@ -1115,7 +1391,9 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/LEX" class="btn btn-secondary">Test vectors</a>
               <a href="#LEX" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MAG</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -1133,9 +1411,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY" class="btn btn-secondary">Test vectors</a>
               <a href="#MICKEY" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Mir-1</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -1153,7 +1429,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Moustique" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">NLS</h5>
             <div class="card-body text-center">
 -/-<br/>
@@ -1171,9 +1449,7 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Phelix" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Polar Bear</h5>
             <div class="card-body text-center">
 -/-<br/>
@@ -1191,7 +1467,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#Pomaranch" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Py</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -1201,17 +1479,6 @@ No test results            <br/>
               <a href="#Py" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
-            <h5 class="card-title text-center">RC4</h5>
-            <div class="card-body text-center">
--/-<br/>
-No test results            <br/>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4" class="btn btn-secondary">Source code</a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4" class="btn btn-secondary">Test vectors</a>
-              <a href="#RC4" class="btn btn-secondary">Detailed information</a>
-            </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SFINKS</h5>
             <div class="card-body text-center">
 -/n/a<br/>
@@ -1238,7 +1505,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#TRBDK3 YAEA" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">TSC-4</h5>
             <div class="card-body text-center">
 -/32<br/>
@@ -1247,9 +1516,7 @@ No test results            <br/>
               <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TSC-4" class="btn btn-secondary">Test vectors</a>
               <a href="#TSC-4" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Trivium</h5>
             <div class="card-body text-center">
 -/9<br/>
@@ -1276,7 +1543,9 @@ No test results            <br/>
               <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
               <a href="#WG" class="btn btn-secondary">Detailed information</a>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Zk-Crypt</h5>
             <div class="card-body text-center">
 -/-<br/>
@@ -1286,7 +1555,7 @@ No test results            <br/>
               <a href="#Zk-Crypt" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
-<br/>
+<br/></div>
 <h2 class="text-center">Detailed information</h2>
 <p>In the following section you can see detailed information of all functions implemented in CryptoStreams, grouped by the type of the generator. There is some additional information for each of them. In addition, there is a table included to all generators that contains test results for different lengths of tested data, used as a counter for generation. The following statistical batteries were used for testing: <a href="https://webhome.phy.duke.edu/~rgb/General/dieharder.php">Dieharder</a>, <a href="https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software">NIST-STS</a/>, <a href="http://simul.iro.umontreal.ca/testu01/tu01.html">TestU01 and <a href="https://github.com/crocs-muni/booltest">BoolTest</a>. Unfortunately, we do not have test results for all of the functions, but we are working on it.</p>
       <h3 class="text-info">Block ciphers</h3>
@@ -3651,6 +3920,95 @@ No test results            <br/>
       </table>
       <br/>
 
+<h4 class="text-muted"><a name="RC4"/></a>RC4</h4>
+<ul><li>Rounds: not round-reduced</li>
+</ul>
+<table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="4">Dieharder</th>
+          <th colspan="4">NIST-STS</th>
+          <th colspan="4">TestU01</th>
+          <th colspan="4">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+        </tr>        <tr>
+          <td>8GB</td>
+          <td>-</td>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </table>
+      <br/>
+
 <h4 class="text-muted"><a name="Rabbit"/></a>Rabbit</h4>
 <ul><li>Rounds: 0-4(4) (note 2)</li>
 </ul>
@@ -5829,95 +6187,6 @@ No test results            <br/>
       </table>
       <br/>
 
-<h4 class="text-muted"><a name="RC4"/></a>RC4</h4>
-<ul><li>Rounds: not round-reduced</li>
-</ul>
-<table class="table table-bordered table-dark table-striped table-sm">
-        <tr>
-          <th>Length of data</th>
-          <th colspan="4">Dieharder</th>
-          <th colspan="4">NIST-STS</th>
-          <th colspan="4">TestU01</th>
-          <th colspan="4">BoolTest</th>
-        </tr>
-        <tr>
-          <td>Strategies</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-        </tr>        <tr>
-          <td>8GB</td>
-          <td>-</td>
-          <td>1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>100MB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>10MB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-      </table>
-      <br/>
-
 <h4 class="text-muted"><a name="SFINKS"/></a>SFINKS</h4>
 <ul><li>Rounds: n/a</li>
 </ul>
@@ -7451,6 +7720,96 @@ No test results            <br/>
           <td>-</td>
           <td>1</td>
           <td>1</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+      <br/>
+
+<h4 class="text-muted"><a name="Tiger"/></a>Tiger</h4>
+<ul><li>Block size: 24</li>
+<li>Rounds: 23</li>
+</ul>
+<table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="4">Dieharder</th>
+          <th colspan="4">NIST-STS</th>
+          <th colspan="4">TestU01</th>
+          <th colspan="4">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>HW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+        </tr>        <tr>
+          <td>8GB</td>
+          <td>-</td>
+          <td>2</td>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+          <td>-</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>-</td>
+          <td>2</td>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>1</td>
+          <td>-</td>
+          <td>-</td>
+          <td>2</td>
+          <td>1</td>
+          <td>-</td>
+          <td>0</td>
+          <td>0</td>
           <td>0</td>
           <td>0</td>
         </tr>
@@ -10947,96 +11306,6 @@ No test results            <br/>
           <td>-</td>
           <td>-</td>
           <td>-</td>
-        </tr>
-      </table>
-      <br/>
-
-<h4 class="text-muted"><a name="Tiger"/></a>Tiger</h4>
-<ul><li>Block size: 24</li>
-<li>Rounds: 23</li>
-</ul>
-<table class="table table-bordered table-dark table-striped table-sm">
-        <tr>
-          <th>Length of data</th>
-          <th colspan="4">Dieharder</th>
-          <th colspan="4">NIST-STS</th>
-          <th colspan="4">TestU01</th>
-          <th colspan="4">BoolTest</th>
-        </tr>
-        <tr>
-          <td>Strategies</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>HW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-        </tr>        <tr>
-          <td>8GB</td>
-          <td>-</td>
-          <td>2</td>
-          <td>1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>2</td>
-          <td>1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>2</td>
-          <td>1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>100MB</td>
-          <td>-</td>
-          <td>2</td>
-          <td>2</td>
-          <td>-</td>
-          <td>-</td>
-          <td>2</td>
-          <td>2</td>
-          <td>-</td>
-          <td>-</td>
-          <td>2</td>
-          <td>2</td>
-          <td>-</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <td>10MB</td>
-          <td>-</td>
-          <td>2</td>
-          <td>1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>2</td>
-          <td>1</td>
-          <td>-</td>
-          <td>-</td>
-          <td>2</td>
-          <td>1</td>
-          <td>-</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
-          <td>0</td>
         </tr>
       </table>
       <br/>
