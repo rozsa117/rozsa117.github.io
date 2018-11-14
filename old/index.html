@@ -32,277 +32,10 @@ padding-left: 50px;
   display: flex;
   align-items: flex-start;
   min-width: 100%;
+  background: rgb(233,236,239)
 }
   </style>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-
-      <!-- Begin Jekyll SEO tag v2.5.0 -->
-  <title>ECTester | Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries.</title>
-  <meta name="generator" content="Jekyll v3.7.4">
-  <meta property="og:title" content="ECTester">
-  <meta property="og:locale" content="en_US">
-  <meta name="description" content="Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries.">
-  <meta property="og:description" content="Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries.">
-  <link rel="canonical" href="https://crocs-muni.github.io/ECTester/">
-  <meta property="og:url" content="https://crocs-muni.github.io/ECTester/">
-  <meta property="og:site_name" content="ECTester">
-  <script type="application/ld+json">
-  {"@type":"WebSite","url":"https://crocs-muni.github.io/ECTester/","name":"ECTester","headline":"ECTester","description":"Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries.","@context":"http://schema.org"}</script>
-  <!-- End Jekyll SEO tag -->
-
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="theme-color" content="#157878">
-      <link rel="shortcut icon" href="https://crocs-muni.github.io/ECTester/assets/img/favicon.ico">
-      <link href="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/css" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" href="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/fontawesome-all.min.css">
-      <link rel="stylesheet" href="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/jquery-ui.min.css">
-      <link rel="stylesheet" href="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/style.css">
-      <link rel="stylesheet" href="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/custom.css">
-      <script src="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/jquery.min.js.download"></script>
-      <script src="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/jquery-ui.min.js.download"></script>
-      <script src="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/frappe-charts.min.js.download"></script><style type="text/css">.chart-container{font-family:Roboto,Geneva,Tahoma,sans-serif}.chart-container .graph-focus-margin{margin:0 5%}.chart-container>.title{margin-top:25px;margin-left:25px;text-align:left;font-weight:400;font-size:12px;color:#6c7680}.chart-container .graphics{margin-top:10px;padding-top:10px;padding-bottom:10px;position:relative}.chart-container .graph-stats-group{-ms-flex-pack:distribute;-webkit-box-flex:1;-ms-flex:1;flex:1}.chart-container .graph-stats-container,.chart-container .graph-stats-group{display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:space-around}.chart-container .graph-stats-container{-ms-flex-pack:distribute;padding-top:10px}.chart-container .graph-stats-container .stats{padding-bottom:15px}.chart-container .graph-stats-container .stats-title{color:#8d99a6}.chart-container .graph-stats-container .stats-value{font-size:20px;font-weight:300}.chart-container .graph-stats-container .stats-description{font-size:12px;color:#8d99a6}.chart-container .graph-stats-container .graph-data .stats-value{color:#98d85b}.chart-container .axis,.chart-container .chart-label{font-size:11px;fill:#555b51}.chart-container .axis line,.chart-container .chart-label line{stroke:#dadada}.chart-container .percentage-graph .progress{margin-bottom:0}.chart-container .data-points circle{stroke:#fff;stroke-width:2}.chart-container .path-group path{fill:none;stroke-opacity:1;stroke-width:2px}.chart-container line.dashed{stroke-dasharray:5,3}.chart-container .tick.x-axis-label{display:block}.chart-container .tick .specific-value{text-anchor:start}.chart-container .tick .y-value-text{text-anchor:end}.chart-container .tick .x-value-text{text-anchor:middle}.chart-container .progress{height:20px;margin-bottom:20px;overflow:hidden;background-color:#f5f5f5;border-radius:4px;-webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,.1);box-shadow:inset 0 1px 2px rgba(0,0,0,.1)}.chart-container .progress-bar{float:left;width:0;height:100%;font-size:12px;line-height:20px;color:#fff;text-align:center;background-color:#36414c;-webkit-box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);box-shadow:inset 0 -1px 0 rgba(0,0,0,.15);-webkit-transition:width .6s ease;transition:width .6s ease}.graph-svg-tip{position:absolute;z-index:1;padding:10px;font-size:12px;color:#959da5;text-align:center;background:rgba(0,0,0,.8);border-radius:3px}.graph-svg-tip ol,.graph-svg-tip ul{padding-left:0;display:-webkit-box;display:-ms-flexbox;display:flex}.graph-svg-tip ul.data-point-list li{min-width:90px;-webkit-box-flex:1;-ms-flex:1;flex:1;font-weight:600}.graph-svg-tip strong{color:#dfe2e5;font-weight:600}.graph-svg-tip .svg-pointer{position:absolute;bottom:-10px;left:50%;width:5px;height:5px;margin:0 0 0 -5px;content:" ";border:5px solid transparent;border-top-color:rgba(0,0,0,.8)}.graph-svg-tip.comparison{padding:0;text-align:left;pointer-events:none}.graph-svg-tip.comparison .title{display:block;padding:10px;margin:0;font-weight:600;line-height:1;pointer-events:none}.graph-svg-tip.comparison ul{margin:0;white-space:nowrap;list-style:none}.graph-svg-tip.comparison li{display:inline-block;padding:5px 10px}.indicator,.indicator-right{background:none;font-size:12px;vertical-align:middle;font-weight:700;color:#6c7680}.indicator-right:after,.indicator:before{content:"";display:inline-block;height:8px;width:8px;border-radius:8px}.indicator:before{margin:0 4px 0 0}.indicator-right:after{margin:0 0 0 4px}.background.grey,.indicator-right.grey:after,.indicator.grey:before{background:#bdd3e6}.background.light-grey,.indicator-right.light-grey:after,.indicator.light-grey:before{background:#f0f4f7}.background.blue,.indicator-right.blue:after,.indicator.blue:before{background:#5e64ff}.background.red,.indicator-right.red:after,.indicator.red:before{background:#ff5858}.background.green,.indicator-right.green:after,.indicator.green:before{background:#28a745}.background.light-green,.indicator-right.light-green:after,.indicator.light-green:before{background:#98d85b}.background.orange,.indicator-right.orange:after,.indicator.orange:before{background:#ffa00a}.background.violet,.indicator-right.violet:after,.indicator.violet:before{background:#743ee2}.background.dark-grey,.indicator-right.dark-grey:after,.indicator.dark-grey:before{background:#b8c2cc}.background.black,.indicator-right.black:after,.indicator.black:before{background:#36414c}.background.yellow,.indicator-right.yellow:after,.indicator.yellow:before{background:#feef72}.background.light-blue,.indicator-right.light-blue:after,.indicator.light-blue:before{background:#7cd6fd}.background.purple,.indicator-right.purple:after,.indicator.purple:before{background:#b554ff}.background.magenta,.indicator-right.magenta:after,.indicator.magenta:before{background:#ffa3ef}.stroke.grey{stroke:#bdd3e6}.stroke.light-grey{stroke:#f0f4f7}.stroke.blue{stroke:#5e64ff}.stroke.red{stroke:#ff5858}.stroke.light-green{stroke:#98d85b}.stroke.green{stroke:#28a745}.stroke.orange{stroke:#ffa00a}.stroke.violet{stroke:#743ee2}.stroke.dark-grey{stroke:#b8c2cc}.stroke.black{stroke:#36414c}.stroke.yellow{stroke:#feef72}.stroke.light-blue{stroke:#7cd6fd}.stroke.purple{stroke:#b554ff}.stroke.magenta{stroke:#ffa3ef}.fill.grey{fill:#bdd3e6}.fill.light-grey{fill:#f0f4f7}.fill.blue{fill:#5e64ff}.fill.red{fill:#ff5858}.fill.light-green{fill:#98d85b}.fill.green{fill:#28a745}.fill.orange{fill:#ffa00a}.fill.violet{fill:#743ee2}.fill.dark-grey{fill:#b8c2cc}.fill.black{fill:#36414c}.fill.yellow{fill:#feef72}.fill.light-blue{fill:#7cd6fd}.fill.purple{fill:#b554ff}.fill.magenta{fill:#ffa3ef}.border-top.grey{border-top:3px solid #bdd3e6}.border-top.light-grey{border-top:3px solid #f0f4f7}.border-top.blue{border-top:3px solid #5e64ff}.border-top.red{border-top:3px solid #ff5858}.border-top.light-green{border-top:3px solid #98d85b}.border-top.green{border-top:3px solid #28a745}.border-top.orange{border-top:3px solid #ffa00a}.border-top.violet{border-top:3px solid #743ee2}.border-top.dark-grey{border-top:3px solid #b8c2cc}.border-top.black{border-top:3px solid #36414c}.border-top.yellow{border-top:3px solid #feef72}.border-top.light-blue{border-top:3px solid #7cd6fd}.border-top.purple{border-top:3px solid #b554ff}.border-top.magenta{border-top:3px solid #ffa3ef}.stop-color.grey{stop-color:#bdd3e6}.stop-color.light-grey{stop-color:#f0f4f7}.stop-color.blue{stop-color:#5e64ff}.stop-color.red{stop-color:#ff5858}.stop-color.light-green{stop-color:#98d85b}.stop-color.green{stop-color:#28a745}.stop-color.orange{stop-color:#ffa00a}.stop-color.violet{stop-color:#743ee2}.stop-color.dark-grey{stop-color:#b8c2cc}.stop-color.black{stop-color:#36414c}.stop-color.yellow{stop-color:#feef72}.stop-color.light-blue{stop-color:#7cd6fd}.stop-color.purple{stop-color:#b554ff}.stop-color.magenta{stop-color:#ffa3ef}</style>
-      <script src="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/jquery.csv.min.js.download"></script>
-      <script src="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/jquery.stickybits.min.js.download"></script>
-      <script type="text/x-mathjax-config;executed=true">
-          MathJax.Hub.Config({
-            tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']],
-                      processEscapes: true},
-            messageStyle: "none"
-          });
-      </script>
-      <script async="" type="text/javascript" src="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/MathJax.js.download"></script>
-      <link rel="stylesheet" href="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/default.min.css">
-      <script src="./ECTester _ Tests support and behavior of elliptic curve cryptography implementations on JavaCards (TYPE_EC_FP and TYPE_EC_F2M) and on selected software libraries._files/highlight.min.js.download"></script>
-      <script>hljs.initHighlightingOnLoad();</script>
-  <style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
-  .MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
-  .MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
-  .MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
-  .MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
-  </style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-  #MathJax_About.MathJax_MousePost {outline: none}
-  .MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-  .MathJax_MenuItem {padding: 2px 2em; background: transparent}
-  .MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
-  .MathJax_MenuActive .MathJax_MenuArrow {color: white}
-  .MathJax_MenuArrow.RTL {left: .5em; right: auto}
-  .MathJax_MenuCheck {position: absolute; left: .7em}
-  .MathJax_MenuCheck.RTL {right: .7em; left: auto}
-  .MathJax_MenuRadioCheck {position: absolute; left: 1em}
-  .MathJax_MenuRadioCheck.RTL {right: 1em; left: auto}
-  .MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
-  .MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
-  .MathJax_MenuDisabled {color: GrayText}
-  .MathJax_MenuActive {background-color: Highlight; color: HighlightText}
-  .MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
-  .MathJax_ContextMenu:focus {outline: none}
-  .MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
-  #MathJax_AboutClose {top: .2em; right: .2em}
-  .MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
-  .MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
-  .MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
-  .MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
-  .MathJax_MenuClose:hover span {background-color: #CCC!important}
-  .MathJax_MenuClose:hover:focus {outline: none}
-  </style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
-  </style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
-  .MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
-  </style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
-  #MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
-  #MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
-  #MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
-  </style><style type="text/css">.MathJax_Preview {color: #888}
-  #MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
-  #MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
-  .MathJax_Error {color: #CC0000; font-style: italic}
-  </style><style type="text/css">.MJXp-script {font-size: .8em}
-  .MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
-  .MJXp-bold {font-weight: bold}
-  .MJXp-italic {font-style: italic}
-  .MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
-  .MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
-  .MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
-  .MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
-  .MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
-  .MJXp-largeop {font-size: 150%}
-  .MJXp-largeop.MJXp-int {vertical-align: -.2em}
-  .MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
-  .MJXp-display {display: block; text-align: center; margin: 1em 0}
-  .MJXp-math span {display: inline-block}
-  .MJXp-box {display: block!important; text-align: center}
-  .MJXp-box:after {content: " "}
-  .MJXp-rule {display: block!important; margin-top: .1em}
-  .MJXp-char {display: block!important}
-  .MJXp-mo {margin: 0 .15em}
-  .MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
-  .MJXp-denom {display: inline-table!important; width: 100%}
-  .MJXp-denom > * {display: table-row!important}
-  .MJXp-surd {vertical-align: top}
-  .MJXp-surd > * {display: block!important}
-  .MJXp-script-box > *  {display: table!important; height: 50%}
-  .MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
-  .MJXp-script-box > *:last-child > * {vertical-align: bottom}
-  .MJXp-script-box > * > * > * {display: block!important}
-  .MJXp-mphantom {visibility: hidden}
-  .MJXp-munderover {display: inline-table!important}
-  .MJXp-over {display: inline-block!important; text-align: center}
-  .MJXp-over > * {display: block!important}
-  .MJXp-munderover > * {display: table-row!important}
-  .MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
-  .MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
-  .MJXp-mtr {display: table-row!important}
-  .MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
-  .MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
-  .MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
-  .MJXp-mlabeledtr {display: table-row!important}
-  .MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
-  .MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
-  .MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
-  .MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
-  .MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
-  .MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
-  .MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
-  .MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
-  .MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
-  .MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
-  .MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
-  .MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
-  .MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
-  .MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
-  </style><style type="text/css">.mjx-chtml {display: inline-block; line-height: 0; text-indent: 0; text-align: left; text-transform: none; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; letter-spacing: normal; word-wrap: normal; word-spacing: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; margin: 0; padding: 1px 0}
-  .MJXc-display {display: block; text-align: center; margin: 1em 0; padding: 0}
-  .mjx-chtml[tabindex]:focus, body :focus .mjx-chtml[tabindex] {display: inline-table}
-  .mjx-full-width {text-align: center; display: table-cell!important; width: 10000em}
-  .mjx-math {display: inline-block; border-collapse: separate; border-spacing: 0}
-  .mjx-math * {display: inline-block; -webkit-box-sizing: content-box!important; -moz-box-sizing: content-box!important; box-sizing: content-box!important; text-align: left}
-  .mjx-numerator {display: block; text-align: center}
-  .mjx-denominator {display: block; text-align: center}
-  .MJXc-stacked {height: 0; position: relative}
-  .MJXc-stacked > * {position: absolute}
-  .MJXc-bevelled > * {display: inline-block}
-  .mjx-stack {display: inline-block}
-  .mjx-op {display: block}
-  .mjx-under {display: table-cell}
-  .mjx-over {display: block}
-  .mjx-over > * {padding-left: 0px!important; padding-right: 0px!important}
-  .mjx-under > * {padding-left: 0px!important; padding-right: 0px!important}
-  .mjx-stack > .mjx-sup {display: block}
-  .mjx-stack > .mjx-sub {display: block}
-  .mjx-prestack > .mjx-presup {display: block}
-  .mjx-prestack > .mjx-presub {display: block}
-  .mjx-delim-h > .mjx-char {display: inline-block}
-  .mjx-surd {vertical-align: top}
-  .mjx-mphantom * {visibility: hidden}
-  .mjx-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 2px 3px; font-style: normal; font-size: 90%}
-  .mjx-annotation-xml {line-height: normal}
-  .mjx-menclose > svg {fill: none; stroke: currentColor}
-  .mjx-mtr {display: table-row}
-  .mjx-mlabeledtr {display: table-row}
-  .mjx-mtd {display: table-cell; text-align: center}
-  .mjx-label {display: table-row}
-  .mjx-box {display: inline-block}
-  .mjx-block {display: block}
-  .mjx-span {display: inline}
-  .mjx-char {display: block; white-space: pre}
-  .mjx-itable {display: inline-table; width: auto}
-  .mjx-row {display: table-row}
-  .mjx-cell {display: table-cell}
-  .mjx-table {display: table; width: 100%}
-  .mjx-line {display: block; height: 0}
-  .mjx-strut {width: 0; padding-top: 1em}
-  .mjx-vsize {width: 0}
-  .MJXc-space1 {margin-left: .167em}
-  .MJXc-space2 {margin-left: .222em}
-  .MJXc-space3 {margin-left: .278em}
-  .mjx-chartest {display: block; visibility: hidden; position: absolute; top: 0; line-height: normal; font-size: 500%}
-  .mjx-chartest .mjx-char {display: inline}
-  .mjx-chartest .mjx-box {padding-top: 1000px}
-  .MJXc-processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
-  .MJXc-processed {display: none}
-  .mjx-test {display: block; font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
-  .mjx-ex-box-test {position: absolute; overflow: hidden; width: 1px; height: 60ex}
-  .mjx-line-box-test {display: table!important}
-  .mjx-line-box-test span {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
-  #MathJax_CHTML_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
-  .mjx-chtml .mjx-noError {line-height: 1.2; vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
-  .MJXc-TeX-unknown-R {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: normal}
-  .MJXc-TeX-unknown-I {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: normal}
-  .MJXc-TeX-unknown-B {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: normal; font-weight: bold}
-  .MJXc-TeX-unknown-BI {font-family: STIXGeneral,'Cambria Math','Arial Unicode MS',serif; font-style: italic; font-weight: bold}
-  .MJXc-TeX-ams-R {font-family: MJXc-TeX-ams-R,MJXc-TeX-ams-Rw}
-  .MJXc-TeX-cal-B {font-family: MJXc-TeX-cal-B,MJXc-TeX-cal-Bx,MJXc-TeX-cal-Bw}
-  .MJXc-TeX-frak-R {font-family: MJXc-TeX-frak-R,MJXc-TeX-frak-Rw}
-  .MJXc-TeX-frak-B {font-family: MJXc-TeX-frak-B,MJXc-TeX-frak-Bx,MJXc-TeX-frak-Bw}
-  .MJXc-TeX-math-BI {font-family: MJXc-TeX-math-BI,MJXc-TeX-math-BIx,MJXc-TeX-math-BIw}
-  .MJXc-TeX-sans-R {font-family: MJXc-TeX-sans-R,MJXc-TeX-sans-Rw}
-  .MJXc-TeX-sans-B {font-family: MJXc-TeX-sans-B,MJXc-TeX-sans-Bx,MJXc-TeX-sans-Bw}
-  .MJXc-TeX-sans-I {font-family: MJXc-TeX-sans-I,MJXc-TeX-sans-Ix,MJXc-TeX-sans-Iw}
-  .MJXc-TeX-script-R {font-family: MJXc-TeX-script-R,MJXc-TeX-script-Rw}
-  .MJXc-TeX-type-R {font-family: MJXc-TeX-type-R,MJXc-TeX-type-Rw}
-  .MJXc-TeX-cal-R {font-family: MJXc-TeX-cal-R,MJXc-TeX-cal-Rw}
-  .MJXc-TeX-main-B {font-family: MJXc-TeX-main-B,MJXc-TeX-main-Bx,MJXc-TeX-main-Bw}
-  .MJXc-TeX-main-I {font-family: MJXc-TeX-main-I,MJXc-TeX-main-Ix,MJXc-TeX-main-Iw}
-  .MJXc-TeX-main-R {font-family: MJXc-TeX-main-R,MJXc-TeX-main-Rw}
-  .MJXc-TeX-math-I {font-family: MJXc-TeX-math-I,MJXc-TeX-math-Ix,MJXc-TeX-math-Iw}
-  .MJXc-TeX-size1-R {font-family: MJXc-TeX-size1-R,MJXc-TeX-size1-Rw}
-  .MJXc-TeX-size2-R {font-family: MJXc-TeX-size2-R,MJXc-TeX-size2-Rw}
-  .MJXc-TeX-size3-R {font-family: MJXc-TeX-size3-R,MJXc-TeX-size3-Rw}
-  .MJXc-TeX-size4-R {font-family: MJXc-TeX-size4-R,MJXc-TeX-size4-Rw}
-  .MJXc-TeX-vec-R {font-family: MJXc-TeX-vec-R,MJXc-TeX-vec-Rw}
-  .MJXc-TeX-vec-B {font-family: MJXc-TeX-vec-B,MJXc-TeX-vec-Bx,MJXc-TeX-vec-Bw}
-  @font-face {font-family: MJXc-TeX-ams-R; src: local('MathJax_AMS'), local('MathJax_AMS-Regular')}
-  @font-face {font-family: MJXc-TeX-ams-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_AMS-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_AMS-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_AMS-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-cal-B; src: local('MathJax_Caligraphic Bold'), local('MathJax_Caligraphic-Bold')}
-  @font-face {font-family: MJXc-TeX-cal-Bx; src: local('MathJax_Caligraphic'); font-weight: bold}
-  @font-face {font-family: MJXc-TeX-cal-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Bold.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-frak-R; src: local('MathJax_Fraktur'), local('MathJax_Fraktur-Regular')}
-  @font-face {font-family: MJXc-TeX-frak-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-frak-B; src: local('MathJax_Fraktur Bold'), local('MathJax_Fraktur-Bold')}
-  @font-face {font-family: MJXc-TeX-frak-Bx; src: local('MathJax_Fraktur'); font-weight: bold}
-  @font-face {font-family: MJXc-TeX-frak-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Fraktur-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Fraktur-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Fraktur-Bold.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-math-BI; src: local('MathJax_Math BoldItalic'), local('MathJax_Math-BoldItalic')}
-  @font-face {font-family: MJXc-TeX-math-BIx; src: local('MathJax_Math'); font-weight: bold; font-style: italic}
-  @font-face {font-family: MJXc-TeX-math-BIw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Math-BoldItalic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Math-BoldItalic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Math-BoldItalic.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-sans-R; src: local('MathJax_SansSerif'), local('MathJax_SansSerif-Regular')}
-  @font-face {font-family: MJXc-TeX-sans-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-sans-B; src: local('MathJax_SansSerif Bold'), local('MathJax_SansSerif-Bold')}
-  @font-face {font-family: MJXc-TeX-sans-Bx; src: local('MathJax_SansSerif'); font-weight: bold}
-  @font-face {font-family: MJXc-TeX-sans-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Bold.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-sans-I; src: local('MathJax_SansSerif Italic'), local('MathJax_SansSerif-Italic')}
-  @font-face {font-family: MJXc-TeX-sans-Ix; src: local('MathJax_SansSerif'); font-style: italic}
-  @font-face {font-family: MJXc-TeX-sans-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_SansSerif-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_SansSerif-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_SansSerif-Italic.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-script-R; src: local('MathJax_Script'), local('MathJax_Script-Regular')}
-  @font-face {font-family: MJXc-TeX-script-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Script-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Script-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Script-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-type-R; src: local('MathJax_Typewriter'), local('MathJax_Typewriter-Regular')}
-  @font-face {font-family: MJXc-TeX-type-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Typewriter-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Typewriter-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Typewriter-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-cal-R; src: local('MathJax_Caligraphic'), local('MathJax_Caligraphic-Regular')}
-  @font-face {font-family: MJXc-TeX-cal-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Caligraphic-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Caligraphic-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Caligraphic-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-main-B; src: local('MathJax_Main Bold'), local('MathJax_Main-Bold')}
-  @font-face {font-family: MJXc-TeX-main-Bx; src: local('MathJax_Main'); font-weight: bold}
-  @font-face {font-family: MJXc-TeX-main-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Main-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Bold.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-main-I; src: local('MathJax_Main Italic'), local('MathJax_Main-Italic')}
-  @font-face {font-family: MJXc-TeX-main-Ix; src: local('MathJax_Main'); font-style: italic}
-  @font-face {font-family: MJXc-TeX-main-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Main-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Italic.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-main-R; src: local('MathJax_Main'), local('MathJax_Main-Regular')}
-  @font-face {font-family: MJXc-TeX-main-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Main-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Main-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-math-I; src: local('MathJax_Math Italic'), local('MathJax_Math-Italic')}
-  @font-face {font-family: MJXc-TeX-math-Ix; src: local('MathJax_Math'); font-style: italic}
-  @font-face {font-family: MJXc-TeX-math-Iw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Math-Italic.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Math-Italic.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Math-Italic.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-size1-R; src: local('MathJax_Size1'), local('MathJax_Size1-Regular')}
-  @font-face {font-family: MJXc-TeX-size1-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Size1-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size1-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size1-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-size2-R; src: local('MathJax_Size2'), local('MathJax_Size2-Regular')}
-  @font-face {font-family: MJXc-TeX-size2-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Size2-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size2-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size2-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-size3-R; src: local('MathJax_Size3'), local('MathJax_Size3-Regular')}
-  @font-face {font-family: MJXc-TeX-size3-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Size3-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size3-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size3-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-size4-R; src: local('MathJax_Size4'), local('MathJax_Size4-Regular')}
-  @font-face {font-family: MJXc-TeX-size4-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Size4-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Size4-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Size4-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-vec-R; src: local('MathJax_Vector'), local('MathJax_Vector-Regular')}
-  @font-face {font-family: MJXc-TeX-vec-Rw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Regular.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Regular.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Regular.otf') format('opentype')}
-  @font-face {font-family: MJXc-TeX-vec-B; src: local('MathJax_Vector Bold'), local('MathJax_Vector-Bold')}
-  @font-face {font-family: MJXc-TeX-vec-Bx; src: local('MathJax_Vector'); font-weight: bold}
-  @font-face {font-family: MJXc-TeX-vec-Bw; src /*1*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/eot/MathJax_Vector-Bold.eot'); src /*2*/: url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Vector-Bold.woff') format('woff'), url('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/otf/MathJax_Vector-Bold.otf') format('opentype')}
-  </style></head>
+</head>
 <body>
 <div class="container"><div class="content">  <h1 class="text-center">CryptoStreams</h1>
 <p><a href="https://github.com/crocs-muni/CryptoStreams">CryptoStreams</a> is an open source tool for output data generation of
@@ -326,7 +59,7 @@ containing additional tests atop of selected ones from NIST STS.</li>
 larger data streams. Typically more sensitive than NIST STS and Dieharder.</li>
 <li>BoolTest - test based on efficient search for Boolean functions.</li></ul></div>
 </div>
-<a href="#strategies" class="btn body-btn" data-toggle="collapse">Input generation strategies</a><div id="strategies" class="collapse"><ul class="list-unstyled">
+<a href="#strategies" class="btn btn-info" data-toggle="collapse">Input generation strategies</a><div id="strategies" class="collapse"><ul class="list-unstyled">
 
 <li>Counter (CTR)
 <ul>
@@ -384,12 +117,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:70.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#AES" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES" class="btn btn-secondary">Test vectors</a>
+              <a href="#AES" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ARIA</h5>
@@ -404,12 +134,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:75.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aria" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/ARIA" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#ARIA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aria" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/ARIA" class="btn btn-secondary">Test vectors</a>
+              <a href="#ARIA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">BLOWFISH</h5>
@@ -429,12 +156,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:75.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/blowfish" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/BLOWFISH" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#BLOWFISH" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/blowfish" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/BLOWFISH" class="btn btn-secondary">Test vectors</a>
+              <a href="#BLOWFISH" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CAMELLIA</h5>
@@ -454,12 +178,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:77.77777777777777%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/camellia" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAMELLIA" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#CAMELLIA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/camellia" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAMELLIA" class="btn btn-secondary">Test vectors</a>
+              <a href="#CAMELLIA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -476,12 +197,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:75.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/cast" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAST" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#CAST" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/cast" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAST" class="btn btn-secondary">Test vectors</a>
+              <a href="#CAST" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">GOST</h5>
@@ -501,12 +219,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:65.625%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/gost" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/GOST" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#GOST" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/gost" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/GOST" class="btn btn-secondary">Test vectors</a>
+              <a href="#GOST" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">IDEA</h5>
@@ -521,12 +236,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/idea" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/IDEA" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#IDEA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/idea" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/IDEA" class="btn btn-secondary">Test vectors</a>
+              <a href="#IDEA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">KASUMI</h5>
@@ -546,12 +258,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:62.5%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kasumi" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KASUMI" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#KASUMI" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kasumi" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KASUMI" class="btn btn-secondary">Test vectors</a>
+              <a href="#KASUMI" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -568,12 +277,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:90.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kuznyechik" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KUZNYECHIK" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#KUZNYECHIK" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kuznyechik" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KUZNYECHIK" class="btn btn-secondary">Test vectors</a>
+              <a href="#KUZNYECHIK" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MISTY1</h5>
@@ -588,12 +294,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:75.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/misty1" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MISTY1" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MISTY1" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/misty1" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MISTY1" class="btn btn-secondary">Test vectors</a>
+              <a href="#MISTY1" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">NOEKEON</h5>
@@ -608,12 +311,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/noekeon" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/NOEKEON" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#NOEKEON" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/noekeon" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/NOEKEON" class="btn btn-secondary">Test vectors</a>
+              <a href="#NOEKEON" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">RC6</h5>
@@ -628,12 +328,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:80.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/rc6" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/RC6" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#RC6" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/rc6" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/RC6" class="btn btn-secondary">Test vectors</a>
+              <a href="#RC6" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -650,12 +347,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/seed" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SEED" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SEED" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/seed" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SEED" class="btn btn-secondary">Test vectors</a>
+              <a href="#SEED" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SERPENT</h5>
@@ -670,12 +364,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:90.625%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/serpent" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SERPENT" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SERPENT" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/serpent" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SERPENT" class="btn btn-secondary">Test vectors</a>
+              <a href="#SERPENT" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHACAL2</h5>
@@ -690,12 +381,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:88.75%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/shacal2" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SHACAL2" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SHACAL2" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/shacal2" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SHACAL2" class="btn btn-secondary">Test vectors</a>
+              <a href="#SHACAL2" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SIMON</h5>
@@ -715,12 +403,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:72.05882352941177%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/simon" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SIMON" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SIMON" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/simon" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SIMON" class="btn btn-secondary">Test vectors</a>
+              <a href="#SIMON" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -742,12 +427,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:62.5%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/single-des" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SINGLE-DES" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SINGLE-DES" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/single-des" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SINGLE-DES" class="btn btn-secondary">Test vectors</a>
+              <a href="#SINGLE-DES" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SPECK</h5>
@@ -762,12 +444,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:68.75%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/speck" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SPECK" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SPECK" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/speck" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SPECK" class="btn btn-secondary">Test vectors</a>
+              <a href="#SPECK" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">TEA</h5>
@@ -782,12 +461,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:84.375%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/tea" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TEA" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#TEA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/tea" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TEA" class="btn btn-secondary">Test vectors</a>
+              <a href="#TEA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">TRIPLE-DES</h5>
@@ -802,12 +478,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:81.25%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/triple-des" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TRIPLE-DES" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#TRIPLE-DES" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/triple-des" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TRIPLE-DES" class="btn btn-secondary">Test vectors</a>
+              <a href="#TRIPLE-DES" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -829,12 +502,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:81.25%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/twofish" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TWOFISH" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#TWOFISH" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/twofish" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TWOFISH" class="btn btn-secondary">Test vectors</a>
+              <a href="#TWOFISH" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">XTEA</h5>
@@ -849,26 +519,20 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/xtea" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/XTEA" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#XTEA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/xtea" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/XTEA" class="btn btn-secondary">Test vectors</a>
+              <a href="#XTEA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
-<br/><a href="#not-tested-block" class="btn body-btn" data-toggle="collapse">Show also untested block ciphers</a><div id="not-tested-block" class="collapse"><br/><div class="card-deck">
+<br/><a href="#not-tested-block" class="btn btn-info" data-toggle="collapse">Show also untested block ciphers</a><div id="not-tested-block" class="collapse"><br/><div class="card-deck">
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MARS</h5>
             <div class="card-body text-center">
 -/16<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MARS" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS" class="btn btn-secondary">Test vectors</a>
+              <a href="#MARS" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/></div>      <h3 class="text-info">Hash functions</h3>
@@ -891,12 +555,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:85.71428571428571%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blake" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blake" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Blake" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blake" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blake" class="btn btn-secondary">Test vectors</a>
+              <a href="#Blake" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Gost</h5>
@@ -911,12 +572,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:96.875%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/gost" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Gost" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Gost" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/gost" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Gost" class="btn btn-secondary">Test vectors</a>
+              <a href="#Gost" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Grostl</h5>
@@ -931,12 +589,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:80.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Grostl" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Grostl" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Grostl" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Grostl" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Grostl" class="btn btn-secondary">Test vectors</a>
+              <a href="#Grostl" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">JH</h5>
@@ -951,12 +606,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:85.71428571428572%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/JH" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/JH" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#JH" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/JH" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/JH" class="btn btn-secondary">Test vectors</a>
+              <a href="#JH" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -973,12 +625,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:87.5%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Keccak" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Keccak" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Keccak" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Keccak" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MD5</h5>
@@ -998,12 +647,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:60.9375%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/md5" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD5" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MD5" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/md5" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD5" class="btn btn-secondary">Test vectors</a>
+              <a href="#MD5" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MD6</h5>
@@ -1018,12 +664,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:91.34615384615384%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MD6" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD6" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MD6" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MD6" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD6" class="btn btn-secondary">Test vectors</a>
+              <a href="#MD6" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHA1</h5>
@@ -1043,12 +686,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:76.25%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha1" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA1" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SHA1" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha1" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA1" class="btn btn-secondary">Test vectors</a>
+              <a href="#SHA1" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1065,12 +705,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:94.44444444444444%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Skein" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Skein" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Skein" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Skein" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Tiger</h5>
@@ -1090,12 +727,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:91.30434782608695%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Tiger" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger" class="btn btn-secondary">Test vectors</a>
+              <a href="#Tiger" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Whirlpool</h5>
@@ -1109,62 +743,47 @@ correlation for the analyzed function (similar to linear cryptoanalysis).">?</a>
                 <div class="progress-bar bg-success" style="width:80.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/whirlpool" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Whirlpool" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Whirlpool" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/whirlpool" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Whirlpool" class="btn btn-secondary">Test vectors</a>
+              <a href="#Whirlpool" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
-<br/><a href="#not-tested-hash" class="btn body-btn" data-toggle="collapse">Show also untested hash hunctions</a><div id="not-tested-hash" class="collapse"><br/><div class="card-deck">
+<br/><a href="#not-tested-hash" class="btn btn-info" data-toggle="collapse">Show also untested hash hunctions</a><div id="not-tested-hash" class="collapse"><br/><div class="card-deck">
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ARIRANG</h5>
             <div class="card-body text-center">
 -/4<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ARIRANG" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ARIRANG" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#ARIRANG" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ARIRANG" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ARIRANG" class="btn btn-secondary">Test vectors</a>
+              <a href="#ARIRANG" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Abacus</h5>
             <div class="card-body text-center">
 -/280<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Abacus" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Abacus" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Abacus" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Abacus" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Abacus" class="btn btn-secondary">Test vectors</a>
+              <a href="#Abacus" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Aurora</h5>
             <div class="card-body text-center">
 -/17<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Aurora" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Aurora" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Aurora" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Aurora" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Aurora" class="btn btn-secondary">Test vectors</a>
+              <a href="#Aurora" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">BMW</h5>
             <div class="card-body text-center">
 -/16<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BMW" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#BMW" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BMW" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#BMW" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1173,48 +792,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/32<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blender" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Blender" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blender" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Blender" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Boole</h5>
             <div class="card-body text-center">
 -/16<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Boole" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Boole" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Boole" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Boole" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CHI</h5>
             <div class="card-body text-center">
 -/20<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CHI" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#CHI" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CHI" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#CHI" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CRUNCH</h5>
             <div class="card-body text-center">
 -/244<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CRUNCH" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#CRUNCH" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CRUNCH" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#CRUNCH" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1223,48 +830,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/16<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Cheetah" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Cheetah" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Cheetah" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Cheetah" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Cheetah" class="btn btn-secondary">Test vectors</a>
+              <a href="#Cheetah" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CubeHash</h5>
             <div class="card-body text-center">
 -/8<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CubeHash" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CubeHash" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#CubeHash" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CubeHash" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CubeHash" class="btn btn-secondary">Test vectors</a>
+              <a href="#CubeHash" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">DCH</h5>
             <div class="card-body text-center">
 -/4<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DCH" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DCH" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#DCH" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DCH" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DCH" class="btn btn-secondary">Test vectors</a>
+              <a href="#DCH" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">DynamicSHA</h5>
             <div class="card-body text-center">
 -/16<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#DynamicSHA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA" class="btn btn-secondary">Test vectors</a>
+              <a href="#DynamicSHA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1273,48 +868,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/17<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA2" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA2" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#DynamicSHA2" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA2" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA2" class="btn btn-secondary">Test vectors</a>
+              <a href="#DynamicSHA2" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ECHO</h5>
             <div class="card-body text-center">
 -/8<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ECHO" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ECHO" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#ECHO" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ECHO" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ECHO" class="btn btn-secondary">Test vectors</a>
+              <a href="#ECHO" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">EDON</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/EDON" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#EDON" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/EDON" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#EDON" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ESSENCE</h5>
             <div class="card-body text-center">
 -/32<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ESSENCE" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#ESSENCE" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ESSENCE" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#ESSENCE" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1323,48 +906,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/5<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Fugue" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Fugue" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Fugue" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Fugue" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Hamsi</h5>
             <div class="card-body text-center">
 -/3<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Hamsi" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Hamsi" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Hamsi" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Hamsi" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Hamsi" class="btn btn-secondary">Test vectors</a>
+              <a href="#Hamsi" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Khichidi</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Khichidi" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Khichidi" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Khichidi" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Khichidi" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Lane</h5>
             <div class="card-body text-center">
 -/9<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lane" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Lane" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lane" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Lane" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1373,48 +944,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/32<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lesamnta" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lesamnta" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Lesamnta" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lesamnta" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lesamnta" class="btn btn-secondary">Test vectors</a>
+              <a href="#Lesamnta" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Luffa</h5>
             <div class="card-body text-center">
 -/8<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Luffa" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Luffa" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Luffa" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Luffa" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Luffa" class="btn btn-secondary">Test vectors</a>
+              <a href="#Luffa" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MCSSHA3</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MCSSHA3" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MCSSHA3" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MCSSHA3" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#MCSSHA3" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MeshHash</h5>
             <div class="card-body text-center">
 -/32<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MeshHash" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MeshHash" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MeshHash" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#MeshHash" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1423,48 +982,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/NaSHA" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#NaSHA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/NaSHA" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#NaSHA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">RIPMD160</h5>
             <div class="card-body text-center">
 -/80<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/RIPMD160" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPMD160" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#RIPMD160" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/RIPMD160" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPMD160" class="btn btn-secondary">Test vectors</a>
+              <a href="#RIPMD160" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHA2</h5>
             <div class="card-body text-center">
 -/64<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha2" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA2" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SHA2" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha2" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA2" class="btn btn-secondary">Test vectors</a>
+              <a href="#SHA2" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SHA3</h5>
             <div class="card-body text-center">
 -/24<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHA3" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA3" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SHA3" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHA3" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA3" class="btn btn-secondary">Test vectors</a>
+              <a href="#SHA3" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1473,48 +1020,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/12<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAvite3" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SHAvite3" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAvite3" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#SHAvite3" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SIMD</h5>
             <div class="card-body text-center">
 -/4<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SIMD" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SIMD" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SIMD" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SIMD" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SIMD" class="btn btn-secondary">Test vectors</a>
+              <a href="#SIMD" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Sarmal</h5>
             <div class="card-body text-center">
 -/16<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Sarmal" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Sarmal" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Sarmal" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Sarmal" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Shabal</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shabal" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Shabal" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shabal" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Shabal" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1523,48 +1058,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Shamata" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Shamata" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SpectralHash</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SpectralHash" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SpectralHash" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SpectralHash" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#SpectralHash" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">StreamHash</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/StreamHash" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#StreamHash" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/StreamHash" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#StreamHash" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Tangle</h5>
             <div class="card-body text-center">
 -/80<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Tangle" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle" class="btn btn-secondary">Test vectors</a>
+              <a href="#Tangle" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1573,48 +1096,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/80<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle2" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle2" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Tangle2" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle2" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle2" class="btn btn-secondary">Test vectors</a>
+              <a href="#Tangle2" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Twister</h5>
             <div class="card-body text-center">
 -/9<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Twister" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Twister" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Twister" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Twister" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Twister" class="btn btn-secondary">Test vectors</a>
+              <a href="#Twister" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Vortex</h5>
             <div class="card-body text-center">
 -/15<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Vortex" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Vortex" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Vortex" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Vortex" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">WaMM</h5>
             <div class="card-body text-center">
 -/2<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/WaMM" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#WaMM" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/WaMM" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#WaMM" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1623,12 +1134,9 @@ No test results            <br/>
             <div class="card-body text-center">
 -/20<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Waterfall" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Waterfall" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Waterfall" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Waterfall" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/></div>      <h3 class="text-info">Stream ciphers</h3>
@@ -1646,12 +1154,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:85.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Chacha" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha" class="btn btn-secondary">Test vectors</a>
+              <a href="#Chacha" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">F-FCSR</h5>
@@ -1666,12 +1171,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:80.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#F-FCSR" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#F-FCSR" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Grain</h5>
@@ -1686,12 +1188,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:53.84615384615385%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Grain" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain" class="btn btn-secondary">Test vectors</a>
+              <a href="#Grain" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">RC4</h5>
@@ -1707,12 +1206,9 @@ than 162 MB is required, Hamming weight 5 (or more) needs to be used.
 The goal is to test the masking property in case of inputs with very low
 entropy.">?</a></font>)<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#RC4" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4" class="btn btn-secondary">Test vectors</a>
+              <a href="#RC4" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1729,12 +1225,9 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:0.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Rabbit" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Rabbit" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SOSEMANUK</h5>
@@ -1754,12 +1247,9 @@ entropy.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:76.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SOSEMANUK" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#SOSEMANUK" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Salsa20</h5>
@@ -1774,62 +1264,47 @@ changes between the subsequent inputs.">?</a></font>)<br/>
                 <div class="progress-bar bg-success" style="width:90.0%"> </div>
               </div>
             <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Salsa20" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20" class="btn btn-secondary">Test vectors</a>
+              <a href="#Salsa20" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
-<br/><a href="#not-tested-stream" class="btn body-btn" data-toggle="collapse">Show also untested stream ciphers</a><div id="not-tested-stream" class="collapse"><br/><div class="card-deck">
+<br/><a href="#not-tested-stream" class="btn btn-info" data-toggle="collapse">Show also untested stream ciphers</a><div id="not-tested-stream" class="collapse"><br/><div class="card-deck">
 <div class="card bg-secondary text-white">
             <h5 class="card-title text-center">ABC</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#ABC" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#ABC" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Achterbahn</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Achterbahn" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Achterbahn" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">CryptMT</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#CryptMT" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#CryptMT" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">DECIM</h5>
             <div class="card-body text-center">
 -/8<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/decim" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DECIM" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#DECIM" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/decim" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DECIM" class="btn btn-secondary">Test vectors</a>
+              <a href="#DECIM" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1838,48 +1313,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#DICING" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#DICING" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Dragon</h5>
             <div class="card-body text-center">
 -/16<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Dragon" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Dragon" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Edon80</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Edon80" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Edon80" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Frogbit</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Frogbit" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Frogbit" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1888,48 +1351,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/4<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/fubuki" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Fubuki" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Fubuki" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/fubuki" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Fubuki" class="btn btn-secondary">Test vectors</a>
+              <a href="#Fubuki" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">HC-128</h5>
             <div class="card-body text-center">
 -/no<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#HC-128" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#HC-128" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Hermes</h5>
             <div class="card-body text-center">
 -/10<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hermes" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Hermes" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Hermes" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hermes" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Hermes" class="btn btn-secondary">Test vectors</a>
+              <a href="#Hermes" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">LEX</h5>
             <div class="card-body text-center">
 -/10<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/lex" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/LEX" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#LEX" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/lex" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/LEX" class="btn btn-secondary">Test vectors</a>
+              <a href="#LEX" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1938,48 +1389,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MAG" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#MAG" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">MICKEY</h5>
             <div class="card-body text-center">
 -/1<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#MICKEY" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY" class="btn btn-secondary">Test vectors</a>
+              <a href="#MICKEY" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Mir-1</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Mir-1" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Mir-1" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Moustique</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Moustique" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Moustique" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -1988,48 +1427,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#NLS" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#NLS" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Phelix</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Phelix" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Phelix" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Polar Bear</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polarbear" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#PolarBear" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polarbear" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#PolarBear" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Pomaranch</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Pomaranch" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Pomaranch" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -2038,48 +1465,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Py" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Py" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SFINKS</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SFINKS" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#SFINKS" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">SSS</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SSS" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#SSS" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">TRBDK3 YAEA</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3yaea" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#TRBDK3YAEA" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3yaea" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#TRBDK3YAEA" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -2088,48 +1503,36 @@ No test results            <br/>
             <div class="card-body text-center">
 -/32<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/tsc-4" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TSC-4" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#TSC-4" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/tsc-4" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TSC-4" class="btn btn-secondary">Test vectors</a>
+              <a href="#TSC-4" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">Trivium</h5>
             <div class="card-body text-center">
 -/9<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Trivium" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Trivium" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium" class="btn btn-secondary">Source code</a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Trivium" class="btn btn-secondary">Test vectors</a>
+              <a href="#Trivium" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">VEST</h5>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#VEST" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#VEST" class="btn btn-secondary">Detailed information</a>
             </div>
              </div><div class="card bg-secondary text-white">
             <h5 class="card-title text-center">WG</h5>
             <div class="card-body text-center">
 -/n/a<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#WG" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#WG" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/><div class="card-deck">
@@ -2138,12 +1541,9 @@ No test results            <br/>
             <div class="card-body text-center">
 -/-<br/>
 No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#Zk-Crypt" class="btn btn-secondary">Detailed information</a>
-            </div>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt" class="btn btn-secondary">Source code</a>
+              <a href="no_tv.html" class="btn btn-secondary">Test vectors</a>
+              <a href="#Zk-Crypt" class="btn btn-secondary">Detailed information</a>
             </div>
              </div></div>
 <br/></div>
@@ -12276,6 +11676,6 @@ CryptoStreams project are tested (stay tuned, we are working on it :)).</p>
       <br/>
 
 </div>
-  <img class="sticky" src="exapmle_white.jpg" alt=""/></div>
+  <img class="sticky" src="exapmle.jpg" alt=""/></div>
 </body>
 </html>
