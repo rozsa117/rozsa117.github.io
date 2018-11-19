@@ -1,7 +1,39 @@
 .main-content {
-    padding-top: 6rem;
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+    padding-top: 4rem;
+    padding-left: 1px;
+    width: 100%;
+    float: left;
+}
+
+.card-deck .card {
+    max-width: calc(25% - 30px);
+}
+
+img.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 1rem;
+    float: left;
+    width: 30%;
+}
+
+.content {
+    float: left;
+    padding: 20px;
+    padding-left: 50px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    min-width: 100%;
+    padding-top: 4rem;
+}
+
+u.dotted {
+  text-decoration: underline dotted;
+    text-decoration-color: #F000F0;
 }
 
 .page-header {
