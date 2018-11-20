@@ -1003,6 +1003,33 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
             </div>
              </div><div class="card bg-secondary text-white">
             <div class="card-body text-center">
+            <h5 class="card-title text-center">RIPEMD160</h5>
+14/80 (<u class="dotted"><a data-toggle="tooltip" data-placement="right" title="Low Hamming weight (LHW) - The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">LHW</a></u>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:17.5%"></div>
+                <div class="progress-bar bg-success" style="width:82.5%"> </div>
+              </div>
+            <br/>
+<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/ripemd160" class="btn btn-secondary">Source code</a>
+            </div>
+<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPEMD160" class="btn btn-secondary">Test vectors</a>
+            </div>
+<div class="text-enter">              <a href="#RIPEMD160" class="btn btn-secondary">All details</a>
+            </div>
+            </div>
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
+            <div class="card-body text-center">
             <h5 class="card-title text-center">SHA1</h5>
 19/80 (<u class="dotted"><a data-toggle="tooltip" data-placement="right" title="Low Hamming weight (LHW) - The input blocks are generated to have minimum Hamming weight possible
 which still not repeated (the actual Hamming weight depends on the
@@ -1026,9 +1053,32 @@ entropy.">LHW</a></u>)<br/>
 <div class="text-enter">              <a href="#SHA1" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
+            <div class="card-body text-center">
+            <h5 class="card-title text-center">SHA2</h5>
+13/64 (<u class="dotted"><a data-toggle="tooltip" data-placement="right" title="Low Hamming weight (LHW) - The input blocks are generated to have minimum Hamming weight possible
+which still not repeated (the actual Hamming weight depends on the
+required output size).
+E,g., if a 100 MB of output data is required, and the length of the
+input block is 128 bits, the Hamming weight is set to 4 (number of
+different input blocks with Hamming weight 4 is equal to 128 over 4, and
+the length of the output block is 16 bytes => ~ 162 MB maximum). If more
+than 162 MB is required, Hamming weight 5 (or more) needs to be used.
+The goal is to test the masking property in case of inputs with very low
+entropy.">LHW</a></u>)<br/>
+              <div class="progress">
+                <div class="progress-bar bg-danger" style="width:20.3125%"></div>
+                <div class="progress-bar bg-success" style="width:79.6875%"> </div>
+              </div>
+            <br/>
+<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha2" class="btn btn-secondary">Source code</a>
+            </div>
+<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA2" class="btn btn-secondary">Test vectors</a>
+            </div>
+<div class="text-enter">              <a href="#SHA2" class="btn btn-secondary">All details</a>
+            </div>
+            </div>
+             </div><div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">Skein</h5>
 4/72 (<u class="dotted"><a data-toggle="tooltip" data-placement="right" title="Counter (CTR) - The input blocks are generated as a counter value starting from 0.
@@ -1073,7 +1123,9 @@ entropy.">LHW</a></u>)<br/>
 <div class="text-enter">              <a href="#Tiger" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">Whirlpool</h5>
 2/10 (<u class="dotted"><a data-toggle="tooltip" data-placement="right" title="Random-plaintext-ciphertext (RPC) - The input blocks are generated at random, and the output is a
@@ -1408,30 +1460,6 @@ No test results            <br/>
             </div>
              </div><div class="card bg-secondary text-white">
             <div class="card-body text-center">
-            <h5 class="card-title text-center">RIPMD160</h5>
--/80<br/>
-No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/RIPMD160" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPMD160" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#RIPMD160" class="btn btn-secondary">All details</a>
-            </div>
-            </div>
-             </div><div class="card bg-secondary text-white">
-            <div class="card-body text-center">
-            <h5 class="card-title text-center">SHA2</h5>
--/64<br/>
-No test results            <br/>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha2" class="btn btn-secondary">Source code</a>
-            </div>
-<div class="text-enter">              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA2" class="btn btn-secondary">Test vectors</a>
-            </div>
-<div class="text-enter">              <a href="#SHA2" class="btn btn-secondary">All details</a>
-            </div>
-            </div>
-             </div><div class="card bg-secondary text-white">
-            <div class="card-body text-center">
             <h5 class="card-title text-center">SHA3</h5>
 -/24<br/>
 No test results            <br/>
@@ -1442,9 +1470,7 @@ No test results            <br/>
 <div class="text-enter">              <a href="#SHA3" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">SHAvite3</h5>
 -/12<br/>
@@ -1468,7 +1494,9 @@ No test results            <br/>
 <div class="text-enter">              <a href="#SIMD" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">Sarmal</h5>
 -/16<br/>
@@ -1492,9 +1520,7 @@ No test results            <br/>
 <div class="text-enter">              <a href="#Shabal" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">Shamata</h5>
 -/n/a<br/>
@@ -1518,7 +1544,9 @@ No test results            <br/>
 <div class="text-enter">              <a href="#SpectralHash" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">StreamHash</h5>
 -/n/a<br/>
@@ -1542,9 +1570,7 @@ No test results            <br/>
 <div class="text-enter">              <a href="#Tangle" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">Tangle2</h5>
 -/80<br/>
@@ -1568,7 +1594,9 @@ No test results            <br/>
 <div class="text-enter">              <a href="#Twister" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div><div class="card bg-secondary text-white">
+             </div></div>
+<br/><div class="card-deck">
+<div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">Vortex</h5>
 -/15<br/>
@@ -1592,9 +1620,7 @@ No test results            <br/>
 <div class="text-enter">              <a href="#WaMM" class="btn btn-secondary">All details</a>
             </div>
             </div>
-             </div></div>
-<br/><div class="card-deck">
-<div class="card bg-secondary text-white">
+             </div><div class="card bg-secondary text-white">
             <div class="card-body text-center">
             <h5 class="card-title text-center">Waterfall</h5>
 -/20<br/>
@@ -4856,6 +4882,96 @@ CryptoStreams project are tested (stay tuned, we are working on it :)).</p>
       </table>
       <br/>
 
+<h4 class="text-muted" id="RIPEMD160">RIPEMD160</h4>
+<ul><li>Block size: 20</li>
+<li>Rounds: 80</li>
+</ul>
+<table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="4">Dieharder</th>
+          <th colspan="4">NIST-STS</th>
+          <th colspan="4">TestU01</th>
+          <th colspan="4">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+        </tr>        <tr>
+          <td>8GB</td>
+          <td>9</td>
+          <td>14</td>
+          <td>13</td>
+          <td>4</td>
+          <td>9</td>
+          <td>13</td>
+          <td>11</td>
+          <td>4</td>
+          <td>11</td>
+          <td>14</td>
+          <td>14</td>
+          <td>5</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>9</td>
+          <td>13</td>
+          <td>12</td>
+          <td>4</td>
+          <td>9</td>
+          <td>13</td>
+          <td>11</td>
+          <td>4</td>
+          <td>9</td>
+          <td>14</td>
+          <td>1</td>
+          <td>4</td>
+          <td>11</td>
+          <td>13</td>
+          <td>-</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>8</td>
+          <td>13</td>
+          <td>13</td>
+          <td>4</td>
+          <td>8</td>
+          <td>12</td>
+          <td>11</td>
+          <td>4</td>
+          <td>9</td>
+          <td>14</td>
+          <td>13</td>
+          <td>5</td>
+          <td>10</td>
+          <td>13</td>
+          <td>-</td>
+          <td>6</td>
+        </tr>
+      </table>
+      <br/>
+
 <h4 class="text-muted" id="SHA1">SHA1</h4>
 <ul><li>Block size: 20</li>
 <li>Rounds: 80</li>
@@ -4942,6 +5058,96 @@ CryptoStreams project are tested (stay tuned, we are working on it :)).</p>
           <td>16</td>
           <td>-</td>
           <td>7</td>
+        </tr>
+      </table>
+      <br/>
+
+<h4 class="text-muted" id="SHA2">SHA2</h4>
+<ul><li>Block size: 32</li>
+<li>Rounds: 64</li>
+</ul>
+<table class="table table-bordered table-dark table-striped table-sm">
+        <tr>
+          <th>Length of data</th>
+          <th colspan="4">Dieharder</th>
+          <th colspan="4">NIST-STS</th>
+          <th colspan="4">TestU01</th>
+          <th colspan="4">BoolTest</th>
+        </tr>
+        <tr>
+          <td>Strategies</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+          <td>CTR</td>
+          <td>LHW</td>
+          <td>SAC</td>
+          <td>RPC</td>
+        </tr>        <tr>
+          <td>8GB</td>
+          <td>6</td>
+          <td>12</td>
+          <td>12</td>
+          <td>4</td>
+          <td>6</td>
+          <td>12</td>
+          <td>11</td>
+          <td>3</td>
+          <td>7</td>
+          <td>13</td>
+          <td>13</td>
+          <td>4</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>100MB</td>
+          <td>6</td>
+          <td>12</td>
+          <td>11</td>
+          <td>4</td>
+          <td>6</td>
+          <td>12</td>
+          <td>11</td>
+          <td>3</td>
+          <td>6</td>
+          <td>13</td>
+          <td>12</td>
+          <td>4</td>
+          <td>7</td>
+          <td>13</td>
+          <td>13</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>10MB</td>
+          <td>6</td>
+          <td>12</td>
+          <td>12</td>
+          <td>4</td>
+          <td>6</td>
+          <td>11</td>
+          <td>11</td>
+          <td>3</td>
+          <td>6</td>
+          <td>12</td>
+          <td>12</td>
+          <td>3</td>
+          <td>7</td>
+          <td>13</td>
+          <td>13</td>
+          <td>-</td>
         </tr>
       </table>
       <br/>
@@ -7427,190 +7633,6 @@ CryptoStreams project are tested (stay tuned, we are working on it :)).</p>
 <h4 class="text-muted" id="NaSHA">NaSHA</h4>
 <ul><li>Block size: 28, 32, 48, 64</li>
 <li>Rounds: n/a</li>
-</ul>
-<b><span style="color:red">Unfortunately, no test results are available <b>yet</b>.</span></b>
-
-<table class="table table-bordered table-dark table-striped table-sm">
-        <tr>
-          <th>Length of data</th>
-          <th colspan="4">Dieharder</th>
-          <th colspan="4">NIST-STS</th>
-          <th colspan="4">TestU01</th>
-          <th colspan="4">BoolTest</th>
-        </tr>
-        <tr>
-          <td>Strategies</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-        </tr>        <tr>
-          <td>8GB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>100MB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>10MB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-      </table>
-      <br/>
-
-<h4 class="text-muted" id="RIPMD160">RIPMD160</h4>
-<ul><li>Block size: 20</li>
-<li>Rounds: 80</li>
-</ul>
-<b><span style="color:red">Unfortunately, no test results are available <b>yet</b>.</span></b>
-
-<table class="table table-bordered table-dark table-striped table-sm">
-        <tr>
-          <th>Length of data</th>
-          <th colspan="4">Dieharder</th>
-          <th colspan="4">NIST-STS</th>
-          <th colspan="4">TestU01</th>
-          <th colspan="4">BoolTest</th>
-        </tr>
-        <tr>
-          <td>Strategies</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-          <td>CTR</td>
-          <td>LHW</td>
-          <td>SAC</td>
-          <td>RPC</td>
-        </tr>        <tr>
-          <td>8GB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>100MB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-        <tr>
-          <td>10MB</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-          <td>-</td>
-        </tr>
-      </table>
-      <br/>
-
-<h4 class="text-muted" id="SHA2">SHA2</h4>
-<ul><li>Block size: 32</li>
-<li>Rounds: 64</li>
 </ul>
 <b><span style="color:red">Unfortunately, no test results are available <b>yet</b>.</span></b>
 
