@@ -12,7 +12,7 @@
 img.sticky {
     position: sticky;
     position: -webkit-sticky;
-    top: 1rem;
+    top: 4rem;
     float: left;
     width: 30%;
 }
@@ -20,7 +20,6 @@ img.sticky {
 .content {
     float: left;
     padding: 20px;
-    padding-left: 50px;
     width: 100%;
 }
 
@@ -32,7 +31,7 @@ img.sticky {
 }
 
 u.dotted {
-  text-decoration: underline dotted;
+    text-decoration: underline dotted;
     text-decoration-color: #F000F0;
 }
 
@@ -49,7 +48,7 @@ u.dotted {
     z-index: 2;
     display: flex;
     justify-content: right;
-    align-items: center;
+    align-items: left;
 }
 
 @media screen and (min-width: 64em) {
@@ -73,6 +72,7 @@ u.dotted {
 .project-name {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: -1rem;
     margin-right: 1rem;
 }
 
