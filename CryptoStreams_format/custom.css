@@ -36,6 +36,11 @@ u.dotted {
     text-decoration-color: #F000F0;
 }
 
+.btn {
+    margin-bottom: 10px;
+    min-width: 120px;
+}
+
 .page-header {
     text-align: left;
     position: fixed;
@@ -87,10 +92,6 @@ u.dotted {
     .project-name {
         font-size: 1.25rem;
     }
-}
-
-.btn {
-    margin-bottom: 0;
 }
 
 @media screen and (min-width: 64em) {
