@@ -47,8 +47,14 @@ u.dotted {
     top: 0;
     z-index: 2;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: left;
+}
+.glyphicon-download-alt:before {
+    content:"\e025"
+}
+.glyphicon-download:before {
+    content:"\e026"
 }
 
 @media screen and (min-width: 64em) {
