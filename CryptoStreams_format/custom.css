@@ -1,3 +1,29 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    padding-top: 3rem;
+}
+
+#sidebar.active {
+    margin-right: -30%;
+}
+
+#sidebar {
+    min-width: 30%;
+    max-width: 30%;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    #sidebar {
+        margin-right: -30%;
+    }
+    #sidebar.active {
+        margin-right: 0;
+    }
+}
+
 .main-content {
     padding-top: 4rem;
     padding-left: 1px;
@@ -12,22 +38,16 @@
 img.sticky {
     position: sticky;
     position: -webkit-sticky;
-    top: 4rem;
+    top: 3rem;
     float: left;
-    width: 30%;
+    width: 100%;
 }
 
 .content {
     float: left;
     padding: 20px;
     width: 100%;
-}
-
-.container {
-    display: flex;
-    align-items: flex-start;
-    min-width: 100%;
-    padding-top: 4rem;
+    margin-right: 10px;
 }
 
 u.dotted {
@@ -35,9 +55,23 @@ u.dotted {
     text-decoration-color: #F000F0;
 }
 
-.btn {
-    margin-bottom: 10px;
-    min-width: 120px;
+.card-title {
+  margin-top: -15px;
+}
+
+a.btn-secondary {
+    margin-right: 10px;
+    margin-bottom: -10px;
+}
+
+.header-btn {
+  margin-bottom: -1px;
+}
+
+.progress {
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: -10px;
 }
 
 .page-header {
@@ -50,6 +84,11 @@ u.dotted {
     justify-content: left;
     align-items: left;
 }
+
+button.header-btn {
+  align-items: right;
+}
+
 .glyphicon-download-alt:before {
     content:"\e025"
 }
