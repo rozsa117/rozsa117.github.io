@@ -11,7 +11,13 @@
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
     });
-    $(document).ready(function () {
+    $(document).ready(function(){
+      $('#sidebarCollapse').click(function(){
+        $('#sidebarCollapse').text(function(i, v){
+          return v === 'Turn on explanation legend' ? 'Turn off explanation legend' : 'Turn on explanation legend';
+        });
+      });
+    });    $(document).ready(function () {
         $('#sidebarCollapse').on('click', function () {
             $('#sidebar').toggleClass('active');
         });
@@ -295,7 +301,7 @@ GitHub download
 <a href="https://rtt.ics.muni.cz/" class="btn header-btn">RTT</a>
 <a href="https://crocs.fi.muni.cz/" class="btn header-btn">CRoCS</a>
 <button type="button" id="sidebarCollapse" class="btn header-btn">
-    <span>Explanation card</span>
+    <span>Turn off explanation legend</span>
 </button></section>
 <div class="wrapper"><div class="content"><p><a href="https://github.com/crocs-muni/CryptoStreams">CryptoStreams</a> is an open source tool for output data generation of
 specific, parametrized and possibly round-reduced, cryptographic
@@ -377,10 +383,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#AES" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#AES" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aes" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#AES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#AES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/AES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -397,10 +403,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aria" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/ARIA" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#ARIA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#ARIA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/aria" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#ARIA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#ARIA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/ARIA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -422,10 +428,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/blowfish" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/BLOWFISH" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#BLOWFISH" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#BLOWFISH" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/blowfish" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#BLOWFISH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#BLOWFISH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/BLOWFISH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -447,10 +453,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/camellia" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAMELLIA" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#CAMELLIA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#CAMELLIA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/camellia" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#CAMELLIA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#CAMELLIA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAMELLIA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -469,10 +475,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/cast" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAST" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#CAST" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#CAST" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/cast" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#CAST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#CAST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/CAST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -494,10 +500,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/gost" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/GOST" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#GOST" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#GOST" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/gost" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#GOST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#GOST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/GOST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -514,10 +520,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/idea" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/IDEA" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#IDEA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#IDEA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/idea" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#IDEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#IDEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/IDEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -539,10 +545,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kasumi" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KASUMI" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#KASUMI" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#KASUMI" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kasumi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#KASUMI" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#KASUMI" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KASUMI" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -561,10 +567,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kuznyechik" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KUZNYECHIK" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#KUZNYECHIK" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#KUZNYECHIK" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/kuznyechik" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#KUZNYECHIK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#KUZNYECHIK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/KUZNYECHIK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -581,10 +587,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/misty1" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MISTY1" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MISTY1" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MISTY1" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/misty1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MISTY1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MISTY1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MISTY1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -601,10 +607,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/noekeon" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/NOEKEON" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#NOEKEON" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#NOEKEON" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/noekeon" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#NOEKEON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#NOEKEON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/NOEKEON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -621,10 +627,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/rc6" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/RC6" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#RC6" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#RC6" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/rc6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#RC6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#RC6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/RC6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -643,10 +649,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/seed" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SEED" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SEED" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SEED" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/seed" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SEED" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SEED" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SEED" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -663,10 +669,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/serpent" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SERPENT" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SERPENT" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SERPENT" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/serpent" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SERPENT" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SERPENT" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SERPENT" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -683,10 +689,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/shacal2" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SHACAL2" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SHACAL2" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SHACAL2" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/shacal2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SHACAL2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SHACAL2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SHACAL2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -708,10 +714,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/simon" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SIMON" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SIMON" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SIMON" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/simon" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SIMON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SIMON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SIMON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -735,10 +741,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/single-des" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SINGLE-DES" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SINGLE-DES" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SINGLE-DES" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/single-des" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SINGLE-DES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SINGLE-DES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SINGLE-DES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -755,10 +761,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/speck" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SPECK" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SPECK" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SPECK" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/speck" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SPECK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SPECK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/SPECK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -775,10 +781,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/tea" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TEA" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#TEA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#TEA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/tea" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#TEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#TEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -795,10 +801,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/triple-des" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TRIPLE-DES" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#TRIPLE-DES" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#TRIPLE-DES" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/triple-des" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#TRIPLE-DES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#TRIPLE-DES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TRIPLE-DES" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -822,10 +828,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/twofish" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TWOFISH" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#TWOFISH" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#TWOFISH" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/twofish" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#TWOFISH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#TWOFISH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/TWOFISH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -842,10 +848,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/xtea" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/XTEA" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#XTEA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#XTEA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/xtea" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#XTEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#XTEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/XTEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -856,10 +862,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
 -/16<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MARS" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MARS" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/block/ciphers/mars" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MARS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MARS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/block/MARS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -884,10 +890,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blake" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blake" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Blake" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Blake" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blake" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Blake" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Blake" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Blake" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -904,10 +910,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/gost" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Gost" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Gost" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Gost" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/gost" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Gost" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Gost" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Gost" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -924,10 +930,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Grostl" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Grostl" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Grostl" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Grostl" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Grostl" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Grostl" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Grostl" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Grostl" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -944,10 +950,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/JH" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/JH" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#JH" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#JH" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/JH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#JH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#JH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/JH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -966,10 +972,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Keccak" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Keccak" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Keccak" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Keccak" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Keccak" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Keccak" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -991,10 +997,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/md5" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD5" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MD5" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MD5" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/md5" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MD5" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MD5" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD5" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1011,10 +1017,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MD6" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD6" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MD6" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MD6" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MD6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MD6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MD6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/MD6" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1036,10 +1042,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/ripemd160" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPEMD160" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#RIPEMD160" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#RIPEMD160" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/ripemd160" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#RIPEMD160" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#RIPEMD160" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/RIPEMD160" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1063,10 +1069,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha1" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA1" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SHA1" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SHA1" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SHA1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SHA1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1088,10 +1094,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha2" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA2" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SHA2" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SHA2" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/sha2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SHA2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SHA2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1108,10 +1114,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Skein" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Skein" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Skein" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Skein" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Skein" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Skein" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1133,10 +1139,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Tiger" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Tiger" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/tiger" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Tiger" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Tiger" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tiger" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1154,10 +1160,10 @@ correlation for the analyzed function (similar to linear cryptoanalysis).">RPC</
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/whirlpool" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Whirlpool" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Whirlpool" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Whirlpool" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/others/hash_functions/whirlpool" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Whirlpool" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Whirlpool" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Whirlpool" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1168,10 +1174,10 @@ correlation for the analyzed function (similar to linear cryptoanalysis).">RPC</
 -/4<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ARIRANG" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ARIRANG" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#ARIRANG" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#ARIRANG" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ARIRANG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#ARIRANG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#ARIRANG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ARIRANG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1180,10 +1186,10 @@ No test results            <br/>
 -/280<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Abacus" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Abacus" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Abacus" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Abacus" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Abacus" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Abacus" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Abacus" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Abacus" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1192,10 +1198,10 @@ No test results            <br/>
 -/17<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Aurora" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Aurora" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Aurora" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Aurora" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Aurora" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Aurora" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Aurora" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Aurora" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1204,10 +1210,10 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BMW" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#BMW" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#BMW" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/BMW" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#BMW" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#BMW" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1218,10 +1224,10 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blender" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Blender" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Blender" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Blender" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Blender" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Blender" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1230,10 +1236,10 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Boole" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Boole" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Boole" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Boole" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Boole" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Boole" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1242,10 +1248,10 @@ No test results            <br/>
 -/20<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CHI" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#CHI" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#CHI" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CHI" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#CHI" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#CHI" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1254,10 +1260,10 @@ No test results            <br/>
 -/244<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CRUNCH" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#CRUNCH" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#CRUNCH" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CRUNCH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#CRUNCH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#CRUNCH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1268,10 +1274,10 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Cheetah" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Cheetah" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Cheetah" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Cheetah" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Cheetah" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Cheetah" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Cheetah" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Cheetah" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1280,10 +1286,10 @@ No test results            <br/>
 -/8<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CubeHash" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CubeHash" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#CubeHash" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#CubeHash" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/CubeHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#CubeHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#CubeHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/CubeHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1292,10 +1298,10 @@ No test results            <br/>
 -/4<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DCH" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DCH" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#DCH" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#DCH" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DCH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#DCH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#DCH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DCH" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1304,10 +1310,10 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#DynamicSHA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#DynamicSHA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#DynamicSHA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#DynamicSHA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1318,10 +1324,10 @@ No test results            <br/>
 -/17<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA2" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA2" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#DynamicSHA2" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#DynamicSHA2" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/DynamicSHA2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#DynamicSHA2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#DynamicSHA2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/DynamicSHA2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1330,10 +1336,10 @@ No test results            <br/>
 -/8<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ECHO" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ECHO" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#ECHO" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#ECHO" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ECHO" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#ECHO" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#ECHO" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/ECHO" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1342,10 +1348,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/EDON" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#EDON" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#EDON" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/EDON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#EDON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#EDON" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1354,10 +1360,10 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ESSENCE" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#ESSENCE" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#ESSENCE" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/ESSENCE" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#ESSENCE" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#ESSENCE" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1368,10 +1374,10 @@ No test results            <br/>
 -/5<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Fugue" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Fugue" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Fugue" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Fugue" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Fugue" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Fugue" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1380,10 +1386,10 @@ No test results            <br/>
 -/3<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Hamsi" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Hamsi" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Hamsi" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Hamsi" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Hamsi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Hamsi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Hamsi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Hamsi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1392,10 +1398,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Khichidi" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Khichidi" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Khichidi" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Khichidi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Khichidi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Khichidi" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1404,10 +1410,10 @@ No test results            <br/>
 -/9<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lane" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Lane" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Lane" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lane" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Lane" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Lane" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1418,10 +1424,10 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lesamnta" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lesamnta" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Lesamnta" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Lesamnta" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Lesamnta" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Lesamnta" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Lesamnta" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Lesamnta" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1430,10 +1436,10 @@ No test results            <br/>
 -/8<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Luffa" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Luffa" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Luffa" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Luffa" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Luffa" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Luffa" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Luffa" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Luffa" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1442,10 +1448,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MCSSHA3" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MCSSHA3" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MCSSHA3" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MCSSHA3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MCSSHA3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MCSSHA3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1454,10 +1460,10 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MeshHash" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MeshHash" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MeshHash" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/MeshHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MeshHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MeshHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1468,10 +1474,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/NaSHA" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#NaSHA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#NaSHA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/NaSHA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#NaSHA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#NaSHA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1480,10 +1486,10 @@ No test results            <br/>
 -/24<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHA3" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA3" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SHA3" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SHA3" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHA3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SHA3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SHA3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SHA3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1492,10 +1498,10 @@ No test results            <br/>
 -/12<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAvite3" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SHAvite3" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SHAvite3" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SHAvite3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SHAvite3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SHAvite3" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1504,10 +1510,10 @@ No test results            <br/>
 -/4<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SIMD" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SIMD" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SIMD" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SIMD" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SIMD" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SIMD" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SIMD" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/SIMD" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1518,10 +1524,10 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Sarmal" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Sarmal" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Sarmal" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Sarmal" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Sarmal" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Sarmal" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1530,10 +1536,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shabal" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Shabal" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Shabal" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shabal" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Shabal" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Shabal" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1542,10 +1548,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Shamata" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Shamata" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Shamata" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Shamata" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Shamata" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1554,10 +1560,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SpectralHash" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SpectralHash" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SpectralHash" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/SpectralHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SpectralHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SpectralHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1568,10 +1574,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/StreamHash" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#StreamHash" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#StreamHash" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/StreamHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#StreamHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#StreamHash" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1580,10 +1586,10 @@ No test results            <br/>
 -/80<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Tangle" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Tangle" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Tangle" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Tangle" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1592,10 +1598,10 @@ No test results            <br/>
 -/80<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle2" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle2" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Tangle2" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Tangle2" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Tangle2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Tangle2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Tangle2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Tangle2" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1604,10 +1610,10 @@ No test results            <br/>
 -/9<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Twister" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Twister" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Twister" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Twister" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Twister" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Twister" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Twister" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/hash/Twister" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1618,10 +1624,10 @@ No test results            <br/>
 -/15<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Vortex" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Vortex" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Vortex" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Vortex" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Vortex" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Vortex" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1630,10 +1636,10 @@ No test results            <br/>
 -/2<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/WaMM" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#WaMM" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#WaMM" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/WaMM" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#WaMM" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#WaMM" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1642,10 +1648,10 @@ No test results            <br/>
 -/20<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Waterfall" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Waterfall" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Waterfall" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/hash/sha3/hash_functions/Waterfall" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Waterfall" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Waterfall" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1665,10 +1671,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Chacha" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Chacha" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/chacha" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Chacha" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Chacha" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Chacha" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1685,10 +1691,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#F-FCSR" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#F-FCSR" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/f-fcsr" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#F-FCSR" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#F-FCSR" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1705,10 +1711,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Grain" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Grain" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/grain" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Grain" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Grain" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Grain" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1730,10 +1736,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#RC4" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#RC4" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/other/rc4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#RC4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#RC4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/RC4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1752,10 +1758,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Rabbit" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Rabbit" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/rabbit" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Rabbit" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Rabbit" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1777,10 +1783,10 @@ entropy.">LHW</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SOSEMANUK" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SOSEMANUK" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sosemanuk" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SOSEMANUK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SOSEMANUK" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1797,10 +1803,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
               </div>
             <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Salsa20" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Salsa20" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/salsa20" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Salsa20" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Salsa20" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Salsa20" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1811,10 +1817,10 @@ changes between the subsequent inputs.">CTR</a></u>)<br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#ABC" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#ABC" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/abc" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#ABC" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#ABC" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1823,10 +1829,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Achterbahn" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Achterbahn" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/achterbahn" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Achterbahn" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Achterbahn" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1835,10 +1841,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#CryptMT" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#CryptMT" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/cryptmt" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#CryptMT" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#CryptMT" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1847,10 +1853,10 @@ No test results            <br/>
 -/8<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/decim" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DECIM" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#DECIM" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#DECIM" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/decim" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#DECIM" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#DECIM" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/DECIM" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1861,10 +1867,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#DICING" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#DICING" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dicing" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#DICING" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#DICING" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1873,10 +1879,10 @@ No test results            <br/>
 -/16<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Dragon" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Dragon" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/dragon" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Dragon" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Dragon" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1885,10 +1891,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Edon80" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Edon80" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/edon80" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Edon80" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Edon80" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1897,10 +1903,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Frogbit" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Frogbit" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/frogbit" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Frogbit" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Frogbit" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1911,10 +1917,10 @@ No test results            <br/>
 -/4<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/fubuki" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Fubuki" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Fubuki" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Fubuki" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/fubuki" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Fubuki" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Fubuki" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Fubuki" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1923,10 +1929,10 @@ No test results            <br/>
 -/no<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#HC-128" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#HC-128" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hc-128" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#HC-128" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#HC-128" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1935,10 +1941,10 @@ No test results            <br/>
 -/10<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hermes" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Hermes" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Hermes" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Hermes" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/hermes" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Hermes" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Hermes" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Hermes" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1947,10 +1953,10 @@ No test results            <br/>
 -/10<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/lex" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/LEX" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#LEX" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#LEX" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/lex" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#LEX" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#LEX" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/LEX" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -1961,10 +1967,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MAG" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MAG" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mag" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MAG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MAG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1973,10 +1979,10 @@ No test results            <br/>
 -/1<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#MICKEY" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#MICKEY" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mickey" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#MICKEY" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#MICKEY" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/MICKEY" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1985,10 +1991,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Mir-1" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Mir-1" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/mir-1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Mir-1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Mir-1" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -1997,10 +2003,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Moustique" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Moustique" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/moustique" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Moustique" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Moustique" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -2011,10 +2017,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#NLS" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#NLS" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/nls" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#NLS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#NLS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2023,10 +2029,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Phelix" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Phelix" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/phelix" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Phelix" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Phelix" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2035,10 +2041,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polarbear" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#PolarBear" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#PolarBear" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/polarbear" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#PolarBear" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#PolarBear" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2047,10 +2053,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Pomaranch" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Pomaranch" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/pomaranch" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Pomaranch" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Pomaranch" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -2061,10 +2067,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Py" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Py" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/py" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Py" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Py" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2073,10 +2079,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SFINKS" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SFINKS" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sfinks" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SFINKS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SFINKS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2085,10 +2091,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#SSS" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#SSS" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/sss" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#SSS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#SSS" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2097,10 +2103,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3yaea" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#TRBDK3YAEA" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#TRBDK3YAEA" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trbdk3yaea" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#TRBDK3YAEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#TRBDK3YAEA" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -2111,10 +2117,10 @@ No test results            <br/>
 -/32<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/tsc-4" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TSC-4" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#TSC-4" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#TSC-4" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/tsc-4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#TSC-4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#TSC-4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/TSC-4" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2123,10 +2129,10 @@ No test results            <br/>
 -/9<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Trivium" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Trivium" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Trivium" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/trivium" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Trivium" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Trivium" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/testsuite/test_resources/stream_cipher/Trivium" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2135,10 +2141,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#VEST" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#VEST" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/vest" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#VEST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#VEST" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div><div class="card bg-secondary text-white">
@@ -2147,10 +2153,10 @@ No test results            <br/>
 -/n/a<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#WG" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#WG" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/wg" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#WG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#WG" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>
@@ -2161,10 +2167,10 @@ No test results            <br/>
 -/-<br/>
 No test results            <br/>
             <div class="btn-group" role="group">
-              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt" class="btn btn-secondary"><i class="fas fa-file-code"></i></a>
-              <a href="no_tv.html" class="btn btn-secondary"><i class="fas fa-tasks"></i></a>
-              <a href="#Zk-Crypt" class="btn btn-secondary"><i class="fas fa-info"></i></a>
-              <a href="#Zk-Crypt" class="btn btn-secondary"><i class="fas fa-file-invoice"></i></a>
+              <a href="https://github.com/crocs-muni/CryptoStreams/tree/master/streams/stream_ciphers/estream/zk-crypt" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Source code"><i class="fas fa-file-code"></i></a>
+              <a href="#Zk-Crypt" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Complete testing results"><i class="fas fa-info"></i></a>
+              <a href="#Zk-Crypt" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Research papers"><i class="fas fa-file-invoice"></i></a>
+              <a href="no_tv.html" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Test vectors"><i class="fas fa-tasks"></i></a>
             </div>
             </div>
              </div></div>

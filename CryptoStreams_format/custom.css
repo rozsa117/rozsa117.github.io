@@ -1,3 +1,8 @@
+button.btn {
+  position: absolute;
+  right: 1rem;
+}
+
 .wrapper {
     display: flex;
     width: 100%;
@@ -64,10 +69,6 @@ a.btn-secondary {
     margin-bottom: -10px;
 }
 
-.header-btn {
-  margin-bottom: -1px;
-}
-
 .progress {
   margin-right: -10px;
   margin-left: -10px;
@@ -81,12 +82,8 @@ a.btn-secondary {
     top: 0;
     z-index: 2;
     display: flex;
-    justify-content: left;
-    align-items: left;
-}
-
-button.header-btn {
-  align-items: right;
+    justify-content: right;
+    align-items: center;
 }
 
 .glyphicon-download-alt:before {
@@ -196,4 +193,9 @@ button.header-btn {
 *:target {
     padding-top: 8% !important;
     margin-top: -8% !important;
+}
+
+.header-btn {
+  margin-bottom: -1px;
+  align-self: flex-end;
 }
