@@ -82,7 +82,7 @@ a.btn-secondary {
     top: 0;
     z-index: 2;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
 }
 
