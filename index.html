@@ -19,8 +19,12 @@
       });
     });    $(document).ready(function () {
         $('#sidebarCollapse').on('click', function () {
-            $('#sidebar').toggleClass('active');
-        });
+            var x = document.getElementById("sidebar");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }        });
     });
   </script>
   <title>CryptoStreams</title>
@@ -293,7 +297,7 @@
   </style></head>
 <body>
   <section class="page-header">
-<h1 class="project-name">CryptoStreams</h1>
+ <h1 class="project-name">CryptoStreams</h1>
 <a href="https://github.com/crocs-muni/CryptoStreams" class="btn header-btn">View on GitHub</a>
 <a href="https://github.com/crocs-muni/CryptoStreams/releases" class="btn header-btn">
 GitHub download
@@ -302,15 +306,14 @@ GitHub download
 <a href="https://crocs.fi.muni.cz/" class="btn header-btn">CRoCS</a>
 <button type="button" id="sidebarCollapse" class="btn header-btn">
     <span>Turn off explanation legend</span>
-</button>
-</section>
+</button></section>
 <div class="wrapper"><div class="content"><p><a href="https://github.com/crocs-muni/CryptoStreams">CryptoStreams</a> is an open source tool for output data generation of
 specific, parametrized and possibly round-reduced, cryptographic
 functions, developed at <a href="https://crocs.fi.muni.cz">CRoCS</a> lab of Masaryk University. On this web
 page, you can find the information about all the function included in
 the project. The functions are analyzed with four different statistical
 batteries <a href="https://csrc.nist.gov/projects/random-bit-generation/documentation-and-software">STS NIST</a>, <a href="https://webhome.phy.duke.edu/~rgb/General/dieharder.php">Dieharder</a>, <a href="http://simul.iro.umontreal.ca/testu01/tu01.html">TestU01</a>, and <a href="https://github.com/crocs-muni/booltest">BoolTest</a> for numerous data
-generation strategies.</p>
+generation strategies.</p> 
 <p>Randomness Testing Toolkit (RTT) currently implements support for the following statistical tools:</p>
 <div class="modal-body row">
 <div class = "col-md-6">

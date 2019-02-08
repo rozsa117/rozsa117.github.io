@@ -44,14 +44,10 @@ button.btn {
     padding-top: 3rem;
 }
 
-#sidebar.active {
-    margin-right: -400px;
-}
-
 #sidebar {
-    min-width: 400px;
-    max-width: 400px;
-    min-height: 100vh;
+  min-width: 400px;
+  max-width: 400px;
+  min-height: 250px;
 }
 
 @media  (max-width: 768px) {
