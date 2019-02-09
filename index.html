@@ -7,26 +7,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>  <script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"/>
+  <script>
     $(document).ready(function(){
       $('[data-toggle="tooltip"]').tooltip();
     });
-    $(document).ready(function(){
-      $('#sidebarCollapse').click(function(){
-        $('#sidebarCollapse').text(function(i, v){
-          return v === 'Turn on explanation legend' ? 'Turn off explanation legend' : 'Turn on explanation legend';
-        });
-      });
-    });    $(document).ready(function () {
+    $(document).ready(function () {
         $('#sidebarCollapse').on('click', function () {
             var x = document.getElementById("sidebar");
             if (x.style.display === "none") {
               x.style.display = "block";
+              $('#sidebarCollapse').text(function(i, v){
+                return 'Turn off explanation legend';
+              });
             } else {
               x.style.display = "none";
-            }        });
-    });
-  </script>
+              $('#sidebarCollapse').text(function(i, v){
+                return 'Turn on explanation legend';
+              });
+            }        
+          });
+    });  </script>
   <title>CryptoStreams</title>
 
 
