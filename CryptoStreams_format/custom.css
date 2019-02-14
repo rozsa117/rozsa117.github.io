@@ -1,3 +1,27 @@
+.bar-step {
+    position:absolute;
+    margin-top:-20px;
+	  z-index:1;
+    font-size:12px;
+}
+
+.label-txt {
+    float: middle;
+    color: #000;
+}
+
+.label-line {
+    float: right;
+    background: #000;
+    height:22px;
+	  width:3px;
+    margin-left: 5px;
+}
+
+.progress {
+  margin-top: 18px;
+}
+
 .card {
   margin: 10px;
 }
