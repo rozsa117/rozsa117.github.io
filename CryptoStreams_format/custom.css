@@ -26,17 +26,6 @@
   margin: 10px;
 }
 
-@media (max-width: 900px) {
-
-}
-
-@media (min-width: 900px) {
-  button.btn {
-    position: absolute;
-    right: 1rem;
-  }
-}
-
 .wrapper {
     display: flex;
     width: 100%;
@@ -99,17 +88,6 @@ a.btn-secondary {
   margin-right: -10px;
   margin-left: -10px;
   margin-bottom: -10px;
-}
-
-.page-header {
-    text-align: left;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: left;
-    align-items: center;
 }
 
 .glyphicon-download-alt:before {
@@ -224,4 +202,46 @@ a.btn-secondary {
 .header-btn {
   margin-bottom: -1px;
   align-self: flex-end;
+}
+
+.page-header {
+      text-align: left;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 2;
+      display: block;
+      justify-content: left;
+      align-items: left;
+}
+
+.title-column {
+  width: 232px;
+}
+
+.view-column {
+  width: 153px
+}
+
+.download-column {
+  width: 169px
+}
+
+.rtt-column {
+  width: 65px
+}
+
+.crocs-column {
+  width: 86px
+}
+
+.legend-column {
+  width: 244px
+}
+
+@media (min-width: 1030px) {
+  button.btn {
+    position: absolute;
+    right: 1rem;
+  }
 }
