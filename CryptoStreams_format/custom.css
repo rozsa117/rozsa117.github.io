@@ -26,9 +26,15 @@
   margin: 10px;
 }
 
-button.btn {
-  position: absolute;
-  right: 1rem;
+@media (max-width: 900px) {
+
+}
+
+@media (min-width: 900px) {
+  button.btn {
+    position: absolute;
+    right: 1rem;
+  }
 }
 
 .wrapper {
