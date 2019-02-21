@@ -18,6 +18,21 @@
     margin-left: 2px;
 }
 
+img.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 4rem;
+    float: left;
+    width: 100%;
+}
+
+.content {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    margin-right: 10px;
+}
+
 .progress {
   margin-top: 18px;
 }
@@ -46,28 +61,6 @@
     #sidebar.active {
         margin-right: 0;
     }
-}
-
-.main-content {
-    padding-top: 4rem;
-    padding-left: 1px;
-    width: 100%;
-    float: left;
-}
-
-img.sticky {
-    position: sticky;
-    position: -webkit-sticky;
-    top: 3rem;
-    float: left;
-    width: 100%;
-}
-
-.content {
-    float: left;
-    padding: 20px;
-    width: 100%;
-    margin-right: 10px;
 }
 
 u.dotted {
@@ -199,11 +192,6 @@ a.btn-secondary {
     margin-top: -8% !important;
 }
 
-.header-btn {
-  margin-bottom: -1px;
-  align-self: flex-end;
-}
-
 .page-header {
       text-align: left;
       position: fixed;
@@ -215,33 +203,113 @@ a.btn-secondary {
       align-items: left;
 }
 
-.title-column {
-  width: 232px;
+.header-btn {
+  margin-bottom: -1px;
+  align-self: flex-end;
 }
 
-.view-column {
-  width: 153px
-}
-
-.download-column {
-  width: 169px
-}
-
-.rtt-column {
-  width: 65px
-}
-
-.crocs-column {
-  width: 86px
-}
-
-.legend-column {
-  width: 244px
-}
-
-@media (min-width: 1030px) {
+@media (min-width: 895px) {
   button.btn {
     position: absolute;
     right: 1rem;
   }
+}
+
+@media (max-width: 895px) {
+  .header-btn {
+    margin-bottom: 5px;
+  }
+
+  img.sticky {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 5rem;
+      float: left;
+      width: 100%;
+  }
+
+  .content {
+      float: left;
+      padding-top: 50px;
+      width: 100%;
+      margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+    .header-btn {
+        padding: 0.5rem 0.8rem;
+    }
+
+    .view-column {
+      width: 153px
+    }
+
+    .download-column {
+      width: 169px
+    }
+
+    .rtt-column {
+      width: 65px
+    }
+
+    .crocs-column {
+      width: 86px
+    }
+
+    .legend-column {
+      width: 244px
+    }
+
+    img.sticky {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 4rem;
+        float: left;
+        width: 100%;
+    }
+
+    .content {
+        float: left;
+        padding: 20px;
+        width: 100%;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 672px) and (max-width: 1030px) {
+    .header-btn {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.9rem;
+        margin-bottom: 3px;
+    }
+
+    .view-column {
+      width: 138px
+    }
+
+    .download-column {
+      width: 152px
+    }
+
+    .rtt-column {
+      width: 59px
+    }
+
+    .crocs-column {
+      width: 78px
+    }
+
+    .legend-column {
+      width: 220px
+    }
+}
+
+@media screen and (max-width: 672px) {
+    .header-btn {
+        padding: 0.3rem 0.6rem;
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+        align-self: flex-end;
+    }
 }
