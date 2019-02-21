@@ -305,11 +305,34 @@ a.btn-secondary {
     }
 }
 
-@media screen and (max-width: 672px) {
+@media screen and (min-width: 428px) and (max-width: 672px) {
     .header-btn {
         padding: 0.3rem 0.6rem;
         font-size: 0.8rem;
         margin-bottom: 5px;
         align-self: flex-end;
     }
+}
+
+@media screen and (max-width: 428px) {
+  .header-btn {
+      padding: 0.3rem 0.6rem;
+      font-size: 0.8rem;
+      margin-bottom: 5px;
+      align-self: flex-end;
+  }
+  img.sticky {
+      position: sticky;
+      position: -webkit-sticky;
+      top: 7rem;
+      float: left;
+      width: 100%;
+  }
+
+  .content {
+      float: left;
+      padding-top: 70px;
+      width: 100%;
+      margin-right: 10px;
+  }
 }
