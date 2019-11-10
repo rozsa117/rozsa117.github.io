@@ -1,3 +1,27 @@
+.card-rounds {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-warning {
+  background-color: #FFC5FF!important;
+}
+
+.card-rounds .others {
+  font-size: 60%;
+  bottom: 0;
+}
+
+.card-rounds .human {
+  font-weight: curly;
+  color: #000000;
+}
+
+.card-rounds .default {
+  color: #000000;
+}
+
 .bar-step {
     position:absolute;
     margin-top:-20px;
