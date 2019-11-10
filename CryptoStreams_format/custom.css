@@ -1,10 +1,10 @@
-.card-rounds {
+.card .card-body .card-rounds {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.bg-warning {
+.card .card-body .progress .bg-warning {
   background-color: #FFC5FF!important;
 }
 
